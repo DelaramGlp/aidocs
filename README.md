@@ -1,2 +1,2 @@
-# AIdocom
+# AIdocs
 AI Key Documents Comparison

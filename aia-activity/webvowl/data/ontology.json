@@ -1,0 +1,1236 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://delaramglp.github.io/ai-keydocom/aia-activity", "https://delaramglp.github.io/ai-keydocom/taio", "http://www.w3.org/2000/01/rdf-schema" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToSourceCode",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GrantAccessToSourceCode",
+      "en" : "Grant Access To Source Code"
+    },
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#Post-marketMonitoring",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Post-marketMonitoring",
+      "en" : "Post-market Monitoring"
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ReportMalfunctioning",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ReportMalfunctioning",
+      "en" : "Report Malfunctioning"
+    },
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToDocumentation",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GrantAccessToDocumentation",
+      "en" : "Grant Access To Documentation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#BuildHumanOversightMeasureIntoSystem",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BuildHumanOversightMeasureIntoSystem",
+      "en" : "Build Human Oversight Measure Into System"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementQualityManagementSystem",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ImplementQualityManagementSystem",
+      "en" : "Implement Quality Management System"
+    },
+    "attributes" : [ "external" ],
+    "id" : "28",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainSystemLogs",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaintainSystemLogs",
+      "en" : "Maintain System Logs"
+    },
+    "attributes" : [ "external" ],
+    "id" : "29",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ConductingConformityAssessment",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConductingConformityAssessment",
+      "en" : "Assess Conformity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "30",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#CreateCodesOfConduct",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CreateCodesOfConduct",
+      "en" : "Create Codes Of Conduct"
+    },
+    "attributes" : [ "external" ],
+    "id" : "31",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#MakeADecisionAboutUsingTheSystem",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MakeADecisionAboutUsingTheSystem",
+      "en" : "Make A Decision About Using TheS ystem"
+    },
+    "attributes" : [ "external" ],
+    "id" : "32",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementRiskManagementSystem",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ImplementRiskManagementSystem",
+      "en" : "Implement Risk Management System"
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#RiskIdentification",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RiskIdentification",
+      "en" : "Risk Identification"
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#CommunicateRisk",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CommunicateRisk",
+      "en" : "Communicate Residual Risk to users"
+    },
+    "attributes" : [ "external" ],
+    "id" : "25",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ProvideDocumentationToDemonstrateConformity",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ProvideDocumentationToDemonstrateConformity",
+      "en" : "ProvideDocumentationToDemonstrateConformity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#IdentifyImpactOnStakeholders",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IdentifyImpactOnStakeholders",
+      "en" : "Identify Impact On Stakeholders"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#AffixCEMarking",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AffixCEMarking",
+      "en" : "Affix CE Marking"
+    },
+    "attributes" : [ "external" ],
+    "id" : "54",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ConductFirst-PartyConfomityAssessment",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConductFirst-PartyConfomityAssessment",
+      "en" : "Conduct First-Party Confomity Assessment"
+    },
+    "attributes" : [ "external" ],
+    "id" : "55",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainRiskManagementSystem",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaintainRiskManagementSystem",
+      "en" : "Maintain Risk Management System"
+    },
+    "attributes" : [ "external" ],
+    "id" : "56",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ReportNon-confomity",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ReportNon-confomity",
+      "en" : "Report Non-confomity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "73",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#TestAISystem",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TestAISystem",
+      "en" : "Test AI System"
+    },
+    "attributes" : [ "external" ],
+    "id" : "77",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#RiskAnalysis",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RiskAnalysis",
+      "en" : "Risk Analysis"
+    },
+    "attributes" : [ "external" ],
+    "id" : "66",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#TakeCorrectiveActions",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TakeCorrectiveActions",
+      "en" : "Take Corrective Actions"
+    },
+    "attributes" : [ "external" ],
+    "id" : "70",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#EstablishRiskManagementSystem",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EstablishRiskManagementSystem",
+      "en" : "Establish Risk Management System"
+    },
+    "attributes" : [ "external" ],
+    "id" : "64",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ReportSeriousIncidents",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ReportSeriousIncidents",
+      "en" : "Report Serious Incidents"
+    },
+    "attributes" : [ "external" ],
+    "id" : "62",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementDataGovernance",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ImplementDataGovernance",
+      "en" : "Implement Data Governance"
+    },
+    "attributes" : [ "external" ],
+    "id" : "51",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#EstablishPost-MarketMonitoringSystem",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EstablishPost-MarketMonitoringSystem",
+      "en" : "Establish Post-Market Monitoring System"
+    },
+    "attributes" : [ "external" ],
+    "id" : "91",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToLogs",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GrantAccessToLogs",
+      "en" : "Grant Access To Logs"
+    },
+    "attributes" : [ "external" ],
+    "id" : "93",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToData",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GrantAccessToData",
+      "en" : "Grant Access To Data"
+    },
+    "attributes" : [ "external" ],
+    "id" : "94",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#InterveneSystemOperation",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InterveneSystemOperation",
+      "en" : "Intervene System Operation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "95",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentPost-MarketMonitoringSystem",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DocumentPost-MarketMonitoringSystem",
+      "en" : "Document Post-Market Monitoring System"
+    },
+    "attributes" : [ "external" ],
+    "id" : "96",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#AppointAuthorisedRepresentative",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AppointAuthorisedRepresentative",
+      "en" : "Appoint Authorised Representative"
+    },
+    "attributes" : [ "external" ],
+    "id" : "97",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#UpdateTechnicalDocumentation",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UpdateTechnicalDocumentation",
+      "en" : "Update Technical Documentation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "46",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#CreateEUDeclarationOfConformity",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CreateEUDeclarationOfConformity",
+      "en" : "Create EU Declaration Of Conformity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "43",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#RiskTreatment",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RiskTreatment",
+      "en" : "Risk Treatment"
+    },
+    "attributes" : [ "external" ],
+    "id" : "36",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#RegisterSystemInEUDatabase",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RegisterSystemInEUDatabase",
+      "en" : "Register System In EU Database"
+    },
+    "attributes" : [ "external" ],
+    "id" : "34",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainPost-MarketMonitoringSystem",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaintainPost-MarketMonitoringSystem",
+      "en" : "Maintain Post-Market Monitoring System"
+    },
+    "attributes" : [ "external" ],
+    "id" : "38",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#UpdateEUDeclarationOfConformity",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UpdateEUDeclarationOfConformity",
+      "en" : "Update EU Declaration Of Conformity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#RiskEvaluation",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RiskEvaluation",
+      "en" : "Risk Evaluation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#DemonstrateConformity",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DemonstrateConformity",
+      "en" : "Demonstrate Conformity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#FollowConformityAssessmentProcedure",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FollowConformityAssessmentProcedure",
+      "en" : "Follow Conformity Assessment Procedure"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/taio#activity",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/taio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "activity"
+    },
+    "subClasses" : [ "93", "94", "3", "4", "5", "95", "96", "6", "17", "97", "28", "29", "46", "30", "31", "43", "32", "36", "34", "38", "23", "21", "27", "25", "14", "12", "19", "16", "10", "8", "1", "54", "88", "55", "56", "82", "80", "86", "84", "73", "77", "75", "68", "66", "72", "70", "60", "58", "64", "62", "49", "53", "51", "100", "91" ],
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentRiskMangementSystem",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DocumentRiskMangementSystem",
+      "en" : "Document Risk Mangement System"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#CreateInstructionForUse",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CreateInstructionForUse",
+      "en" : "Create Instruction For Use"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#InterpretSystemOutput",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InterpretSystemOutput",
+      "en" : "Interpret System Output"
+    },
+    "attributes" : [ "external" ],
+    "id" : "88",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#EnsureImplementationOfLoggingCapabilities",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EnsureImplementationOfLoggingCapabilities",
+      "en" : "Implement Logging Capabilities"
+    },
+    "attributes" : [ "external" ],
+    "id" : "82",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#InterruptSystemOperation",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InterruptSystemOperation",
+      "en" : "Interrupt System Operation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "86",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#IdentifyHumanOversightMeasure",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IdentifyHumanOversightMeasure",
+      "en" : "Idnetify Human Oversight Measure"
+    },
+    "attributes" : [ "external" ],
+    "id" : "80",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementHumanOversightMeasure",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ImplementHumanOversightMeasure",
+      "en" : "Implement Human Oversight Measure"
+    },
+    "attributes" : [ "external" ],
+    "id" : "84",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementPost-MarketMonitoringSystem",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ImplementPost-MarketMonitoringSystem",
+      "en" : "Implement Post-Market Monitoring System"
+    },
+    "attributes" : [ "external" ],
+    "id" : "68",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentQualityManagementSystem",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DocumentQualityManagementSystem",
+      "en" : "Document Quality Management System"
+    },
+    "attributes" : [ "external" ],
+    "id" : "75",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ReportCorrectiveActions",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ReportCorrectiveActions",
+      "en" : "Report Corrective Actions"
+    },
+    "attributes" : [ "external" ],
+    "id" : "72",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#CreateTechnicalDocumentation",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CreateTechnicalDocumentation",
+      "en" : "Create Technical Documentation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "60",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ProvideInformationToDemonstrateConformity",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ProvideInformationToDemonstrateConformity",
+      "en" : "ProvideInformationToDemonstrateConformity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "58",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementDataManagement",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ImplementDataManagement",
+      "en" : "Implement Data Management"
+    },
+    "attributes" : [ "external" ],
+    "id" : "49",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#MonitorSystemOperation",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MonitorSystemOperation",
+      "en" : "Monitor System Operation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "53",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/ai-keydocom/aia-activity#EnsureLogGeneratation",
+    "baseIri" : "https://delaramglp.github.io/ai-keydocom/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EnsureLogGeneratation",
+      "en" : "Generate Logs"
+    },
+    "attributes" : [ "external" ],
+    "id" : "100",
+    "superClasses" : [ "2" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "0"
+  }, {
+    "range" : "2",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "7"
+  }, {
+    "range" : "2",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "9"
+  }, {
+    "range" : "2",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "11"
+  }, {
+    "range" : "2",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "13"
+  }, {
+    "range" : "2",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "15"
+  }, {
+    "range" : "2",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "18"
+  }, {
+    "range" : "2",
+    "domain" : "21",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "20"
+  }, {
+    "range" : "2",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "22"
+  }, {
+    "range" : "2",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "24"
+  }, {
+    "range" : "2",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "26"
+  }, {
+    "range" : "2",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "33"
+  }, {
+    "range" : "2",
+    "domain" : "36",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "35"
+  }, {
+    "range" : "2",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "37"
+  }, {
+    "range" : "2",
+    "domain" : "31",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "39"
+  }, {
+    "range" : "2",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "40"
+  }, {
+    "range" : "2",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "41"
+  }, {
+    "range" : "2",
+    "domain" : "43",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "42"
+  }, {
+    "range" : "2",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "44"
+  }, {
+    "range" : "2",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "45"
+  }, {
+    "range" : "2",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "47"
+  }, {
+    "range" : "2",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "48"
+  }, {
+    "range" : "2",
+    "domain" : "51",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "50"
+  }, {
+    "range" : "2",
+    "domain" : "53",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "52"
+  }, {
+    "range" : "2",
+    "domain" : "58",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "57"
+  }, {
+    "range" : "2",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "59"
+  }, {
+    "range" : "2",
+    "domain" : "62",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "61"
+  }, {
+    "range" : "2",
+    "domain" : "64",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "63"
+  }, {
+    "range" : "2",
+    "domain" : "66",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "65"
+  }, {
+    "range" : "2",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "67"
+  }, {
+    "range" : "2",
+    "domain" : "70",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "69"
+  }, {
+    "range" : "2",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "71"
+  }, {
+    "range" : "2",
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "74"
+  }, {
+    "range" : "2",
+    "domain" : "77",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "76"
+  }, {
+    "range" : "2",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "78"
+  }, {
+    "range" : "2",
+    "domain" : "80",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "79"
+  }, {
+    "range" : "2",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "81"
+  }, {
+    "range" : "2",
+    "domain" : "84",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "83"
+  }, {
+    "range" : "2",
+    "domain" : "86",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "85"
+  }, {
+    "range" : "2",
+    "domain" : "88",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "87"
+  }, {
+    "range" : "2",
+    "domain" : "54",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "89"
+  }, {
+    "range" : "2",
+    "domain" : "56",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "90"
+  }, {
+    "range" : "2",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "92"
+  }, {
+    "range" : "2",
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "98"
+  }, {
+    "range" : "2",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "99"
+  }, {
+    "range" : "2",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "101"
+  }, {
+    "range" : "2",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "102"
+  }, {
+    "range" : "2",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "103"
+  }, {
+    "range" : "2",
+    "domain" : "95",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "104"
+  }, {
+    "range" : "2",
+    "domain" : "96",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "105"
+  }, {
+    "range" : "2",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "106"
+  }, {
+    "range" : "2",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "107"
+  }, {
+    "range" : "2",
+    "domain" : "97",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "108"
+  }, {
+    "range" : "2",
+    "domain" : "93",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "109"
+  }, {
+    "range" : "2",
+    "domain" : "94",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "110"
+  } ]
+}

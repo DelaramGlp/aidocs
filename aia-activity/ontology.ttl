@@ -1,0 +1,349 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#AffixCEMarking
+<https://delaramglp.github.io/ai-keydocom/aia-activity#AffixCEMarking> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                       rdfs:label "Affix CE Marking"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#AppointAuthorisedRepresentative
+<https://delaramglp.github.io/ai-keydocom/aia-activity#AppointAuthorisedRepresentative> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                        rdfs:label "Appoint Authorised Representative"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#BuildHumanOversightMeasureIntoSystem
+<https://delaramglp.github.io/ai-keydocom/aia-activity#BuildHumanOversightMeasureIntoSystem> rdf:type owl:Class ;
+                                                                                             rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                             rdfs:label "Build Human Oversight Measure Into System"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#CommunicateRisk
+<https://delaramglp.github.io/ai-keydocom/aia-activity#CommunicateRisk> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                        rdfs:label "Communicate Residual Risk to users"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#ConductFirst-PartyConfomityAssessment
+<https://delaramglp.github.io/ai-keydocom/aia-activity#ConductFirst-PartyConfomityAssessment> rdf:type owl:Class ;
+                                                                                              rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                              rdfs:label "Conduct First-Party Confomity Assessment"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#ConductingConformityAssessment
+<https://delaramglp.github.io/ai-keydocom/aia-activity#ConductingConformityAssessment> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                       rdfs:label "Assess Conformity"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#CreateCodesOfConduct
+<https://delaramglp.github.io/ai-keydocom/aia-activity#CreateCodesOfConduct> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                             rdfs:label "Create Codes Of Conduct"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#CreateEUDeclarationOfConformity
+<https://delaramglp.github.io/ai-keydocom/aia-activity#CreateEUDeclarationOfConformity> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                        rdfs:label "Create EU Declaration Of Conformity"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#CreateInstructionForUse
+<https://delaramglp.github.io/ai-keydocom/aia-activity#CreateInstructionForUse> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                rdfs:label "Create Instruction For Use"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#CreateTechnicalDocumentation
+<https://delaramglp.github.io/ai-keydocom/aia-activity#CreateTechnicalDocumentation> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                     rdfs:label "Create Technical Documentation"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#DemonstrateConformity
+<https://delaramglp.github.io/ai-keydocom/aia-activity#DemonstrateConformity> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                              rdfs:label "Demonstrate Conformity"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentPost-MarketMonitoringSystem
+<https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentPost-MarketMonitoringSystem> rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                            rdfs:label "Document Post-Market Monitoring System"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentQualityManagementSystem
+<https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentQualityManagementSystem> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                        rdfs:label "Document Quality Management System"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentRiskMangementSystem
+<https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentRiskMangementSystem> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                    rdfs:label "Document Risk Mangement System"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#EnsureImplementationOfLoggingCapabilities
+<https://delaramglp.github.io/ai-keydocom/aia-activity#EnsureImplementationOfLoggingCapabilities> rdf:type owl:Class ;
+                                                                                                  rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                                  rdfs:label "Implement Logging Capabilities"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#EnsureLogGeneratation
+<https://delaramglp.github.io/ai-keydocom/aia-activity#EnsureLogGeneratation> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                              rdfs:label "Generate Logs"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#EstablishPost-MarketMonitoringSystem
+<https://delaramglp.github.io/ai-keydocom/aia-activity#EstablishPost-MarketMonitoringSystem> rdf:type owl:Class ;
+                                                                                             rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                             rdfs:label "Establish Post-Market Monitoring System"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#EstablishRiskManagementSystem
+<https://delaramglp.github.io/ai-keydocom/aia-activity#EstablishRiskManagementSystem> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                      rdfs:label "Establish Risk Management System"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#FollowConformityAssessmentProcedure
+<https://delaramglp.github.io/ai-keydocom/aia-activity#FollowConformityAssessmentProcedure> rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                            rdfs:label "Follow Conformity Assessment Procedure"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToData
+<https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToData> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                          rdfs:label "Grant Access To Data"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToDocumentation
+<https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToDocumentation> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                   rdfs:label "Grant Access To Documentation"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToLogs
+<https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToLogs> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                          rdfs:label "Grant Access To Logs"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToSourceCode
+<https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToSourceCode> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                rdfs:label "Grant Access To Source Code"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#IdentifyHumanOversightMeasure
+<https://delaramglp.github.io/ai-keydocom/aia-activity#IdentifyHumanOversightMeasure> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                      rdfs:label "Idnetify Human Oversight Measure"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#IdentifyImpactOnStakeholders
+<https://delaramglp.github.io/ai-keydocom/aia-activity#IdentifyImpactOnStakeholders> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                     rdfs:label "Identify Impact On Stakeholders"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementDataGovernance
+<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementDataGovernance> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                rdfs:label "Implement Data Governance"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementDataManagement
+<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementDataManagement> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                rdfs:label "Implement Data Management"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementHumanOversightMeasure
+<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementHumanOversightMeasure> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                       rdfs:label "Implement Human Oversight Measure"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementPost-MarketMonitoringSystem
+<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementPost-MarketMonitoringSystem> rdf:type owl:Class ;
+                                                                                             rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                             rdfs:label "Implement Post-Market Monitoring System"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementQualityManagementSystem
+<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementQualityManagementSystem> rdf:type owl:Class ;
+                                                                                         rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                         rdfs:label "Implement Quality Management System"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementRiskManagementSystem
+<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementRiskManagementSystem> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                      rdfs:label "Implement Risk Management System"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#InterpretSystemOutput
+<https://delaramglp.github.io/ai-keydocom/aia-activity#InterpretSystemOutput> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                              rdfs:label "Interpret System Output"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#InterruptSystemOperation
+<https://delaramglp.github.io/ai-keydocom/aia-activity#InterruptSystemOperation> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                 rdfs:label "Interrupt System Operation"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#InterveneSystemOperation
+<https://delaramglp.github.io/ai-keydocom/aia-activity#InterveneSystemOperation> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                 rdfs:label "Intervene System Operation"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainPost-MarketMonitoringSystem
+<https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainPost-MarketMonitoringSystem> rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                            rdfs:label "Maintain Post-Market Monitoring System"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainRiskManagementSystem
+<https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainRiskManagementSystem> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                     rdfs:label "Maintain Risk Management System"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainSystemLogs
+<https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainSystemLogs> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                           rdfs:label "Maintain System Logs"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#MakeADecisionAboutUsingTheSystem
+<https://delaramglp.github.io/ai-keydocom/aia-activity#MakeADecisionAboutUsingTheSystem> rdf:type owl:Class ;
+                                                                                         rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                         rdfs:label "Make A Decision About Using TheS ystem"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#MonitorSystemOperation
+<https://delaramglp.github.io/ai-keydocom/aia-activity#MonitorSystemOperation> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                               rdfs:label "Monitor System Operation"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#Post-marketMonitoring
+<https://delaramglp.github.io/ai-keydocom/aia-activity#Post-marketMonitoring> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                              rdfs:label "Post-market Monitoring"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#ProvideDocumentationToDemonstrateConformity
+<https://delaramglp.github.io/ai-keydocom/aia-activity#ProvideDocumentationToDemonstrateConformity> rdf:type owl:Class ;
+                                                                                                    rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                                    rdfs:label "ProvideDocumentationToDemonstrateConformity"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#ProvideInformationToDemonstrateConformity
+<https://delaramglp.github.io/ai-keydocom/aia-activity#ProvideInformationToDemonstrateConformity> rdf:type owl:Class ;
+                                                                                                  rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                                  rdfs:label "ProvideInformationToDemonstrateConformity"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#RegisterSystemInEUDatabase
+<https://delaramglp.github.io/ai-keydocom/aia-activity#RegisterSystemInEUDatabase> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                   rdfs:label "Register System In EU Database"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#ReportCorrectiveActions
+<https://delaramglp.github.io/ai-keydocom/aia-activity#ReportCorrectiveActions> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                rdfs:label "Report Corrective Actions"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#ReportMalfunctioning
+<https://delaramglp.github.io/ai-keydocom/aia-activity#ReportMalfunctioning> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                             rdfs:label "Report Malfunctioning"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#ReportNon-confomity
+<https://delaramglp.github.io/ai-keydocom/aia-activity#ReportNon-confomity> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                            rdfs:label "Report Non-confomity"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#ReportSeriousIncidents
+<https://delaramglp.github.io/ai-keydocom/aia-activity#ReportSeriousIncidents> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                               rdfs:label "Report Serious Incidents"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#RiskAnalysis
+<https://delaramglp.github.io/ai-keydocom/aia-activity#RiskAnalysis> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                     rdfs:label "Risk Analysis"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#RiskEvaluation
+<https://delaramglp.github.io/ai-keydocom/aia-activity#RiskEvaluation> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                       rdfs:label "Risk Evaluation"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#RiskIdentification
+<https://delaramglp.github.io/ai-keydocom/aia-activity#RiskIdentification> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                           rdfs:label "Risk Identification"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#RiskTreatment
+<https://delaramglp.github.io/ai-keydocom/aia-activity#RiskTreatment> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                      rdfs:label "Risk Treatment"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#TakeCorrectiveActions
+<https://delaramglp.github.io/ai-keydocom/aia-activity#TakeCorrectiveActions> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                              rdfs:label "Take Corrective Actions"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#TestAISystem
+<https://delaramglp.github.io/ai-keydocom/aia-activity#TestAISystem> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                     rdfs:label "Test AI System"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#UpdateEUDeclarationOfConformity
+<https://delaramglp.github.io/ai-keydocom/aia-activity#UpdateEUDeclarationOfConformity> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                        rdfs:label "Update EU Declaration Of Conformity"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/aia-activity#UpdateTechnicalDocumentation
+<https://delaramglp.github.io/ai-keydocom/aia-activity#UpdateTechnicalDocumentation> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf <https://delaramglp.github.io/ai-keydocom/taio#activity> ;
+                                                                                     rdfs:label "Update Technical Documentation"@en .
+
+
+###  https://delaramglp.github.io/ai-keydocom/taio#activity
+<https://delaramglp.github.io/ai-keydocom/taio#activity> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

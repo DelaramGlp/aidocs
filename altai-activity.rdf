@@ -1,10 +1,883 @@
 <?xml version="1.0"?>
 <rdf:RDF
    xmlns:dct="http://purl.org/dc/terms/"
-   xmlns:altaiact="https://delaramglp.github.io/ai-keydocom/aims-act#"
+   xmlns:altaiact="https://delaramglp.github.io/ai-keydocom/altai-activity#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+  <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#FR1">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+    <rdfs:label xml:lang="en">Assess whether the AI system potentially negatively discriminates against people on the basis of any of the following grounds (non-exhaustively): sex, race, colour, ethnic or social origin, genetic features, language, religion or belief, political or any other opinion, membership of a national minority, property, birth, disability, age or sexual orientation.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#FRQ1.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish processes to test and monitor for potential negative discrimination (bias) during the development, deployment and use phases of the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#FRQ1.2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish processes to address and rectify for potential negative discrimination (bias) in the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#FRQ2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether the AI system respect the rights of the child.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#FRQ2.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish processes to address and rectify for potential harm to children by the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#FRQ2.2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+      <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+      <rdfs:label xml:lang="en">Establish processes to test and monitor for potential harm to children during the development, deployment and use phases of the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#FRQ3">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether the AI system protect personal data relating to individuals in line with GDPR.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#FRQ3.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish processes to assess in detail the need for a data protection impact assessment, including an assessment of the necessity and proportionality of the processing operations in relation to their purpose, with respect to the development, deployment and use phases of the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#FRQ3.2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish measures envisaged to address the risks, including safeguards, security measures and mechanisms to ensure the protection of personal data with respect to the development, deployment and use phases of the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#FRQ4">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether the AI system respect the freedom of expression and information and/or freedom of assembly and association.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#FRQ4.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish processes to test and monitor for potential infringement on freedom of expression and information, and/or freedom of assembly and association, during the development, deployment and use phases of the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#FRQ4.2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish processes to address and rectify for potential infringement on freedom of expression and information, and/or freedom of assembly and association, in the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HAAQ1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Determine whether the AI system is designed to interact, guide or take decisions by human end-users that affect humans or society.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HAAQ1.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether the AI system generates confusion for some or all end-users or subjects on whether a decision, content, advice or outcome is the result of an algorithmic decision.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HAAQ1.2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+      <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+      <rdfs:label xml:lang="en">Inform end-users or other subjects that a decision, content, advice or outcome is the result of an algorithmic decision.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HAAQ2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether the AI system generates confusion for some or all end-users or subjects on whether they are interacting with a human or AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HAAQ2.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Inform end-users or subjects that they are interacting with an AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HAAQ3">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether the AI system affects human autonomy by generating over-reliance by end-users.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HAAQ3.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish procedures to avoid end-users over-reliance on the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HAAQ4">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether the AI system affects human autonomy by interfering with the end-user’s decision-making process in any other unintended and undesirable way.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HAAQ4.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish procedures to avoid the inadvertent affects of the AI system on human autonomy.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HAAQ5">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Determine whether the AI system simulates social interaction with or between end-users or subjects.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HAAQ6">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether the AI system risk creating human attachment, stimulating addictive behaviour, or manipulating user behaviour.</rdfs:label>
+     </rdf:Description>
+
+    <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HAAQ6.1">
+      <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+      <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+      <rdfs:label xml:lang="en">Establish measures to deal with possible negative consequences for end-users or subjects in case they develop a disproportionate attachment to the AI System.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HAAQ6.2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Take measures to minimise the risk of addiction.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HAAQ6.3">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Take measures to mitigate the risk of manipulation.</rdfs:label>
+     </rdf:Description>
+
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HOQ1.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Determine whether the AI system is a self-learning or autonomous system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HOQ1.2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Determine whether the AI system is overseen by a Human-in-the-Loop.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HOQ1.3">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Determine whether the AI system is overseen by a Human-on-the-Loop.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HOQ1.4">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Determine whether the AI system is overseen by a Human-in-Command.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HOQ2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Provide the humans (human-in-the-loop, human-on-the-loop, human-in-command) training on how to exercise oversight.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HOQ3">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish detection and/or response mechanisms for undesirable adverse effects of the AI system for the end-user or subject.</rdfs:label>
+     </rdf:Description>
+
+    <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HOQ4">
+      <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+      <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+      <rdfs:label xml:lang="en">Establish a procedure to safely abort an operation when needed.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#HOQ5">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Take oversight and control measures to reflect the self-learning or autonomous nature of the AI system.</rdfs:label>
+     </rdf:Description>
+
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RASQ1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether the AI system has adversarial, critical or damaging effects (e.g. to human or societal safety) in case of risks or threats such as design or technical faults, defects, outages, attacks, misuse, inappropriate or malicious use.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RASQ2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Determine whether AI system is certified for cybersecurity or is compliant with specific security standards.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RASQ3">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess exposure of the AI system to cyber-attacks.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RASQ3.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess potential forms of attacks to which the AI system could be vulnerable.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RASQ3.2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Identify and assess different types of vulnerabilities and potential entry points for attacks such as: Data poisoning, model evasion, and  model inversion.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RASQ4">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish measures to ensure the integrity, robustness and overall security of the AI system against potential attacks over its lifecycle.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RASQ5">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">(Establish processes for) red-teaming/ pentesting the system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RASQ6">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Inform end-users of the duration of security coverage and updates.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RASQ6.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Determine the expected timeframe within which security updates for the AI system is provided.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#GSQ1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Define risks, risk metrics and risk levels of the AI system in each specific use case.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#GSQ1.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish a process to continuously measure and assess risks.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#GSQ1.2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Inform end-users and subjects of existing or potential risks.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#GSQ2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Identify the possible threats to the AI system (design faults, technical faults, environmental threats) and the possible consequences.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#GSQ2.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess the risk of possible malicious use, misuse or inappropriate use of the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#GSQ2.2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Define safety criticality levels (e.g. related to human integrity) of the possible consequences of faults or misuse of the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#GSQ3">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess the dependency of a critical AI system’s decisions on its stable and reliable behaviour.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#GSQ3.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Align the reliability/testing requirements to the appropriate levels of stability and reliability.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#GSQ4">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Plan fault tolerance.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#GSQ5">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Develop a mechanism to evaluate when the AI system has been changed to merit a new review of its technical robustness and safety.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AcQ1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether a low level of accuracy of the AI system can result in critical, adversarial or damaging consequences.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AcQ2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish measures to ensure that the data (including training data) used to develop the AI system is up-to-date, of high quality, complete and representative of the environment the system will be deployed in.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AcQ3">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish set of activities to monitor, and document the AI system’s accuracy.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AcQ4">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether the AI system's operation can invalidate the data or assumptions it was trained on, and how this might lead to adversarial effects.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AcQ5">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish processes to ensure that the level of accuracy of the AI system to be expected by end-users and/or subjects is properly communicated.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RFPRQ1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether the AI system can cause critical, adversarial, or damaging consequences (e.g. pertaining to human safety) in case of low reliability and/or reproducibility.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RFPRQ1.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish a process to monitor if the AI system is meeting the intended goals.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RFPRQ1.2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Evaluate whether specific contexts or conditions need to be taken into account to ensure reproducibility.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RFPRQ2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish processes (verification and validation methods and documentation (e.g. logging)) to evaluate and ensure different aspects of the AI system’s reliability and reproducibility.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RFPRQ2.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish (Document and operationalise) processes for the testing and verification of the reliability and reproducibility of the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RFPRQ3">
+      <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+      <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+      <rdfs:label xml:lang="en">Define tested failsafe fallback plans to address AI system errors of whatever origin and put governance procedures in place to trigger them.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RFPRQ4">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish a procedure for handling the cases where the AI system yields results with a low confidence score.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RFPRQ5">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Determine whether the AI system is using (online) continual learning.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RFPRQ5.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess potential negative consequences from the AI system learning novel or unusual methods to score well on its objective function</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#PrQ1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess impact of the AI system on the right to privacy, the right to physical, mental and/or moral integrity and the right to data protection.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#PrQ2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish mechanisms that allow flagging issues related to privacy concerning the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#DGQ1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Determine whether the AI system is being trained, or was it developed, by using or processing personal data (including special categories of personal data).</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#DGQ2.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish measures for Data Protection Impact Assessment (DPIA). </rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#DGQ2.2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Designate a Data Protection Officer (DPO) and include them at an early state in the development, procurement or use phase of the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#DGQ2.3">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish oversight mechanisms for data processing (including limiting access to qualified personnel, mechanisms for logging data access and making modifications).</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#DGQ2.4">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish measures to achieve privacy-by-design and default (e.g. encryption, pseudonymisation, aggregation, anonymisation).</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#DGQ2.5">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish measures to achieve Data minimisation, in particular personal data (including special categories of data).</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#DGQ2.6">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">(Establish processes to) implement the right to withdraw consent, the right to object and the right to be forgotten into the development of the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#DGQ2.7">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether the privacy and data protection implications of data collected, generated or processed over the course of the AI system's life cycle is considered.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#DGQ3">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether the privacy and data protection implications of the AI system's non-personal training-data or other processed non-personal data is considered.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#DGQ4">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Align the AI system with relevant standards (e.g. ISO, IEEE) or widely adopted protocols for (daily) data management and governance.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#TrcQ1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish measures that address the traceability of the AI system during its entire lifecycle.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#TrcQ1.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish measures to continuously assess the quality of the input data to the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#TrcQ1.2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Evaluate whether it is feasible to trace back which data was used by the AI system to make a certain decision(s) or recommendation(s).</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#TrcQ1.3">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Evaluate whether it is feasible to trace back which AI model or rules led to the decision(s) or recommendation(s) of the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#TrcQ1.4">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish measures to continuously assess the quality of the output(s) of the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#TrcQ1.5">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Put in place adequate logging practices to record the decision(s) or recommendation(s) of the AI system are implemented.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#ExpQ1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Explain the decision(s) of the AI system to the users.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#ExpQ2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Continuously survey the users if they understand the decision(s) of the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#ComQ1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">In cases of interactive AI systems, communicate to users that they are interacting with an AI system instead of a human.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#ComQ2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Inform users about the purpose, criteria and limitations of the decision(s) generated by the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#ComQ2.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Communicate the benefits of the AI system to users.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#ComQ2.2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Communicate the technical limitations and potential risks of the AI system to users, such as its level of accuracy and/ or error rates.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#ComQ2.3">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Provide appropriate training material and disclaimers to users on how to adequately use the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUBQ1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish a strategy or a set of procedures to avoid creating or reinforcing unfair bias in the AI system, both regarding the use of input data as well as for the algorithm design.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUBQ2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether diversity and representativeness of end-users and/or subjects in the data is considered.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUBQ2.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether specific target groups or problematic use cases are considered.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUBQ2.2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Determine whether publicly available technical tools, that are state-of-the-art are used to improve your understanding of the data, model and performance.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUBQ2.3">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish processes to test and monitor for potential biases during the entire lifecycle of the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUBQ2.4">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether diversity and representativeness of end-users and or subjects in the data is considered where relevant.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUBQ3">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Provide training (Put in place educational and awareness initiatives) to help AI designers and AI developers be more aware of the possible bias they can inject in designing and developing the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUBQ4">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish a mechanism that allows for the flagging of issues related to bias, discrimination or poor performance of the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUBQ4.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish clear steps (processes) and ways of communicating on how and to whom issues related to bias, discrimination or poor performance of the AI system can be raised.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUBQ4.2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Identify the subjects that could potentially be (in)directly affected by the AI system, in addition to the (end-)users and/or subjects.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUBQ5">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether your definition of fairness is commonly used and implemented in any phase of the process of setting up the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUBQ5.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Determine whether you considered different definitions of fairness before choosing one.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUBQ5.2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Consult with the impacted communities about the correct definition of fairness, i.e. representatives of elderly persons or persons with disabilities.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUBQ5.3">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish mechanisms (Ensure a quantitative analysis or metrics) to measure and test the applied definition of fairness.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUBQ5.4">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish mechanisms to ensure fairness in your AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUDQ1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether the AI system corresponds to the variety of preferences and abilities in society.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUDQ2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether the AI system's user interface is usable by those with special needs or disabilities or those at risk of exclusion.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUDQ2.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether that information about, and the AI system's user interface of, the AI system is accessible and usable also to users of assistive technologies (such as screen readers).</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUDQ2.2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Consult with end-users or subjects in need for assistive technology during the planning and development phase of the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUDQ3">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Ensure that Universal Design principles are taken into account during every step of the planning and development process, if applicable.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUDQ4">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess the impact of the AI system on the potential end-users and/or subjects into account.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUDQ4.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Determine whether the team involved in building the AI system engaged with the possible target end-users and/or subjects.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUDQ4.2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether there could be groups who might be disproportionately affected by the outcomes of the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AUDQ4.3">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess the risk of the possible unfairness of the system onto the end-user's or subject's communities</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#SPQ1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Include the participation of the widest range of possible stakeholders in the AI system’s design and development.</rdfs:label>
+     </rdf:Description>
+
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#EWQ1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess potential negative impacts of the AI system on the environment.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#EWQ1.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Identify the negative impacts of the AI system on the environment.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#EWQ2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish mechanisms to evaluate the environmental impact of the AI system’s development, deployment and/or use.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#EWQ2.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Define measures to reduce the environmental impact of the AI system throughout its lifecycle.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#IWSQ1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether the AI system impacts human work and work arrangements.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#IWSQ2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Inform and consult with impacted workers and their representatives (trade unions, (European) work councils) in advance to introducing the system in the organisation.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#IWSQ3">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish measures to ensure that the impacts of the AI system on human work are well understood.</rdfs:label>
+     </rdf:Description>
+
+    <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#IWSQ3.1">
+      <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+      <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+      <rdfs:label xml:lang="en">Ensure that workers understand how the AI system operates, which capabilities it has and which it does not have.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#IWSQ4">
+      <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+      <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+      <rdfs:label xml:lang="en">Assess whether the AI system can create the risk of de-skilling of the workforce.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#IWSQ4.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish measures to counteract de-skilling risks.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#IWSQ5">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Determine whether the system promote or require new (digital) skills.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#IWSQ5.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Provide training opportunities and materials for re- and up-skilling.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#ISDQ1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether the AI system have a negative impact on society at large or democracy.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#ISDQ1.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess the societal impact of the AI system’s use beyond the (end-)user and subject, such as potentially indirectly affected stakeholders or society at large.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#ISDQ1.2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish measures to minimize potential societal harm of the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#ISDQ1.3">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish measures that ensure that the AI system does not negatively impact democracy.</rdfs:label>
+     </rdf:Description>
+
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AudQ1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish mechanisms that facilitate the AI system’s auditability (e.g. traceability of the development process, the sourcing of training data and the logging of the AI system’s processes, outcomes, positive and negative impact).</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#AudQ2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether the AI system can be audited by independent third parties. </rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RMQ1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether you will make use of external guidance or third-party auditing processes to oversee ethical concerns and accountability measures.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RMQ1.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Determine whether the involvement of third parties go beyond the development phase.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RMQ2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Provide risk training and inform [the staff] about the potential legal framework applicable to the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RMQ3">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish an AI ethics review board (or a similar mechanism) to assess (discuss) the overall accountability and ethics practices, including potential unclear grey areas.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RMQ4">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish a process to discuss and continuously monitor and assess the AI system's adherence to this Assessment List for Trustworthy AI (ALTAI).</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RMQ4.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">[Establish a process to discuss and continuously monitor and assess the AI system's adherence to this Assessment List for Trustworthy AI (ALTAI) which] Include[s] identification and documentation of conflicts between the 6 aforementioned requirements or between different ethical principles and explanation of the 'trade-off' decisions made in the process.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RMQ4.2">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Provide appropriate training to those involved in such a process [monitoring and assessing the system's adherence to ALTAI] which covers the legal framework applicable to the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RMQ5">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish a process for third parties (e.g. suppliers, end-users, subjects, distributors/vendors or workers) to report potential vulnerabilities, risks or biases in the AI system.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RMQ5.1">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Assess whether this process foster revision of the risk management process.</rdfs:label>
+     </rdf:Description>
+
+     <rdf:Description rdf:about="https://delaramglp.github.io/ai-keydocom/altai-activity#RMQ6">
+       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/ai-keydocom/taio#activity"/>
+       <rdfs:label xml:lang="en">Establish redress by design mechanisms for applications that can adversely affect individuals.</rdfs:label>
+     </rdf:Description>
 
    </rdf:RDF>

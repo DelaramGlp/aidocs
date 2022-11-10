@@ -1,0 +1,3782 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+ <link rel="stylesheet" href="resources/primer.css" media="screen" />    <link rel="stylesheet" href="resources/rec.css" media="screen" />    <link rel="stylesheet" href="resources/extra.css" media="screen" />    <link rel="stylesheet" href="resources/owl.css" media="screen" />    <title>ALTAI Activity</title>
+
+
+<!-- SCHEMA.ORG METADATA -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://delaramglp.github.io/aidocs/altai-activity","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://delaramglp.github.io/aidocs/altai-activity","name":"ALTAI Activity", "headline":"Document describing the ontology https://delaramglp.github.io/aidocs/altai-activity", "datePublished":"Thu Nov 10 09:37:08 GMT 2022"}</script>
+
+<script src="resources/jquery.js"></script> 
+<script src="resources/marked.min.js"></script> 
+    <script> 
+function loadHash() {
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked(jQuery(this).text())).remove()});
+	var hash = location.hash;
+	if($(hash).offset()!=null){
+	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
+}
+	loadTOC();
+}
+function loadTOC(){
+	//process toc dynamically
+	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  jQuery(".list").each(function(){
+		if(jQuery(this).is('h2')){
+			if(j>0){
+				t+='</ul>';
+				j=0;
+			}
+			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+			i++;
+		}
+		if(jQuery(this).is('h3')){
+			if(j==0){
+				t+='<ul>';
+			}
+			j++;
+			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
+		}
+	  });
+	  t+='</ul>';
+	  $("#toc").html(t); 
+}
+$(function(){
+    loadHash();
+}); $.fn.ignore = function(sel){
+        return this.clone().find(sel||">*").remove().end();
+ }; 
+   </script> 
+  </head> 
+
+<body>
+<div class="container">
+<div class="head">
+<div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
+<h1>ALTAI Activity</h1>
+
+
+<dl>
+<dt>Latest version:</dt>
+<dd><a href="[Ontology URI]">[Ontology URI]</a></dd>
+<dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.rdf" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License: </dt><dd><a href="http://insertlicenseURIhere.org" target="_blank"><img src="https://img.shields.io/badge/License-license%20name%20goes%20here-blue.svg" alt="http://insertlicenseURIhere.org" /></a>
+</dd><dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a></dd>
+<!-- <dt>Evaluation:</dt><dd><a href="OOPSEvaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --></dl>
+
+<hr/>
+</div>
+<div class="status">
+<div>
+<span>Ontology Specification Draft</span>
+</div>
+</div>     <div id="abstract"><h2>Abstract</h2><span class="markdown">
+This is a place holder text for the abstract. The abstract should contain a couple of sentences summarizing the ontology and its purpose.</span>
+</div>
+<div id="toc"></div> 
+
+<!--INTRODUCTION SECTION-->
+    <div id="introduction"><h2 id="intro" class="list">Introduction <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This is a place holder text for the introduction. The introduction should briefly describe the ontology, its motivation, state of the art and goals.</span>
+<div id="namespacedeclarations">
+<h3 id="ns" class="list">Namespace declarations</h3>
+<div id="ns" align="center">
+<table>
+<caption> <a href="#ns"> Table 1</a>: Namespaces used in the document </caption>
+<tbody>
+<tr><td><b>altaiact</b></td><td>&lt;https://delaramglp.github.io/aidocs/altai-activity&gt;</td></tr>
+<tr><td><b>dct</b></td><td>&lt;http://purl.org/dc/terms&gt;</td></tr>
+<tr><td><b>owl</b></td><td>&lt;http://www.w3.org/2002/07/owl&gt;</td></tr>
+<tr><td><b>rdf</b></td><td>&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns&gt;</td></tr>
+<tr><td><b>taio</b></td><td>&lt;https://delaramglp.github.io/aidocs/taio&gt;</td></tr>
+<tr><td><b>xml</b></td><td>&lt;http://www.w3.org/XML/1998/namespace&gt;</td></tr>
+<tr><td><b>xsd</b></td><td>&lt;http://www.w3.org/2001/XMLSchema&gt;</td></tr>
+<tr><td><b>skos</b></td><td>&lt;http://www.w3.org/2004/02/skos/core&gt;</td></tr>
+<tr><td><b>rdfs</b></td><td>&lt;http://www.w3.org/2000/01/rdf-schema&gt;</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+  
+
+<!--OVERVIEW SECTION-->
+    <div id="overview"><h2 id="overv" class="list">: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This ontology has the following classes and properties.</span>
+<h4>Classes</h4>
+<ul xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" class="hlist">
+   <li>
+      <a href="#RASQ5"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RASQ5">(Establish processes for) red-teaming/ pentesting the system.</a>
+   </li>
+   <li>
+      <a href="#DGQ2.6"
+         title="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.6">(Establish processes to) implement the right to withdraw consent, the right to object and the right to be forgotten into the development of the AI system.</a>
+   </li>
+   <li>
+      <a href="#RMQ4.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RMQ4.1">[Establish a process to discuss and continuously monitor and assess the AI system's adherence to this Assessment List for Trustworthy AI (ALTAI) which] Include[s] identification and documentation of conflicts between the 6 aforementioned requirements or between different ethical principles and explanation of the 'trade-off' decisions made in the process.</a>
+   </li>
+   <li>
+      <a href="#DGQ4"
+         title="https://delaramglp.github.io/aidocs/altai-activity#DGQ4">Align the AI system with relevant standards (e.g. ISO, IEEE) or widely adopted protocols for (daily) data management and governance.</a>
+   </li>
+   <li>
+      <a href="#GSQ3.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#GSQ3.1">Align the reliability/testing requirements to the appropriate levels of stability and reliability.</a>
+   </li>
+   <li>
+      <a href="#RASQ3"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RASQ3">Assess exposure of the AI system to cyber-attacks.</a>
+   </li>
+   <li>
+      <a href="#PrQ1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#PrQ1">Assess impact of the AI system on the right to privacy, the right to physical, mental and/or moral integrity and the right to data protection.</a>
+   </li>
+   <li>
+      <a href="#RASQ3.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RASQ3.1">Assess potential forms of attacks to which the AI system could be vulnerable.</a>
+   </li>
+   <li>
+      <a href="#RFPRQ5.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5.1">Assess potential negative consequences from the AI system learning novel or unusual methods to score well on its objective function</a>
+   </li>
+   <li>
+      <a href="#EWQ1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#EWQ1">Assess potential negative impacts of the AI system on the environment.</a>
+   </li>
+   <li>
+      <a href="#GSQ3"
+         title="https://delaramglp.github.io/aidocs/altai-activity#GSQ3">Assess the dependency of a critical AI system’s decisions on its stable and reliable behaviour.</a>
+   </li>
+   <li>
+      <a href="#AUDQ4"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUDQ4">Assess the impact of the AI system on the potential end-users and/or subjects into account.</a>
+   </li>
+   <li>
+      <a href="#GSQ2.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#GSQ2.1">Assess the risk of possible malicious use, misuse or inappropriate use of the AI system.</a>
+   </li>
+   <li>
+      <a href="#AUDQ4.3"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.3">Assess the risk of the possible unfairness of the system onto the end-user's or subject's communities</a>
+   </li>
+   <li>
+      <a href="#ISDQ1.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.1">Assess the societal impact of the AI system’s use beyond the (end-)user and subject, such as potentially indirectly affected stakeholders or society at large.</a>
+   </li>
+   <li>
+      <a href="#AcQ1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AcQ1">Assess whether a low level of accuracy of the AI system can result in critical, adversarial or damaging consequences.</a>
+   </li>
+   <li>
+      <a href="#AUBQ2.4"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.4">Assess whether diversity and representativeness of end-users and or subjects in the data is considered where relevant.</a>
+   </li>
+   <li>
+      <a href="#AUBQ2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ2">Assess whether diversity and representativeness of end-users and/or subjects in the data is considered.</a>
+   </li>
+   <li>
+      <a href="#AUBQ2.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.1">Assess whether specific target groups or problematic use cases are considered.</a>
+   </li>
+   <li>
+      <a href="#AUDQ2.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.1">Assess whether that information about, and the AI system's user interface of, the AI system is accessible and usable also to users of assistive technologies (such as screen readers).</a>
+   </li>
+   <li>
+      <a href="#HAAQ3"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ3">Assess whether the AI system affects human autonomy by generating over-reliance by end-users.</a>
+   </li>
+   <li>
+      <a href="#HAAQ4"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ4">Assess whether the AI system affects human autonomy by interfering with the end-user’s decision-making process in any other unintended and undesirable way.</a>
+   </li>
+   <li>
+      <a href="#AudQ2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AudQ2">Assess whether the AI system can be audited by independent third parties. </a>
+   </li>
+   <li>
+      <a href="#RFPRQ1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1">Assess whether the AI system can cause critical, adversarial, or damaging consequences (e.g. pertaining to human safety) in case of low reliability and/or reproducibility.</a>
+   </li>
+   <li>
+      <a href="#IWSQ4"
+         title="https://delaramglp.github.io/aidocs/altai-activity#IWSQ4">Assess whether the AI system can create the risk of de-skilling of the workforce.</a>
+   </li>
+   <li>
+      <a href="#AUDQ1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUDQ1">Assess whether the AI system corresponds to the variety of preferences and abilities in society.</a>
+   </li>
+   <li>
+      <a href="#HAAQ1.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.1">Assess whether the AI system generates confusion for some or all end-users or subjects on whether a decision, content, advice or outcome is the result of an algorithmic decision.</a>
+   </li>
+   <li>
+      <a href="#HAAQ2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ2">Assess whether the AI system generates confusion for some or all end-users or subjects on whether they are interacting with a human or AI system.</a>
+   </li>
+   <li>
+      <a href="#RASQ1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RASQ1">Assess whether the AI system has adversarial, critical or damaging effects (e.g. to human or societal safety) in case of risks or threats such as design or technical faults, defects, outages, attacks, misuse, inappropriate or malicious use.</a>
+   </li>
+   <li>
+      <a href="#ISDQ1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#ISDQ1">Assess whether the AI system have a negative impact on society at large or democracy.</a>
+   </li>
+   <li>
+      <a href="#IWSQ1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#IWSQ1">Assess whether the AI system impacts human work and work arrangements.</a>
+   </li>
+   <li>
+      <a href="#FR1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#FR1">Assess whether the AI system potentially negatively discriminates against people on the basis of any of the following grounds (non-exhaustively): sex, race, colour, ethnic or social origin, genetic features, language, religion or belief, political or any other opinion, membership of a national minority, property, birth, disability, age or sexual orientation.</a>
+   </li>
+   <li>
+      <a href="#FRQ3"
+         title="https://delaramglp.github.io/aidocs/altai-activity#FRQ3">Assess whether the AI system protect personal data relating to individuals in line with GDPR.</a>
+   </li>
+   <li>
+      <a href="#FRQ4"
+         title="https://delaramglp.github.io/aidocs/altai-activity#FRQ4">Assess whether the AI system respect the freedom of expression and information and/or freedom of assembly and association.</a>
+   </li>
+   <li>
+      <a href="#FRQ2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#FRQ2">Assess whether the AI system respect the rights of the child.</a>
+   </li>
+   <li>
+      <a href="#HAAQ6"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ6">Assess whether the AI system risk creating human attachment, stimulating addictive behaviour, or manipulating user behaviour.</a>
+   </li>
+   <li>
+      <a href="#AcQ4"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AcQ4">Assess whether the AI system's operation can invalidate the data or assumptions it was trained on, and how this might lead to adversarial effects.</a>
+   </li>
+   <li>
+      <a href="#AUDQ2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUDQ2">Assess whether the AI system's user interface is usable by those with special needs or disabilities or those at risk of exclusion.</a>
+   </li>
+   <li>
+      <a href="#DGQ2.7"
+         title="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.7">Assess whether the privacy and data protection implications of data collected, generated or processed over the course of the AI system's life cycle is considered.</a>
+   </li>
+   <li>
+      <a href="#DGQ3"
+         title="https://delaramglp.github.io/aidocs/altai-activity#DGQ3">Assess whether the privacy and data protection implications of the AI system's non-personal training-data or other processed non-personal data is considered.</a>
+   </li>
+   <li>
+      <a href="#AUDQ4.2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.2">Assess whether there could be groups who might be disproportionately affected by the outcomes of the AI system.</a>
+   </li>
+   <li>
+      <a href="#RMQ5.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RMQ5.1">Assess whether this process foster revision of the risk management process.</a>
+   </li>
+   <li>
+      <a href="#RMQ1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RMQ1">Assess whether you will make use of external guidance or third-party auditing processes to oversee ethical concerns and accountability measures.</a>
+   </li>
+   <li>
+      <a href="#AUBQ5"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ5">Assess whether your definition of fairness is commonly used and implemented in any phase of the process of setting up the AI system.</a>
+   </li>
+   <li>
+      <a href="#ComQ2.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#ComQ2.1">Communicate the benefits of the AI system to users.</a>
+   </li>
+   <li>
+      <a href="#ComQ2.2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#ComQ2.2">Communicate the technical limitations and potential risks of the AI system to users, such as its level of accuracy and/ or error rates.</a>
+   </li>
+   <li>
+      <a href="#AUDQ2.2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.2">Consult with end-users or subjects in need for assistive technology during the planning and development phase of the AI system.</a>
+   </li>
+   <li>
+      <a href="#AUBQ5.2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.2">Consult with the impacted communities about the correct definition of fairness, i.e. representatives of elderly persons or persons with disabilities.</a>
+   </li>
+   <li>
+      <a href="#ExpQ2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#ExpQ2">Continuously survey the users if they understand the decision(s) of the AI system.</a>
+   </li>
+   <li>
+      <a href="#EWQ2.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#EWQ2.1">Define measures to reduce the environmental impact of the AI system throughout its lifecycle.</a>
+   </li>
+   <li>
+      <a href="#GSQ1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#GSQ1">Define risks, risk metrics and risk levels of the AI system in each specific use case.</a>
+   </li>
+   <li>
+      <a href="#GSQ2.2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#GSQ2.2">Define safety criticality levels (e.g. related to human integrity) of the possible consequences of faults or misuse of the AI system.</a>
+   </li>
+   <li>
+      <a href="#RFPRQ3"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ3">Define tested failsafe fallback plans to address AI system errors of whatever origin and put governance procedures in place to trigger them.</a>
+   </li>
+   <li>
+      <a href="#DGQ2.2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.2">Designate a Data Protection Officer (DPO) and include them at an early state in the development, procurement or use phase of the AI system.</a>
+   </li>
+   <li>
+      <a href="#RASQ6.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RASQ6.1">Determine the expected timeframe within which security updates for the AI system is provided.</a>
+   </li>
+   <li>
+      <a href="#RASQ2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RASQ2">Determine whether AI system is certified for cybersecurity or is compliant with specific security standards.</a>
+   </li>
+   <li>
+      <a href="#AUBQ2.2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.2">Determine whether publicly available technical tools, that are state-of-the-art are used to improve your understanding of the data, model and performance.</a>
+   </li>
+   <li>
+      <a href="#HOQ1.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HOQ1.1">Determine whether the AI system is a self-learning or autonomous system.</a>
+   </li>
+   <li>
+      <a href="#DGQ1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#DGQ1">Determine whether the AI system is being trained, or was it developed, by using or processing personal data (including special categories of personal data).</a>
+   </li>
+   <li>
+      <a href="#HAAQ1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ1">Determine whether the AI system is designed to interact, guide or take decisions by human end-users that affect humans or society.</a>
+   </li>
+   <li>
+      <a href="#HOQ1.4"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HOQ1.4">Determine whether the AI system is overseen by a Human-in-Command.</a>
+   </li>
+   <li>
+      <a href="#HOQ1.2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HOQ1.2">Determine whether the AI system is overseen by a Human-in-the-Loop.</a>
+   </li>
+   <li>
+      <a href="#HOQ1.3"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HOQ1.3">Determine whether the AI system is overseen by a Human-on-the-Loop.</a>
+   </li>
+   <li>
+      <a href="#RFPRQ5"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5">Determine whether the AI system is using (online) continual learning.</a>
+   </li>
+   <li>
+      <a href="#HAAQ5"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ5">Determine whether the AI system simulates social interaction with or between end-users or subjects.</a>
+   </li>
+   <li>
+      <a href="#RMQ1.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RMQ1.1">Determine whether the involvement of third parties go beyond the development phase.</a>
+   </li>
+   <li>
+      <a href="#IWSQ5"
+         title="https://delaramglp.github.io/aidocs/altai-activity#IWSQ5">Determine whether the system promote or require new (digital) skills.</a>
+   </li>
+   <li>
+      <a href="#AUDQ4.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.1">Determine whether the team involved in building the AI system engaged with the possible target end-users and/or subjects.</a>
+   </li>
+   <li>
+      <a href="#AUBQ5.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.1">Determine whether you considered different definitions of fairness before choosing one.</a>
+   </li>
+   <li>
+      <a href="#GSQ5"
+         title="https://delaramglp.github.io/aidocs/altai-activity#GSQ5">Develop a mechanism to evaluate when the AI system has been changed to merit a new review of its technical robustness and safety.</a>
+   </li>
+   <li>
+      <a href="#AUDQ3"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUDQ3">Ensure that Universal Design principles are taken into account during every step of the planning and development process, if applicable.</a>
+   </li>
+   <li>
+      <a href="#IWSQ3.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#IWSQ3.1">Ensure that workers understand how the AI system operates, which capabilities it has and which it does not have.</a>
+   </li>
+   <li>
+      <a href="#RFPRQ2.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2.1">Establish (Document and operationalise) processes for the testing and verification of the reliability and reproducibility of the AI system.</a>
+   </li>
+   <li>
+      <a href="#AUBQ4"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ4">Establish a mechanism that allows for the flagging of issues related to bias, discrimination or poor performance of the AI system.</a>
+   </li>
+   <li>
+      <a href="#RFPRQ4"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ4">Establish a procedure for handling the cases where the AI system yields results with a low confidence score.</a>
+   </li>
+   <li>
+      <a href="#HOQ4"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HOQ4">Establish a procedure to safely abort an operation when needed.</a>
+   </li>
+   <li>
+      <a href="#RMQ5"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RMQ5">Establish a process for third parties (e.g. suppliers, end-users, subjects, distributors/vendors or workers) to report potential vulnerabilities, risks or biases in the AI system.</a>
+   </li>
+   <li>
+      <a href="#GSQ1.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#GSQ1.1">Establish a process to continuously measure and assess risks.</a>
+   </li>
+   <li>
+      <a href="#RMQ4"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RMQ4">Establish a process to discuss and continuously monitor and assess the AI system's adherence to this Assessment List for Trustworthy AI (ALTAI).</a>
+   </li>
+   <li>
+      <a href="#RFPRQ1.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.1">Establish a process to monitor if the AI system is meeting the intended goals.</a>
+   </li>
+   <li>
+      <a href="#AUBQ1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ1">Establish a strategy or a set of procedures to avoid creating or reinforcing unfair bias in the AI system, both regarding the use of input data as well as for the algorithm design.</a>
+   </li>
+   <li>
+      <a href="#RMQ3"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RMQ3">Establish an AI ethics review board (or a similar mechanism) to assess (discuss) the overall accountability and ethics practices, including potential unclear grey areas.</a>
+   </li>
+   <li>
+      <a href="#AUBQ4.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.1">Establish clear steps (processes) and ways of communicating on how and to whom issues related to bias, discrimination or poor performance of the AI system can be raised.</a>
+   </li>
+   <li>
+      <a href="#HOQ3"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HOQ3">Establish detection and/or response mechanisms for undesirable adverse effects of the AI system for the end-user or subject.</a>
+   </li>
+   <li>
+      <a href="#FRQ3.2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#FRQ3.2">Establish measures envisaged to address the risks, including safeguards, security measures and mechanisms to ensure the protection of personal data with respect to the development, deployment and use phases of the AI system.</a>
+   </li>
+   <li>
+      <a href="#DGQ2.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.1">Establish measures for Data Protection Impact Assessment (DPIA). </a>
+   </li>
+   <li>
+      <a href="#TrcQ1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1">Establish measures that address the traceability of the AI system during its entire lifecycle.</a>
+   </li>
+   <li>
+      <a href="#ISDQ1.3"
+         title="https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.3">Establish measures that ensure that the AI system does not negatively impact democracy.</a>
+   </li>
+   <li>
+      <a href="#DGQ2.5"
+         title="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.5">Establish measures to achieve Data minimisation, in particular personal data (including special categories of data).</a>
+   </li>
+   <li>
+      <a href="#DGQ2.4"
+         title="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.4">Establish measures to achieve privacy-by-design and default (e.g. encryption, pseudonymisation, aggregation, anonymisation).</a>
+   </li>
+   <li>
+      <a href="#TrcQ1.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.1">Establish measures to continuously assess the quality of the input data to the AI system.</a>
+   </li>
+   <li>
+      <a href="#TrcQ1.4"
+         title="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.4">Establish measures to continuously assess the quality of the output(s) of the AI system.</a>
+   </li>
+   <li>
+      <a href="#IWSQ4.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#IWSQ4.1">Establish measures to counteract de-skilling risks.</a>
+   </li>
+   <li>
+      <a href="#HAAQ6.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.1">Establish measures to deal with possible negative consequences for end-users or subjects in case they develop a disproportionate attachment to the AI System.</a>
+   </li>
+   <li>
+      <a href="#AcQ2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AcQ2">Establish measures to ensure that the data (including training data) used to develop the AI system is up-to-date, of high quality, complete and representative of the environment the system will be deployed in.</a>
+   </li>
+   <li>
+      <a href="#IWSQ3"
+         title="https://delaramglp.github.io/aidocs/altai-activity#IWSQ3">Establish measures to ensure that the impacts of the AI system on human work are well understood.</a>
+   </li>
+   <li>
+      <a href="#RASQ4"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RASQ4">Establish measures to ensure the integrity, robustness and overall security of the AI system against potential attacks over its lifecycle.</a>
+   </li>
+   <li>
+      <a href="#ISDQ1.2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.2">Establish measures to minimize potential societal harm of the AI system.</a>
+   </li>
+   <li>
+      <a href="#AUBQ5.3"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.3">Establish mechanisms (Ensure a quantitative analysis or metrics) to measure and test the applied definition of fairness.</a>
+   </li>
+   <li>
+      <a href="#PrQ2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#PrQ2">Establish mechanisms that allow flagging issues related to privacy concerning the AI system.</a>
+   </li>
+   <li>
+      <a href="#AudQ1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AudQ1">Establish mechanisms that facilitate the AI system’s auditability (e.g. traceability of the development process, the sourcing of training data and the logging of the AI system’s processes, outcomes, positive and negative impact).</a>
+   </li>
+   <li>
+      <a href="#AUBQ5.4"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.4">Establish mechanisms to ensure fairness in your AI system.</a>
+   </li>
+   <li>
+      <a href="#EWQ2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#EWQ2">Establish mechanisms to evaluate the environmental impact of the AI system’s development, deployment and/or use.</a>
+   </li>
+   <li>
+      <a href="#DGQ2.3"
+         title="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.3">Establish oversight mechanisms for data processing (including limiting access to qualified personnel, mechanisms for logging data access and making modifications).</a>
+   </li>
+   <li>
+      <a href="#HAAQ3.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ3.1">Establish procedures to avoid end-users over-reliance on the AI system.</a>
+   </li>
+   <li>
+      <a href="#HAAQ4.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ4.1">Establish procedures to avoid the inadvertent affects of the AI system on human autonomy.</a>
+   </li>
+   <li>
+      <a href="#RFPRQ2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2">Establish processes (verification and validation methods and documentation (e.g. logging)) to evaluate and ensure different aspects of the AI system’s reliability and reproducibility.</a>
+   </li>
+   <li>
+      <a href="#FRQ2.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#FRQ2.1">Establish processes to address and rectify for potential harm to children by the AI system.</a>
+   </li>
+   <li>
+      <a href="#FRQ4.2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#FRQ4.2">Establish processes to address and rectify for potential infringement on freedom of expression and information, and/or freedom of assembly and association, in the AI system.</a>
+   </li>
+   <li>
+      <a href="#FRQ1.2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#FRQ1.2">Establish processes to address and rectify for potential negative discrimination (bias) in the AI system.</a>
+   </li>
+   <li>
+      <a href="#FRQ3.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#FRQ3.1">Establish processes to assess in detail the need for a data protection impact assessment, including an assessment of the necessity and proportionality of the processing operations in relation to their purpose, with respect to the development, deployment and use phases of the AI system.</a>
+   </li>
+   <li>
+      <a href="#AcQ5"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AcQ5">Establish processes to ensure that the level of accuracy of the AI system to be expected by end-users and/or subjects is properly communicated.</a>
+   </li>
+   <li>
+      <a href="#AUBQ2.3"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.3">Establish processes to test and monitor for potential biases during the entire lifecycle of the AI system.</a>
+   </li>
+   <li>
+      <a href="#FRQ2.2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#FRQ2.2">Establish processes to test and monitor for potential harm to children during the development, deployment and use phases of the AI system.</a>
+   </li>
+   <li>
+      <a href="#FRQ4.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#FRQ4.1">Establish processes to test and monitor for potential infringement on freedom of expression and information, and/or freedom of assembly and association, during the development, deployment and use phases of the AI system.</a>
+   </li>
+   <li>
+      <a href="#FRQ1.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#FRQ1.1">Establish processes to test and monitor for potential negative discrimination (bias) during the development, deployment and use phases of the AI system.</a>
+   </li>
+   <li>
+      <a href="#RMQ6"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RMQ6">Establish redress by design mechanisms for applications that can adversely affect individuals.</a>
+   </li>
+   <li>
+      <a href="#AcQ3"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AcQ3">Establish set of activities to monitor, and document the AI system’s accuracy.</a>
+   </li>
+   <li>
+      <a href="#TrcQ1.3"
+         title="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.3">Evaluate whether it is feasible to trace back which AI model or rules led to the decision(s) or recommendation(s) of the AI system.</a>
+   </li>
+   <li>
+      <a href="#TrcQ1.2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.2">Evaluate whether it is feasible to trace back which data was used by the AI system to make a certain decision(s) or recommendation(s).</a>
+   </li>
+   <li>
+      <a href="#RFPRQ1.2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.2">Evaluate whether specific contexts or conditions need to be taken into account to ensure reproducibility.</a>
+   </li>
+   <li>
+      <a href="#ExpQ1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#ExpQ1">Explain the decision(s) of the AI system to the users.</a>
+   </li>
+   <li>
+      <a href="#RASQ3.2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RASQ3.2">Identify and assess different types of vulnerabilities and potential entry points for attacks such as: Data poisoning, model evasion, and  model inversion.</a>
+   </li>
+   <li>
+      <a href="#EWQ1.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#EWQ1.1">Identify the negative impacts of the AI system on the environment.</a>
+   </li>
+   <li>
+      <a href="#GSQ2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#GSQ2">Identify the possible threats to the AI system (design faults, technical faults, environmental threats) and the possible consequences.</a>
+   </li>
+   <li>
+      <a href="#AUBQ4.2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.2">Identify the subjects that could potentially be (in)directly affected by the AI system, in addition to the (end-)users and/or subjects.</a>
+   </li>
+   <li>
+      <a href="#ComQ1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#ComQ1">In cases of interactive AI systems, communicate to users that they are interacting with an AI system instead of a human.</a>
+   </li>
+   <li>
+      <a href="#SPQ1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#SPQ1">Include the participation of the widest range of possible stakeholders in the AI system’s design and development.</a>
+   </li>
+   <li>
+      <a href="#IWSQ2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#IWSQ2">Inform and consult with impacted workers and their representatives (trade unions, (European) work councils) in advance to introducing the system in the organisation.</a>
+   </li>
+   <li>
+      <a href="#GSQ1.2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#GSQ1.2">Inform end-users and subjects of existing or potential risks.</a>
+   </li>
+   <li>
+      <a href="#RASQ6"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RASQ6">Inform end-users of the duration of security coverage and updates.</a>
+   </li>
+   <li>
+      <a href="#HAAQ1.2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.2">Inform end-users or other subjects that a decision, content, advice or outcome is the result of an algorithmic decision.</a>
+   </li>
+   <li>
+      <a href="#HAAQ2.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ2.1">Inform end-users or subjects that they are interacting with an AI system.</a>
+   </li>
+   <li>
+      <a href="#ComQ2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#ComQ2">Inform users about the purpose, criteria and limitations of the decision(s) generated by the AI system.</a>
+   </li>
+   <li>
+      <a href="#GSQ4"
+         title="https://delaramglp.github.io/aidocs/altai-activity#GSQ4">Plan fault tolerance.</a>
+   </li>
+   <li>
+      <a href="#ComQ2.3"
+         title="https://delaramglp.github.io/aidocs/altai-activity#ComQ2.3">Provide appropriate training material and disclaimers to users on how to adequately use the AI system.</a>
+   </li>
+   <li>
+      <a href="#RMQ4.2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RMQ4.2">Provide appropriate training to those involved in such a process [monitoring and assessing the system's adherence to ALTAI] which covers the legal framework applicable to the AI system.</a>
+   </li>
+   <li>
+      <a href="#RMQ2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#RMQ2">Provide risk training and inform [the staff] about the potential legal framework applicable to the AI system.</a>
+   </li>
+   <li>
+      <a href="#HOQ2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HOQ2">Provide the humans (human-in-the-loop, human-on-the-loop, human-in-command) training on how to exercise oversight.</a>
+   </li>
+   <li>
+      <a href="#AUBQ3"
+         title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ3">Provide training (Put in place educational and awareness initiatives) to help AI designers and AI developers be more aware of the possible bias they can inject in designing and developing the AI system.</a>
+   </li>
+   <li>
+      <a href="#IWSQ5.1"
+         title="https://delaramglp.github.io/aidocs/altai-activity#IWSQ5.1">Provide training opportunities and materials for re- and up-skilling.</a>
+   </li>
+   <li>
+      <a href="#TrcQ1.5"
+         title="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.5">Put in place adequate logging practices to record the decision(s) or recommendation(s) of the AI system are implemented.</a>
+   </li>
+   <li>
+      <a href="#HAAQ6.2"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.2">Take measures to minimise the risk of addiction.</a>
+   </li>
+   <li>
+      <a href="#HAAQ6.3"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.3">Take measures to mitigate the risk of manipulation.</a>
+   </li>
+   <li>
+      <a href="#HOQ5"
+         title="https://delaramglp.github.io/aidocs/altai-activity#HOQ5">Take oversight and control measures to reflect the self-learning or autonomous nature of the AI system.</a>
+   </li>
+</ul><iframe align="center" width="100%" height ="500px" src="webvowl/index.html"></iframe> 
+</div>
+  
+
+<!--DESCRIPTION SECTION-->
+    <div id="description"><h2 id="desc" class="list">: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+This is a placeholder text for the description of your ontology. The description should include an explanation and a diagram explaining how the classes are related, examples of usage, etc.</span>
+
+</div>
+   
+
+<!--CROSSREF SECTION-->
+   <div id="crossref"><h2 id="crossreference" class="list">Cross reference for  classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by .
+<div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#RASQ5"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RASQ5">(Establish processes for) red-teaming/ pentesting the system.</a>
+      </li>
+      <li>
+         <a href="#DGQ2.6"
+            title="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.6">(Establish processes to) implement the right to withdraw consent, the right to object and the right to be forgotten into the development of the AI system.</a>
+      </li>
+      <li>
+         <a href="#RMQ4.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RMQ4.1">[Establish a process to discuss and continuously monitor and assess the AI system's adherence to this Assessment List for Trustworthy AI (ALTAI) which] Include[s] identification and documentation of conflicts between the 6 aforementioned requirements or between different ethical principles and explanation of the 'trade-off' decisions made in the process.</a>
+      </li>
+      <li>
+         <a href="#DGQ4"
+            title="https://delaramglp.github.io/aidocs/altai-activity#DGQ4">Align the AI system with relevant standards (e.g. ISO, IEEE) or widely adopted protocols for (daily) data management and governance.</a>
+      </li>
+      <li>
+         <a href="#GSQ3.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#GSQ3.1">Align the reliability/testing requirements to the appropriate levels of stability and reliability.</a>
+      </li>
+      <li>
+         <a href="#RASQ3"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RASQ3">Assess exposure of the AI system to cyber-attacks.</a>
+      </li>
+      <li>
+         <a href="#PrQ1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#PrQ1">Assess impact of the AI system on the right to privacy, the right to physical, mental and/or moral integrity and the right to data protection.</a>
+      </li>
+      <li>
+         <a href="#RASQ3.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RASQ3.1">Assess potential forms of attacks to which the AI system could be vulnerable.</a>
+      </li>
+      <li>
+         <a href="#RFPRQ5.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5.1">Assess potential negative consequences from the AI system learning novel or unusual methods to score well on its objective function</a>
+      </li>
+      <li>
+         <a href="#EWQ1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#EWQ1">Assess potential negative impacts of the AI system on the environment.</a>
+      </li>
+      <li>
+         <a href="#GSQ3"
+            title="https://delaramglp.github.io/aidocs/altai-activity#GSQ3">Assess the dependency of a critical AI system’s decisions on its stable and reliable behaviour.</a>
+      </li>
+      <li>
+         <a href="#AUDQ4"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUDQ4">Assess the impact of the AI system on the potential end-users and/or subjects into account.</a>
+      </li>
+      <li>
+         <a href="#GSQ2.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#GSQ2.1">Assess the risk of possible malicious use, misuse or inappropriate use of the AI system.</a>
+      </li>
+      <li>
+         <a href="#AUDQ4.3"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.3">Assess the risk of the possible unfairness of the system onto the end-user's or subject's communities</a>
+      </li>
+      <li>
+         <a href="#ISDQ1.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.1">Assess the societal impact of the AI system’s use beyond the (end-)user and subject, such as potentially indirectly affected stakeholders or society at large.</a>
+      </li>
+      <li>
+         <a href="#AcQ1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AcQ1">Assess whether a low level of accuracy of the AI system can result in critical, adversarial or damaging consequences.</a>
+      </li>
+      <li>
+         <a href="#AUBQ2.4"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.4">Assess whether diversity and representativeness of end-users and or subjects in the data is considered where relevant.</a>
+      </li>
+      <li>
+         <a href="#AUBQ2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ2">Assess whether diversity and representativeness of end-users and/or subjects in the data is considered.</a>
+      </li>
+      <li>
+         <a href="#AUBQ2.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.1">Assess whether specific target groups or problematic use cases are considered.</a>
+      </li>
+      <li>
+         <a href="#AUDQ2.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.1">Assess whether that information about, and the AI system's user interface of, the AI system is accessible and usable also to users of assistive technologies (such as screen readers).</a>
+      </li>
+      <li>
+         <a href="#HAAQ3"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ3">Assess whether the AI system affects human autonomy by generating over-reliance by end-users.</a>
+      </li>
+      <li>
+         <a href="#HAAQ4"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ4">Assess whether the AI system affects human autonomy by interfering with the end-user’s decision-making process in any other unintended and undesirable way.</a>
+      </li>
+      <li>
+         <a href="#AudQ2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AudQ2">Assess whether the AI system can be audited by independent third parties. </a>
+      </li>
+      <li>
+         <a href="#RFPRQ1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1">Assess whether the AI system can cause critical, adversarial, or damaging consequences (e.g. pertaining to human safety) in case of low reliability and/or reproducibility.</a>
+      </li>
+      <li>
+         <a href="#IWSQ4"
+            title="https://delaramglp.github.io/aidocs/altai-activity#IWSQ4">Assess whether the AI system can create the risk of de-skilling of the workforce.</a>
+      </li>
+      <li>
+         <a href="#AUDQ1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUDQ1">Assess whether the AI system corresponds to the variety of preferences and abilities in society.</a>
+      </li>
+      <li>
+         <a href="#HAAQ1.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.1">Assess whether the AI system generates confusion for some or all end-users or subjects on whether a decision, content, advice or outcome is the result of an algorithmic decision.</a>
+      </li>
+      <li>
+         <a href="#HAAQ2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ2">Assess whether the AI system generates confusion for some or all end-users or subjects on whether they are interacting with a human or AI system.</a>
+      </li>
+      <li>
+         <a href="#RASQ1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RASQ1">Assess whether the AI system has adversarial, critical or damaging effects (e.g. to human or societal safety) in case of risks or threats such as design or technical faults, defects, outages, attacks, misuse, inappropriate or malicious use.</a>
+      </li>
+      <li>
+         <a href="#ISDQ1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#ISDQ1">Assess whether the AI system have a negative impact on society at large or democracy.</a>
+      </li>
+      <li>
+         <a href="#IWSQ1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#IWSQ1">Assess whether the AI system impacts human work and work arrangements.</a>
+      </li>
+      <li>
+         <a href="#FR1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#FR1">Assess whether the AI system potentially negatively discriminates against people on the basis of any of the following grounds (non-exhaustively): sex, race, colour, ethnic or social origin, genetic features, language, religion or belief, political or any other opinion, membership of a national minority, property, birth, disability, age or sexual orientation.</a>
+      </li>
+      <li>
+         <a href="#FRQ3"
+            title="https://delaramglp.github.io/aidocs/altai-activity#FRQ3">Assess whether the AI system protect personal data relating to individuals in line with GDPR.</a>
+      </li>
+      <li>
+         <a href="#FRQ4"
+            title="https://delaramglp.github.io/aidocs/altai-activity#FRQ4">Assess whether the AI system respect the freedom of expression and information and/or freedom of assembly and association.</a>
+      </li>
+      <li>
+         <a href="#FRQ2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#FRQ2">Assess whether the AI system respect the rights of the child.</a>
+      </li>
+      <li>
+         <a href="#HAAQ6"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ6">Assess whether the AI system risk creating human attachment, stimulating addictive behaviour, or manipulating user behaviour.</a>
+      </li>
+      <li>
+         <a href="#AcQ4"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AcQ4">Assess whether the AI system's operation can invalidate the data or assumptions it was trained on, and how this might lead to adversarial effects.</a>
+      </li>
+      <li>
+         <a href="#AUDQ2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUDQ2">Assess whether the AI system's user interface is usable by those with special needs or disabilities or those at risk of exclusion.</a>
+      </li>
+      <li>
+         <a href="#DGQ2.7"
+            title="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.7">Assess whether the privacy and data protection implications of data collected, generated or processed over the course of the AI system's life cycle is considered.</a>
+      </li>
+      <li>
+         <a href="#DGQ3"
+            title="https://delaramglp.github.io/aidocs/altai-activity#DGQ3">Assess whether the privacy and data protection implications of the AI system's non-personal training-data or other processed non-personal data is considered.</a>
+      </li>
+      <li>
+         <a href="#AUDQ4.2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.2">Assess whether there could be groups who might be disproportionately affected by the outcomes of the AI system.</a>
+      </li>
+      <li>
+         <a href="#RMQ5.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RMQ5.1">Assess whether this process foster revision of the risk management process.</a>
+      </li>
+      <li>
+         <a href="#RMQ1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RMQ1">Assess whether you will make use of external guidance or third-party auditing processes to oversee ethical concerns and accountability measures.</a>
+      </li>
+      <li>
+         <a href="#AUBQ5"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ5">Assess whether your definition of fairness is commonly used and implemented in any phase of the process of setting up the AI system.</a>
+      </li>
+      <li>
+         <a href="#ComQ2.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#ComQ2.1">Communicate the benefits of the AI system to users.</a>
+      </li>
+      <li>
+         <a href="#ComQ2.2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#ComQ2.2">Communicate the technical limitations and potential risks of the AI system to users, such as its level of accuracy and/ or error rates.</a>
+      </li>
+      <li>
+         <a href="#AUDQ2.2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.2">Consult with end-users or subjects in need for assistive technology during the planning and development phase of the AI system.</a>
+      </li>
+      <li>
+         <a href="#AUBQ5.2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.2">Consult with the impacted communities about the correct definition of fairness, i.e. representatives of elderly persons or persons with disabilities.</a>
+      </li>
+      <li>
+         <a href="#ExpQ2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#ExpQ2">Continuously survey the users if they understand the decision(s) of the AI system.</a>
+      </li>
+      <li>
+         <a href="#EWQ2.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#EWQ2.1">Define measures to reduce the environmental impact of the AI system throughout its lifecycle.</a>
+      </li>
+      <li>
+         <a href="#GSQ1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#GSQ1">Define risks, risk metrics and risk levels of the AI system in each specific use case.</a>
+      </li>
+      <li>
+         <a href="#GSQ2.2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#GSQ2.2">Define safety criticality levels (e.g. related to human integrity) of the possible consequences of faults or misuse of the AI system.</a>
+      </li>
+      <li>
+         <a href="#RFPRQ3"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ3">Define tested failsafe fallback plans to address AI system errors of whatever origin and put governance procedures in place to trigger them.</a>
+      </li>
+      <li>
+         <a href="#DGQ2.2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.2">Designate a Data Protection Officer (DPO) and include them at an early state in the development, procurement or use phase of the AI system.</a>
+      </li>
+      <li>
+         <a href="#RASQ6.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RASQ6.1">Determine the expected timeframe within which security updates for the AI system is provided.</a>
+      </li>
+      <li>
+         <a href="#RASQ2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RASQ2">Determine whether AI system is certified for cybersecurity or is compliant with specific security standards.</a>
+      </li>
+      <li>
+         <a href="#AUBQ2.2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.2">Determine whether publicly available technical tools, that are state-of-the-art are used to improve your understanding of the data, model and performance.</a>
+      </li>
+      <li>
+         <a href="#HOQ1.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HOQ1.1">Determine whether the AI system is a self-learning or autonomous system.</a>
+      </li>
+      <li>
+         <a href="#DGQ1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#DGQ1">Determine whether the AI system is being trained, or was it developed, by using or processing personal data (including special categories of personal data).</a>
+      </li>
+      <li>
+         <a href="#HAAQ1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ1">Determine whether the AI system is designed to interact, guide or take decisions by human end-users that affect humans or society.</a>
+      </li>
+      <li>
+         <a href="#HOQ1.4"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HOQ1.4">Determine whether the AI system is overseen by a Human-in-Command.</a>
+      </li>
+      <li>
+         <a href="#HOQ1.2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HOQ1.2">Determine whether the AI system is overseen by a Human-in-the-Loop.</a>
+      </li>
+      <li>
+         <a href="#HOQ1.3"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HOQ1.3">Determine whether the AI system is overseen by a Human-on-the-Loop.</a>
+      </li>
+      <li>
+         <a href="#RFPRQ5"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5">Determine whether the AI system is using (online) continual learning.</a>
+      </li>
+      <li>
+         <a href="#HAAQ5"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ5">Determine whether the AI system simulates social interaction with or between end-users or subjects.</a>
+      </li>
+      <li>
+         <a href="#RMQ1.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RMQ1.1">Determine whether the involvement of third parties go beyond the development phase.</a>
+      </li>
+      <li>
+         <a href="#IWSQ5"
+            title="https://delaramglp.github.io/aidocs/altai-activity#IWSQ5">Determine whether the system promote or require new (digital) skills.</a>
+      </li>
+      <li>
+         <a href="#AUDQ4.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.1">Determine whether the team involved in building the AI system engaged with the possible target end-users and/or subjects.</a>
+      </li>
+      <li>
+         <a href="#AUBQ5.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.1">Determine whether you considered different definitions of fairness before choosing one.</a>
+      </li>
+      <li>
+         <a href="#GSQ5"
+            title="https://delaramglp.github.io/aidocs/altai-activity#GSQ5">Develop a mechanism to evaluate when the AI system has been changed to merit a new review of its technical robustness and safety.</a>
+      </li>
+      <li>
+         <a href="#AUDQ3"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUDQ3">Ensure that Universal Design principles are taken into account during every step of the planning and development process, if applicable.</a>
+      </li>
+      <li>
+         <a href="#IWSQ3.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#IWSQ3.1">Ensure that workers understand how the AI system operates, which capabilities it has and which it does not have.</a>
+      </li>
+      <li>
+         <a href="#RFPRQ2.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2.1">Establish (Document and operationalise) processes for the testing and verification of the reliability and reproducibility of the AI system.</a>
+      </li>
+      <li>
+         <a href="#AUBQ4"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ4">Establish a mechanism that allows for the flagging of issues related to bias, discrimination or poor performance of the AI system.</a>
+      </li>
+      <li>
+         <a href="#RFPRQ4"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ4">Establish a procedure for handling the cases where the AI system yields results with a low confidence score.</a>
+      </li>
+      <li>
+         <a href="#HOQ4"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HOQ4">Establish a procedure to safely abort an operation when needed.</a>
+      </li>
+      <li>
+         <a href="#RMQ5"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RMQ5">Establish a process for third parties (e.g. suppliers, end-users, subjects, distributors/vendors or workers) to report potential vulnerabilities, risks or biases in the AI system.</a>
+      </li>
+      <li>
+         <a href="#GSQ1.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#GSQ1.1">Establish a process to continuously measure and assess risks.</a>
+      </li>
+      <li>
+         <a href="#RMQ4"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RMQ4">Establish a process to discuss and continuously monitor and assess the AI system's adherence to this Assessment List for Trustworthy AI (ALTAI).</a>
+      </li>
+      <li>
+         <a href="#RFPRQ1.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.1">Establish a process to monitor if the AI system is meeting the intended goals.</a>
+      </li>
+      <li>
+         <a href="#AUBQ1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ1">Establish a strategy or a set of procedures to avoid creating or reinforcing unfair bias in the AI system, both regarding the use of input data as well as for the algorithm design.</a>
+      </li>
+      <li>
+         <a href="#RMQ3"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RMQ3">Establish an AI ethics review board (or a similar mechanism) to assess (discuss) the overall accountability and ethics practices, including potential unclear grey areas.</a>
+      </li>
+      <li>
+         <a href="#AUBQ4.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.1">Establish clear steps (processes) and ways of communicating on how and to whom issues related to bias, discrimination or poor performance of the AI system can be raised.</a>
+      </li>
+      <li>
+         <a href="#HOQ3"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HOQ3">Establish detection and/or response mechanisms for undesirable adverse effects of the AI system for the end-user or subject.</a>
+      </li>
+      <li>
+         <a href="#FRQ3.2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#FRQ3.2">Establish measures envisaged to address the risks, including safeguards, security measures and mechanisms to ensure the protection of personal data with respect to the development, deployment and use phases of the AI system.</a>
+      </li>
+      <li>
+         <a href="#DGQ2.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.1">Establish measures for Data Protection Impact Assessment (DPIA). </a>
+      </li>
+      <li>
+         <a href="#TrcQ1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1">Establish measures that address the traceability of the AI system during its entire lifecycle.</a>
+      </li>
+      <li>
+         <a href="#ISDQ1.3"
+            title="https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.3">Establish measures that ensure that the AI system does not negatively impact democracy.</a>
+      </li>
+      <li>
+         <a href="#DGQ2.5"
+            title="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.5">Establish measures to achieve Data minimisation, in particular personal data (including special categories of data).</a>
+      </li>
+      <li>
+         <a href="#DGQ2.4"
+            title="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.4">Establish measures to achieve privacy-by-design and default (e.g. encryption, pseudonymisation, aggregation, anonymisation).</a>
+      </li>
+      <li>
+         <a href="#TrcQ1.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.1">Establish measures to continuously assess the quality of the input data to the AI system.</a>
+      </li>
+      <li>
+         <a href="#TrcQ1.4"
+            title="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.4">Establish measures to continuously assess the quality of the output(s) of the AI system.</a>
+      </li>
+      <li>
+         <a href="#IWSQ4.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#IWSQ4.1">Establish measures to counteract de-skilling risks.</a>
+      </li>
+      <li>
+         <a href="#HAAQ6.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.1">Establish measures to deal with possible negative consequences for end-users or subjects in case they develop a disproportionate attachment to the AI System.</a>
+      </li>
+      <li>
+         <a href="#AcQ2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AcQ2">Establish measures to ensure that the data (including training data) used to develop the AI system is up-to-date, of high quality, complete and representative of the environment the system will be deployed in.</a>
+      </li>
+      <li>
+         <a href="#IWSQ3"
+            title="https://delaramglp.github.io/aidocs/altai-activity#IWSQ3">Establish measures to ensure that the impacts of the AI system on human work are well understood.</a>
+      </li>
+      <li>
+         <a href="#RASQ4"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RASQ4">Establish measures to ensure the integrity, robustness and overall security of the AI system against potential attacks over its lifecycle.</a>
+      </li>
+      <li>
+         <a href="#ISDQ1.2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.2">Establish measures to minimize potential societal harm of the AI system.</a>
+      </li>
+      <li>
+         <a href="#AUBQ5.3"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.3">Establish mechanisms (Ensure a quantitative analysis or metrics) to measure and test the applied definition of fairness.</a>
+      </li>
+      <li>
+         <a href="#PrQ2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#PrQ2">Establish mechanisms that allow flagging issues related to privacy concerning the AI system.</a>
+      </li>
+      <li>
+         <a href="#AudQ1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AudQ1">Establish mechanisms that facilitate the AI system’s auditability (e.g. traceability of the development process, the sourcing of training data and the logging of the AI system’s processes, outcomes, positive and negative impact).</a>
+      </li>
+      <li>
+         <a href="#AUBQ5.4"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.4">Establish mechanisms to ensure fairness in your AI system.</a>
+      </li>
+      <li>
+         <a href="#EWQ2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#EWQ2">Establish mechanisms to evaluate the environmental impact of the AI system’s development, deployment and/or use.</a>
+      </li>
+      <li>
+         <a href="#DGQ2.3"
+            title="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.3">Establish oversight mechanisms for data processing (including limiting access to qualified personnel, mechanisms for logging data access and making modifications).</a>
+      </li>
+      <li>
+         <a href="#HAAQ3.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ3.1">Establish procedures to avoid end-users over-reliance on the AI system.</a>
+      </li>
+      <li>
+         <a href="#HAAQ4.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ4.1">Establish procedures to avoid the inadvertent affects of the AI system on human autonomy.</a>
+      </li>
+      <li>
+         <a href="#RFPRQ2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2">Establish processes (verification and validation methods and documentation (e.g. logging)) to evaluate and ensure different aspects of the AI system’s reliability and reproducibility.</a>
+      </li>
+      <li>
+         <a href="#FRQ2.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#FRQ2.1">Establish processes to address and rectify for potential harm to children by the AI system.</a>
+      </li>
+      <li>
+         <a href="#FRQ4.2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#FRQ4.2">Establish processes to address and rectify for potential infringement on freedom of expression and information, and/or freedom of assembly and association, in the AI system.</a>
+      </li>
+      <li>
+         <a href="#FRQ1.2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#FRQ1.2">Establish processes to address and rectify for potential negative discrimination (bias) in the AI system.</a>
+      </li>
+      <li>
+         <a href="#FRQ3.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#FRQ3.1">Establish processes to assess in detail the need for a data protection impact assessment, including an assessment of the necessity and proportionality of the processing operations in relation to their purpose, with respect to the development, deployment and use phases of the AI system.</a>
+      </li>
+      <li>
+         <a href="#AcQ5"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AcQ5">Establish processes to ensure that the level of accuracy of the AI system to be expected by end-users and/or subjects is properly communicated.</a>
+      </li>
+      <li>
+         <a href="#AUBQ2.3"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.3">Establish processes to test and monitor for potential biases during the entire lifecycle of the AI system.</a>
+      </li>
+      <li>
+         <a href="#FRQ2.2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#FRQ2.2">Establish processes to test and monitor for potential harm to children during the development, deployment and use phases of the AI system.</a>
+      </li>
+      <li>
+         <a href="#FRQ4.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#FRQ4.1">Establish processes to test and monitor for potential infringement on freedom of expression and information, and/or freedom of assembly and association, during the development, deployment and use phases of the AI system.</a>
+      </li>
+      <li>
+         <a href="#FRQ1.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#FRQ1.1">Establish processes to test and monitor for potential negative discrimination (bias) during the development, deployment and use phases of the AI system.</a>
+      </li>
+      <li>
+         <a href="#RMQ6"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RMQ6">Establish redress by design mechanisms for applications that can adversely affect individuals.</a>
+      </li>
+      <li>
+         <a href="#AcQ3"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AcQ3">Establish set of activities to monitor, and document the AI system’s accuracy.</a>
+      </li>
+      <li>
+         <a href="#TrcQ1.3"
+            title="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.3">Evaluate whether it is feasible to trace back which AI model or rules led to the decision(s) or recommendation(s) of the AI system.</a>
+      </li>
+      <li>
+         <a href="#TrcQ1.2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.2">Evaluate whether it is feasible to trace back which data was used by the AI system to make a certain decision(s) or recommendation(s).</a>
+      </li>
+      <li>
+         <a href="#RFPRQ1.2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.2">Evaluate whether specific contexts or conditions need to be taken into account to ensure reproducibility.</a>
+      </li>
+      <li>
+         <a href="#ExpQ1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#ExpQ1">Explain the decision(s) of the AI system to the users.</a>
+      </li>
+      <li>
+         <a href="#RASQ3.2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RASQ3.2">Identify and assess different types of vulnerabilities and potential entry points for attacks such as: Data poisoning, model evasion, and  model inversion.</a>
+      </li>
+      <li>
+         <a href="#EWQ1.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#EWQ1.1">Identify the negative impacts of the AI system on the environment.</a>
+      </li>
+      <li>
+         <a href="#GSQ2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#GSQ2">Identify the possible threats to the AI system (design faults, technical faults, environmental threats) and the possible consequences.</a>
+      </li>
+      <li>
+         <a href="#AUBQ4.2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.2">Identify the subjects that could potentially be (in)directly affected by the AI system, in addition to the (end-)users and/or subjects.</a>
+      </li>
+      <li>
+         <a href="#ComQ1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#ComQ1">In cases of interactive AI systems, communicate to users that they are interacting with an AI system instead of a human.</a>
+      </li>
+      <li>
+         <a href="#SPQ1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#SPQ1">Include the participation of the widest range of possible stakeholders in the AI system’s design and development.</a>
+      </li>
+      <li>
+         <a href="#IWSQ2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#IWSQ2">Inform and consult with impacted workers and their representatives (trade unions, (European) work councils) in advance to introducing the system in the organisation.</a>
+      </li>
+      <li>
+         <a href="#GSQ1.2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#GSQ1.2">Inform end-users and subjects of existing or potential risks.</a>
+      </li>
+      <li>
+         <a href="#RASQ6"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RASQ6">Inform end-users of the duration of security coverage and updates.</a>
+      </li>
+      <li>
+         <a href="#HAAQ1.2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.2">Inform end-users or other subjects that a decision, content, advice or outcome is the result of an algorithmic decision.</a>
+      </li>
+      <li>
+         <a href="#HAAQ2.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ2.1">Inform end-users or subjects that they are interacting with an AI system.</a>
+      </li>
+      <li>
+         <a href="#ComQ2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#ComQ2">Inform users about the purpose, criteria and limitations of the decision(s) generated by the AI system.</a>
+      </li>
+      <li>
+         <a href="#GSQ4"
+            title="https://delaramglp.github.io/aidocs/altai-activity#GSQ4">Plan fault tolerance.</a>
+      </li>
+      <li>
+         <a href="#ComQ2.3"
+            title="https://delaramglp.github.io/aidocs/altai-activity#ComQ2.3">Provide appropriate training material and disclaimers to users on how to adequately use the AI system.</a>
+      </li>
+      <li>
+         <a href="#RMQ4.2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RMQ4.2">Provide appropriate training to those involved in such a process [monitoring and assessing the system's adherence to ALTAI] which covers the legal framework applicable to the AI system.</a>
+      </li>
+      <li>
+         <a href="#RMQ2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#RMQ2">Provide risk training and inform [the staff] about the potential legal framework applicable to the AI system.</a>
+      </li>
+      <li>
+         <a href="#HOQ2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HOQ2">Provide the humans (human-in-the-loop, human-on-the-loop, human-in-command) training on how to exercise oversight.</a>
+      </li>
+      <li>
+         <a href="#AUBQ3"
+            title="https://delaramglp.github.io/aidocs/altai-activity#AUBQ3">Provide training (Put in place educational and awareness initiatives) to help AI designers and AI developers be more aware of the possible bias they can inject in designing and developing the AI system.</a>
+      </li>
+      <li>
+         <a href="#IWSQ5.1"
+            title="https://delaramglp.github.io/aidocs/altai-activity#IWSQ5.1">Provide training opportunities and materials for re- and up-skilling.</a>
+      </li>
+      <li>
+         <a href="#TrcQ1.5"
+            title="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.5">Put in place adequate logging practices to record the decision(s) or recommendation(s) of the AI system are implemented.</a>
+      </li>
+      <li>
+         <a href="#HAAQ6.2"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.2">Take measures to minimise the risk of addiction.</a>
+      </li>
+      <li>
+         <a href="#HAAQ6.3"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.3">Take measures to mitigate the risk of manipulation.</a>
+      </li>
+      <li>
+         <a href="#HOQ5"
+            title="https://delaramglp.github.io/aidocs/altai-activity#HOQ5">Take oversight and control measures to reflect the self-learning or autonomous nature of the AI system.</a>
+      </li>
+   </ul>
+   <div class="entity" id="RASQ5">
+      <h3>(Establish processes for) red-teaming/ pentesting the system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RASQ5</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DGQ2.6">
+      <h3>(Establish processes to) implement the right to withdraw consent, the right to object and the right to be forgotten into the development of the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#DGQ2.6</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RMQ4.1">
+      <h3>[Establish a process to discuss and continuously monitor and assess the AI system's adherence to this Assessment List for Trustworthy AI (ALTAI) which] Include[s] identification and documentation of conflicts between the 6 aforementioned requirements or between different ethical principles and explanation of the 'trade-off' decisions made in the process.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RMQ4.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DGQ4">
+      <h3>Align the AI system with relevant standards (e.g. ISO, IEEE) or widely adopted protocols for (daily) data management and governance.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#DGQ4</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="GSQ3.1">
+      <h3>Align the reliability/testing requirements to the appropriate levels of stability and reliability.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#GSQ3.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RASQ3">
+      <h3>Assess exposure of the AI system to cyber-attacks.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RASQ3</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PrQ1">
+      <h3>Assess impact of the AI system on the right to privacy, the right to physical, mental and/or moral integrity and the right to data protection.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#PrQ1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RASQ3.1">
+      <h3>Assess potential forms of attacks to which the AI system could be vulnerable.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RASQ3.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RFPRQ5.1">
+      <h3>Assess potential negative consequences from the AI system learning novel or unusual methods to score well on its objective function<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="EWQ1">
+      <h3>Assess potential negative impacts of the AI system on the environment.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#EWQ1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="GSQ3">
+      <h3>Assess the dependency of a critical AI system’s decisions on its stable and reliable behaviour.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#GSQ3</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUDQ4">
+      <h3>Assess the impact of the AI system on the potential end-users and/or subjects into account.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUDQ4</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="GSQ2.1">
+      <h3>Assess the risk of possible malicious use, misuse or inappropriate use of the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#GSQ2.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUDQ4.3">
+      <h3>Assess the risk of the possible unfairness of the system onto the end-user's or subject's communities<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.3</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ISDQ1.1">
+      <h3>Assess the societal impact of the AI system’s use beyond the (end-)user and subject, such as potentially indirectly affected stakeholders or society at large.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AcQ1">
+      <h3>Assess whether a low level of accuracy of the AI system can result in critical, adversarial or damaging consequences.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AcQ1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUBQ2.4">
+      <h3>Assess whether diversity and representativeness of end-users and or subjects in the data is considered where relevant.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.4</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUBQ2">
+      <h3>Assess whether diversity and representativeness of end-users and/or subjects in the data is considered.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUBQ2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUBQ2.1">
+      <h3>Assess whether specific target groups or problematic use cases are considered.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUDQ2.1">
+      <h3>Assess whether that information about, and the AI system's user interface of, the AI system is accessible and usable also to users of assistive technologies (such as screen readers).<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HAAQ3">
+      <h3>Assess whether the AI system affects human autonomy by generating over-reliance by end-users.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HAAQ3</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HAAQ4">
+      <h3>Assess whether the AI system affects human autonomy by interfering with the end-user’s decision-making process in any other unintended and undesirable way.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HAAQ4</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AudQ2">
+      <h3>Assess whether the AI system can be audited by independent third parties. <sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AudQ2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RFPRQ1">
+      <h3>Assess whether the AI system can cause critical, adversarial, or damaging consequences (e.g. pertaining to human safety) in case of low reliability and/or reproducibility.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="IWSQ4">
+      <h3>Assess whether the AI system can create the risk of de-skilling of the workforce.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#IWSQ4</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUDQ1">
+      <h3>Assess whether the AI system corresponds to the variety of preferences and abilities in society.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUDQ1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HAAQ1.1">
+      <h3>Assess whether the AI system generates confusion for some or all end-users or subjects on whether a decision, content, advice or outcome is the result of an algorithmic decision.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HAAQ2">
+      <h3>Assess whether the AI system generates confusion for some or all end-users or subjects on whether they are interacting with a human or AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HAAQ2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RASQ1">
+      <h3>Assess whether the AI system has adversarial, critical or damaging effects (e.g. to human or societal safety) in case of risks or threats such as design or technical faults, defects, outages, attacks, misuse, inappropriate or malicious use.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RASQ1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ISDQ1">
+      <h3>Assess whether the AI system have a negative impact on society at large or democracy.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#ISDQ1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="IWSQ1">
+      <h3>Assess whether the AI system impacts human work and work arrangements.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#IWSQ1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="FR1">
+      <h3>Assess whether the AI system potentially negatively discriminates against people on the basis of any of the following grounds (non-exhaustively): sex, race, colour, ethnic or social origin, genetic features, language, religion or belief, political or any other opinion, membership of a national minority, property, birth, disability, age or sexual orientation.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#FR1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="FRQ3">
+      <h3>Assess whether the AI system protect personal data relating to individuals in line with GDPR.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#FRQ3</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="FRQ4">
+      <h3>Assess whether the AI system respect the freedom of expression and information and/or freedom of assembly and association.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#FRQ4</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="FRQ2">
+      <h3>Assess whether the AI system respect the rights of the child.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#FRQ2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HAAQ6">
+      <h3>Assess whether the AI system risk creating human attachment, stimulating addictive behaviour, or manipulating user behaviour.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HAAQ6</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AcQ4">
+      <h3>Assess whether the AI system's operation can invalidate the data or assumptions it was trained on, and how this might lead to adversarial effects.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AcQ4</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUDQ2">
+      <h3>Assess whether the AI system's user interface is usable by those with special needs or disabilities or those at risk of exclusion.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUDQ2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DGQ2.7">
+      <h3>Assess whether the privacy and data protection implications of data collected, generated or processed over the course of the AI system's life cycle is considered.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#DGQ2.7</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DGQ3">
+      <h3>Assess whether the privacy and data protection implications of the AI system's non-personal training-data or other processed non-personal data is considered.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#DGQ3</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUDQ4.2">
+      <h3>Assess whether there could be groups who might be disproportionately affected by the outcomes of the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RMQ5.1">
+      <h3>Assess whether this process foster revision of the risk management process.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RMQ5.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RMQ1">
+      <h3>Assess whether you will make use of external guidance or third-party auditing processes to oversee ethical concerns and accountability measures.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RMQ1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUBQ5">
+      <h3>Assess whether your definition of fairness is commonly used and implemented in any phase of the process of setting up the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUBQ5</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ComQ2.1">
+      <h3>Communicate the benefits of the AI system to users.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#ComQ2.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ComQ2.2">
+      <h3>Communicate the technical limitations and potential risks of the AI system to users, such as its level of accuracy and/ or error rates.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#ComQ2.2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUDQ2.2">
+      <h3>Consult with end-users or subjects in need for assistive technology during the planning and development phase of the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUBQ5.2">
+      <h3>Consult with the impacted communities about the correct definition of fairness, i.e. representatives of elderly persons or persons with disabilities.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ExpQ2">
+      <h3>Continuously survey the users if they understand the decision(s) of the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#ExpQ2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="EWQ2.1">
+      <h3>Define measures to reduce the environmental impact of the AI system throughout its lifecycle.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#EWQ2.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="GSQ1">
+      <h3>Define risks, risk metrics and risk levels of the AI system in each specific use case.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#GSQ1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="GSQ2.2">
+      <h3>Define safety criticality levels (e.g. related to human integrity) of the possible consequences of faults or misuse of the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#GSQ2.2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RFPRQ3">
+      <h3>Define tested failsafe fallback plans to address AI system errors of whatever origin and put governance procedures in place to trigger them.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RFPRQ3</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DGQ2.2">
+      <h3>Designate a Data Protection Officer (DPO) and include them at an early state in the development, procurement or use phase of the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#DGQ2.2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RASQ6.1">
+      <h3>Determine the expected timeframe within which security updates for the AI system is provided.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RASQ6.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RASQ2">
+      <h3>Determine whether AI system is certified for cybersecurity or is compliant with specific security standards.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RASQ2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUBQ2.2">
+      <h3>Determine whether publicly available technical tools, that are state-of-the-art are used to improve your understanding of the data, model and performance.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HOQ1.1">
+      <h3>Determine whether the AI system is a self-learning or autonomous system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HOQ1.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DGQ1">
+      <h3>Determine whether the AI system is being trained, or was it developed, by using or processing personal data (including special categories of personal data).<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#DGQ1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HAAQ1">
+      <h3>Determine whether the AI system is designed to interact, guide or take decisions by human end-users that affect humans or society.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HAAQ1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HOQ1.4">
+      <h3>Determine whether the AI system is overseen by a Human-in-Command.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HOQ1.4</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HOQ1.2">
+      <h3>Determine whether the AI system is overseen by a Human-in-the-Loop.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HOQ1.2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HOQ1.3">
+      <h3>Determine whether the AI system is overseen by a Human-on-the-Loop.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HOQ1.3</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RFPRQ5">
+      <h3>Determine whether the AI system is using (online) continual learning.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HAAQ5">
+      <h3>Determine whether the AI system simulates social interaction with or between end-users or subjects.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HAAQ5</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RMQ1.1">
+      <h3>Determine whether the involvement of third parties go beyond the development phase.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RMQ1.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="IWSQ5">
+      <h3>Determine whether the system promote or require new (digital) skills.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#IWSQ5</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUDQ4.1">
+      <h3>Determine whether the team involved in building the AI system engaged with the possible target end-users and/or subjects.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUBQ5.1">
+      <h3>Determine whether you considered different definitions of fairness before choosing one.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="GSQ5">
+      <h3>Develop a mechanism to evaluate when the AI system has been changed to merit a new review of its technical robustness and safety.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#GSQ5</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUDQ3">
+      <h3>Ensure that Universal Design principles are taken into account during every step of the planning and development process, if applicable.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUDQ3</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="IWSQ3.1">
+      <h3>Ensure that workers understand how the AI system operates, which capabilities it has and which it does not have.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#IWSQ3.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RFPRQ2.1">
+      <h3>Establish (Document and operationalise) processes for the testing and verification of the reliability and reproducibility of the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUBQ4">
+      <h3>Establish a mechanism that allows for the flagging of issues related to bias, discrimination or poor performance of the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUBQ4</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RFPRQ4">
+      <h3>Establish a procedure for handling the cases where the AI system yields results with a low confidence score.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RFPRQ4</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HOQ4">
+      <h3>Establish a procedure to safely abort an operation when needed.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HOQ4</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RMQ5">
+      <h3>Establish a process for third parties (e.g. suppliers, end-users, subjects, distributors/vendors or workers) to report potential vulnerabilities, risks or biases in the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RMQ5</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="GSQ1.1">
+      <h3>Establish a process to continuously measure and assess risks.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#GSQ1.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RMQ4">
+      <h3>Establish a process to discuss and continuously monitor and assess the AI system's adherence to this Assessment List for Trustworthy AI (ALTAI).<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RMQ4</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RFPRQ1.1">
+      <h3>Establish a process to monitor if the AI system is meeting the intended goals.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUBQ1">
+      <h3>Establish a strategy or a set of procedures to avoid creating or reinforcing unfair bias in the AI system, both regarding the use of input data as well as for the algorithm design.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUBQ1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RMQ3">
+      <h3>Establish an AI ethics review board (or a similar mechanism) to assess (discuss) the overall accountability and ethics practices, including potential unclear grey areas.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RMQ3</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUBQ4.1">
+      <h3>Establish clear steps (processes) and ways of communicating on how and to whom issues related to bias, discrimination or poor performance of the AI system can be raised.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HOQ3">
+      <h3>Establish detection and/or response mechanisms for undesirable adverse effects of the AI system for the end-user or subject.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HOQ3</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="FRQ3.2">
+      <h3>Establish measures envisaged to address the risks, including safeguards, security measures and mechanisms to ensure the protection of personal data with respect to the development, deployment and use phases of the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#FRQ3.2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DGQ2.1">
+      <h3>Establish measures for Data Protection Impact Assessment (DPIA). <sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#DGQ2.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="TrcQ1">
+      <h3>Establish measures that address the traceability of the AI system during its entire lifecycle.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#TrcQ1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ISDQ1.3">
+      <h3>Establish measures that ensure that the AI system does not negatively impact democracy.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.3</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DGQ2.5">
+      <h3>Establish measures to achieve Data minimisation, in particular personal data (including special categories of data).<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#DGQ2.5</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DGQ2.4">
+      <h3>Establish measures to achieve privacy-by-design and default (e.g. encryption, pseudonymisation, aggregation, anonymisation).<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#DGQ2.4</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="TrcQ1.1">
+      <h3>Establish measures to continuously assess the quality of the input data to the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="TrcQ1.4">
+      <h3>Establish measures to continuously assess the quality of the output(s) of the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.4</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="IWSQ4.1">
+      <h3>Establish measures to counteract de-skilling risks.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#IWSQ4.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HAAQ6.1">
+      <h3>Establish measures to deal with possible negative consequences for end-users or subjects in case they develop a disproportionate attachment to the AI System.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AcQ2">
+      <h3>Establish measures to ensure that the data (including training data) used to develop the AI system is up-to-date, of high quality, complete and representative of the environment the system will be deployed in.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AcQ2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="IWSQ3">
+      <h3>Establish measures to ensure that the impacts of the AI system on human work are well understood.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#IWSQ3</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RASQ4">
+      <h3>Establish measures to ensure the integrity, robustness and overall security of the AI system against potential attacks over its lifecycle.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RASQ4</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ISDQ1.2">
+      <h3>Establish measures to minimize potential societal harm of the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUBQ5.3">
+      <h3>Establish mechanisms (Ensure a quantitative analysis or metrics) to measure and test the applied definition of fairness.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.3</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PrQ2">
+      <h3>Establish mechanisms that allow flagging issues related to privacy concerning the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#PrQ2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AudQ1">
+      <h3>Establish mechanisms that facilitate the AI system’s auditability (e.g. traceability of the development process, the sourcing of training data and the logging of the AI system’s processes, outcomes, positive and negative impact).<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AudQ1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUBQ5.4">
+      <h3>Establish mechanisms to ensure fairness in your AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.4</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="EWQ2">
+      <h3>Establish mechanisms to evaluate the environmental impact of the AI system’s development, deployment and/or use.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#EWQ2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DGQ2.3">
+      <h3>Establish oversight mechanisms for data processing (including limiting access to qualified personnel, mechanisms for logging data access and making modifications).<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#DGQ2.3</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HAAQ3.1">
+      <h3>Establish procedures to avoid end-users over-reliance on the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HAAQ3.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HAAQ4.1">
+      <h3>Establish procedures to avoid the inadvertent affects of the AI system on human autonomy.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HAAQ4.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RFPRQ2">
+      <h3>Establish processes (verification and validation methods and documentation (e.g. logging)) to evaluate and ensure different aspects of the AI system’s reliability and reproducibility.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="FRQ2.1">
+      <h3>Establish processes to address and rectify for potential harm to children by the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#FRQ2.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="FRQ4.2">
+      <h3>Establish processes to address and rectify for potential infringement on freedom of expression and information, and/or freedom of assembly and association, in the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#FRQ4.2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="FRQ1.2">
+      <h3>Establish processes to address and rectify for potential negative discrimination (bias) in the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#FRQ1.2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="FRQ3.1">
+      <h3>Establish processes to assess in detail the need for a data protection impact assessment, including an assessment of the necessity and proportionality of the processing operations in relation to their purpose, with respect to the development, deployment and use phases of the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#FRQ3.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AcQ5">
+      <h3>Establish processes to ensure that the level of accuracy of the AI system to be expected by end-users and/or subjects is properly communicated.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AcQ5</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUBQ2.3">
+      <h3>Establish processes to test and monitor for potential biases during the entire lifecycle of the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.3</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="FRQ2.2">
+      <h3>Establish processes to test and monitor for potential harm to children during the development, deployment and use phases of the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#FRQ2.2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="FRQ4.1">
+      <h3>Establish processes to test and monitor for potential infringement on freedom of expression and information, and/or freedom of assembly and association, during the development, deployment and use phases of the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#FRQ4.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="FRQ1.1">
+      <h3>Establish processes to test and monitor for potential negative discrimination (bias) during the development, deployment and use phases of the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#FRQ1.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RMQ6">
+      <h3>Establish redress by design mechanisms for applications that can adversely affect individuals.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RMQ6</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AcQ3">
+      <h3>Establish set of activities to monitor, and document the AI system’s accuracy.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AcQ3</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="TrcQ1.3">
+      <h3>Evaluate whether it is feasible to trace back which AI model or rules led to the decision(s) or recommendation(s) of the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.3</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="TrcQ1.2">
+      <h3>Evaluate whether it is feasible to trace back which data was used by the AI system to make a certain decision(s) or recommendation(s).<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RFPRQ1.2">
+      <h3>Evaluate whether specific contexts or conditions need to be taken into account to ensure reproducibility.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ExpQ1">
+      <h3>Explain the decision(s) of the AI system to the users.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#ExpQ1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RASQ3.2">
+      <h3>Identify and assess different types of vulnerabilities and potential entry points for attacks such as: Data poisoning, model evasion, and  model inversion.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RASQ3.2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="EWQ1.1">
+      <h3>Identify the negative impacts of the AI system on the environment.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#EWQ1.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="GSQ2">
+      <h3>Identify the possible threats to the AI system (design faults, technical faults, environmental threats) and the possible consequences.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#GSQ2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUBQ4.2">
+      <h3>Identify the subjects that could potentially be (in)directly affected by the AI system, in addition to the (end-)users and/or subjects.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ComQ1">
+      <h3>In cases of interactive AI systems, communicate to users that they are interacting with an AI system instead of a human.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#ComQ1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="SPQ1">
+      <h3>Include the participation of the widest range of possible stakeholders in the AI system’s design and development.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#SPQ1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="IWSQ2">
+      <h3>Inform and consult with impacted workers and their representatives (trade unions, (European) work councils) in advance to introducing the system in the organisation.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#IWSQ2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="GSQ1.2">
+      <h3>Inform end-users and subjects of existing or potential risks.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#GSQ1.2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RASQ6">
+      <h3>Inform end-users of the duration of security coverage and updates.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RASQ6</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HAAQ1.2">
+      <h3>Inform end-users or other subjects that a decision, content, advice or outcome is the result of an algorithmic decision.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HAAQ2.1">
+      <h3>Inform end-users or subjects that they are interacting with an AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HAAQ2.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ComQ2">
+      <h3>Inform users about the purpose, criteria and limitations of the decision(s) generated by the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#ComQ2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="GSQ4">
+      <h3>Plan fault tolerance.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#GSQ4</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ComQ2.3">
+      <h3>Provide appropriate training material and disclaimers to users on how to adequately use the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#ComQ2.3</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RMQ4.2">
+      <h3>Provide appropriate training to those involved in such a process [monitoring and assessing the system's adherence to ALTAI] which covers the legal framework applicable to the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RMQ4.2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RMQ2">
+      <h3>Provide risk training and inform [the staff] about the potential legal framework applicable to the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#RMQ2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HOQ2">
+      <h3>Provide the humans (human-in-the-loop, human-on-the-loop, human-in-command) training on how to exercise oversight.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HOQ2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="AUBQ3">
+      <h3>Provide training (Put in place educational and awareness initiatives) to help AI designers and AI developers be more aware of the possible bias they can inject in designing and developing the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#AUBQ3</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="IWSQ5.1">
+      <h3>Provide training opportunities and materials for re- and up-skilling.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#IWSQ5.1</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="TrcQ1.5">
+      <h3>Put in place adequate logging practices to record the decision(s) or recommendation(s) of the AI system are implemented.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.5</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HAAQ6.2">
+      <h3>Take measures to minimise the risk of addiction.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.2</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HAAQ6.3">
+      <h3>Take measures to mitigate the risk of manipulation.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.3</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="HOQ5">
+      <h3>Take oversight and control measures to reflect the self-learning or autonomous nature of the AI system.<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://delaramglp.github.io/aidocs/altai-activity#HOQ5</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://delaramglp.github.io/aidocs/taio#activity"
+               target="_blank"
+               title="https://delaramglp.github.io/aidocs/taio#activity">activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>
+</div>
+    
+
+<!--REFERENCES SECTION-->
+  <div id="references">
+<h2 id="ref" class="list">References <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+Add your references here. It is recommended to have them as a list.</span>
+
+</div>
+<div id="acknowledgments">
+<h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<p>
+The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+</div>
+
+
+</div>
+</body>
+</html>

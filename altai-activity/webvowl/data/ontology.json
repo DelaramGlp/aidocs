@@ -1,0 +1,3216 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://delaramglp.github.io/aidocs/altai-activity", "http://www.w3.org/2000/01/rdf-schema", "https://delaramglp.github.io/aidocs/taio" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "167",
+    "type" : "owl:Class"
+  }, {
+    "id" : "168",
+    "type" : "owl:Class"
+  }, {
+    "id" : "169",
+    "type" : "owl:Class"
+  }, {
+    "id" : "170",
+    "type" : "owl:Class"
+  }, {
+    "id" : "172",
+    "type" : "owl:Class"
+  }, {
+    "id" : "171",
+    "type" : "owl:Class"
+  }, {
+    "id" : "175",
+    "type" : "owl:Class"
+  }, {
+    "id" : "174",
+    "type" : "owl:Class"
+  }, {
+    "id" : "177",
+    "type" : "owl:Class"
+  }, {
+    "id" : "178",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "127",
+    "type" : "owl:Class"
+  }, {
+    "id" : "128",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "owl:Class"
+  }, {
+    "id" : "131",
+    "type" : "owl:Class"
+  }, {
+    "id" : "133",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "136",
+    "type" : "owl:Class"
+  }, {
+    "id" : "137",
+    "type" : "owl:Class"
+  }, {
+    "id" : "138",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "141",
+    "type" : "owl:Class"
+  }, {
+    "id" : "142",
+    "type" : "owl:Class"
+  }, {
+    "id" : "143",
+    "type" : "owl:Class"
+  }, {
+    "id" : "145",
+    "type" : "owl:Class"
+  }, {
+    "id" : "144",
+    "type" : "owl:Class"
+  }, {
+    "id" : "146",
+    "type" : "owl:Class"
+  }, {
+    "id" : "147",
+    "type" : "owl:Class"
+  }, {
+    "id" : "148",
+    "type" : "owl:Class"
+  }, {
+    "id" : "149",
+    "type" : "owl:Class"
+  }, {
+    "id" : "150",
+    "type" : "owl:Class"
+  }, {
+    "id" : "151",
+    "type" : "owl:Class"
+  }, {
+    "id" : "152",
+    "type" : "owl:Class"
+  }, {
+    "id" : "153",
+    "type" : "owl:Class"
+  }, {
+    "id" : "154",
+    "type" : "owl:Class"
+  }, {
+    "id" : "155",
+    "type" : "owl:Class"
+  }, {
+    "id" : "156",
+    "type" : "owl:Class"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
+  }, {
+    "id" : "158",
+    "type" : "owl:Class"
+  }, {
+    "id" : "159",
+    "type" : "owl:Class"
+  }, {
+    "id" : "160",
+    "type" : "owl:Class"
+  }, {
+    "id" : "161",
+    "type" : "owl:Class"
+  }, {
+    "id" : "162",
+    "type" : "owl:Class"
+  }, {
+    "id" : "163",
+    "type" : "owl:Class"
+  }, {
+    "id" : "164",
+    "type" : "owl:Class"
+  }, {
+    "id" : "165",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "166",
+    "type" : "owl:Class"
+  }, {
+    "id" : "173",
+    "type" : "owl:Class"
+  }, {
+    "id" : "176",
+    "type" : "owl:Class"
+  }, {
+    "id" : "179",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RFPRQ5",
+      "en" : "Determine whether the AI system is using (online) continual learning."
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ3.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RASQ3.1",
+      "en" : "Assess potential forms of attacks to which the AI system could be vulnerable."
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ3.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RASQ3.2",
+      "en" : "Identify and assess different types of vulnerabilities and potential entry points for attacks such as: Data poisoning, model evasion, and  model inversion."
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#FRQ3.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FRQ3.2",
+      "en" : "Establish measures envisaged to address the risks, including safeguards, security measures and mechanisms to ensure the protection of personal data with respect to the development, deployment and use phases of the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "30",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ1.4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HOQ1.4",
+      "en" : "Determine whether the AI system is overseen by a Human-in-Command."
+    },
+    "attributes" : [ "external" ],
+    "id" : "41",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ1.3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HOQ1.3",
+      "en" : "Determine whether the AI system is overseen by a Human-on-the-Loop."
+    },
+    "attributes" : [ "external" ],
+    "id" : "44",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ISDQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ISDQ1",
+      "en" : "Assess whether the AI system have a negative impact on society at large or democracy."
+    },
+    "attributes" : [ "external" ],
+    "id" : "45",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ1.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HOQ1.2",
+      "en" : "Determine whether the AI system is overseen by a Human-in-the-Loop."
+    },
+    "attributes" : [ "external" ],
+    "id" : "46",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ1.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HOQ1.1",
+      "en" : "Determine whether the AI system is a self-learning or autonomous system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "47",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#FRQ3.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FRQ3.1",
+      "en" : "Establish processes to assess in detail the need for a data protection impact assessment, including an assessment of the necessity and proportionality of the processing operations in relation to their purpose, with respect to the development, deployment and use phases of the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "48",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RFPRQ1",
+      "en" : "Assess whether the AI system can cause critical, adversarial, or damaging consequences (e.g. pertaining to human safety) in case of low reliability and/or reproducibility."
+    },
+    "attributes" : [ "external" ],
+    "id" : "49",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RFPRQ2",
+      "en" : "Establish processes (verification and validation methods and documentation (e.g. logging)) to evaluate and ensure different aspects of the AI system’s reliability and reproducibility."
+    },
+    "attributes" : [ "external" ],
+    "id" : "50",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RFPRQ3",
+      "en" : "Define tested failsafe fallback plans to address AI system errors of whatever origin and put governance procedures in place to trigger them."
+    },
+    "attributes" : [ "external" ],
+    "id" : "51",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GSQ1",
+      "en" : "Define risks, risk metrics and risk levels of the AI system in each specific use case."
+    },
+    "attributes" : [ "external" ],
+    "id" : "52",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RFPRQ4",
+      "en" : "Establish a procedure for handling the cases where the AI system yields results with a low confidence score."
+    },
+    "attributes" : [ "external" ],
+    "id" : "53",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GSQ2",
+      "en" : "Identify the possible threats to the AI system (design faults, technical faults, environmental threats) and the possible consequences."
+    },
+    "attributes" : [ "external" ],
+    "id" : "54",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GSQ3",
+      "en" : "Assess the dependency of a critical AI system’s decisions on its stable and reliable behaviour."
+    },
+    "attributes" : [ "external" ],
+    "id" : "55",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GSQ4",
+      "en" : "Plan fault tolerance."
+    },
+    "attributes" : [ "external" ],
+    "id" : "56",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GSQ5",
+      "en" : "Develop a mechanism to evaluate when the AI system has been changed to merit a new review of its technical robustness and safety."
+    },
+    "attributes" : [ "external" ],
+    "id" : "57",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RFPRQ1.1",
+      "en" : "Establish a process to monitor if the AI system is meeting the intended goals."
+    },
+    "attributes" : [ "external" ],
+    "id" : "66",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RFPRQ1.2",
+      "en" : "Evaluate whether specific contexts or conditions need to be taken into account to ensure reproducibility."
+    },
+    "attributes" : [ "external" ],
+    "id" : "67",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ISDQ1.2",
+      "en" : "Establish measures to minimize potential societal harm of the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "68",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ISDQ1.3",
+      "en" : "Establish measures that ensure that the AI system does not negatively impact democracy."
+    },
+    "attributes" : [ "external" ],
+    "id" : "69",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#FRQ2.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FRQ2.2",
+      "en" : "Establish processes to test and monitor for potential harm to children during the development, deployment and use phases of the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "70",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#FRQ2.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FRQ2.1",
+      "en" : "Establish processes to address and rectify for potential harm to children by the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "71",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ISDQ1.1",
+      "en" : "Assess the societal impact of the AI system’s use beyond the (end-)user and subject, such as potentially indirectly affected stakeholders or society at large."
+    },
+    "attributes" : [ "external" ],
+    "id" : "72",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ2.1",
+      "en" : "Assess whether specific target groups or problematic use cases are considered."
+    },
+    "attributes" : [ "external" ],
+    "id" : "73",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ2.2",
+      "en" : "Determine whether publicly available technical tools, that are state-of-the-art are used to improve your understanding of the data, model and performance."
+    },
+    "attributes" : [ "external" ],
+    "id" : "74",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ6.1",
+      "en" : "Establish measures to deal with possible negative consequences for end-users or subjects in case they develop a disproportionate attachment to the AI System."
+    },
+    "attributes" : [ "external" ],
+    "id" : "75",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ2.3",
+      "en" : "Establish processes to test and monitor for potential biases during the entire lifecycle of the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "76",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ6.2",
+      "en" : "Take measures to minimise the risk of addiction."
+    },
+    "attributes" : [ "external" ],
+    "id" : "77",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ2.4",
+      "en" : "Assess whether diversity and representativeness of end-users and or subjects in the data is considered where relevant."
+    },
+    "attributes" : [ "external" ],
+    "id" : "78",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#EWQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EWQ1",
+      "en" : "Assess potential negative impacts of the AI system on the environment."
+    },
+    "attributes" : [ "external" ],
+    "id" : "79",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#EWQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EWQ2",
+      "en" : "Establish mechanisms to evaluate the environmental impact of the AI system’s development, deployment and/or use."
+    },
+    "attributes" : [ "external" ],
+    "id" : "80",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ6.3",
+      "en" : "Take measures to mitigate the risk of manipulation."
+    },
+    "attributes" : [ "external" ],
+    "id" : "81",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RMQ5",
+      "en" : "Establish a process for third parties (e.g. suppliers, end-users, subjects, distributors/vendors or workers) to report potential vulnerabilities, risks or biases in the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "82",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RMQ4",
+      "en" : "Establish a process to discuss and continuously monitor and assess the AI system's adherence to this Assessment List for Trustworthy AI (ALTAI)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "83",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ5.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IWSQ5.1",
+      "en" : "Provide training opportunities and materials for re- and up-skilling."
+    },
+    "attributes" : [ "external" ],
+    "id" : "84",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ6",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RMQ6",
+      "en" : "Establish redress by design mechanisms for applications that can adversely affect individuals."
+    },
+    "attributes" : [ "external" ],
+    "id" : "85",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RMQ1",
+      "en" : "Assess whether you will make use of external guidance or third-party auditing processes to oversee ethical concerns and accountability measures."
+    },
+    "attributes" : [ "external" ],
+    "id" : "86",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RMQ3",
+      "en" : "Establish an AI ethics review board (or a similar mechanism) to assess (discuss) the overall accountability and ethics practices, including potential unclear grey areas."
+    },
+    "attributes" : [ "external" ],
+    "id" : "87",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RMQ2",
+      "en" : "Provide risk training and inform [the staff] about the potential legal framework applicable to the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "88",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ3.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GSQ3.1",
+      "en" : "Align the reliability/testing requirements to the appropriate levels of stability and reliability."
+    },
+    "attributes" : [ "external" ],
+    "id" : "89",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RASQ2",
+      "en" : "Determine whether AI system is certified for cybersecurity or is compliant with specific security standards."
+    },
+    "attributes" : [ "external" ],
+    "id" : "90",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RASQ1",
+      "en" : "Assess whether the AI system has adversarial, critical or damaging effects (e.g. to human or societal safety) in case of risks or threats such as design or technical faults, defects, outages, attacks, misuse, inappropriate or malicious use."
+    },
+    "attributes" : [ "external" ],
+    "id" : "91",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RASQ4",
+      "en" : "Establish measures to ensure the integrity, robustness and overall security of the AI system against potential attacks over its lifecycle."
+    },
+    "attributes" : [ "external" ],
+    "id" : "92",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RASQ3",
+      "en" : "Assess exposure of the AI system to cyber-attacks."
+    },
+    "attributes" : [ "external" ],
+    "id" : "93",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ6",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RASQ6",
+      "en" : "Inform end-users of the duration of security coverage and updates."
+    },
+    "attributes" : [ "external" ],
+    "id" : "94",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RASQ5",
+      "en" : "(Establish processes for) red-teaming/ pentesting the system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "95",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RFPRQ2.1",
+      "en" : "Establish (Document and operationalise) processes for the testing and verification of the reliability and reproducibility of the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "61",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ4.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RMQ4.2",
+      "en" : "Provide appropriate training to those involved in such a process [monitoring and assessing the system's adherence to ALTAI] which covers the legal framework applicable to the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "29",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ4.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RMQ4.1",
+      "en" : "[Establish a process to discuss and continuously monitor and assess the AI system's adherence to this Assessment List for Trustworthy AI (ALTAI) which] Include[s] identification and documentation of conflicts between the 6 aforementioned requirements or between different ethical principles and explanation of the 'trade-off' decisions made in the process."
+    },
+    "attributes" : [ "external" ],
+    "id" : "32",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ6.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RASQ6.1",
+      "en" : "Determine the expected timeframe within which security updates for the AI system is provided."
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#FRQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FRQ2",
+      "en" : "Assess whether the AI system respect the rights of the child."
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#FRQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FRQ3",
+      "en" : "Assess whether the AI system protect personal data relating to individuals in line with GDPR."
+    },
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#FRQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FRQ4",
+      "en" : "Assess whether the AI system respect the freedom of expression and information and/or freedom of assembly and association."
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/taio#activity",
+    "baseIri" : "https://delaramglp.github.io/aidocs/taio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "activity"
+    },
+    "subClasses" : [ "118", "119", "120", "121", "122", "123", "124", "17", "125", "18", "19", "30", "41", "44", "46", "45", "47", "48", "49", "50", "52", "51", "126", "54", "53", "127", "55", "128", "56", "129", "130", "131", "57", "132", "133", "134", "135", "136", "137", "138", "139", "140", "141", "142", "143", "144", "145", "146", "147", "148", "149", "66", "67", "150", "151", "68", "69", "70", "71", "72", "73", "74", "76", "75", "78", "77", "152", "79", "80", "153", "81", "154", "82", "84", "83", "155", "85", "156", "86", "157", "158", "87", "159", "88", "89", "90", "91", "160", "92", "161", "93", "162", "94", "163", "95", "164", "165", "61", "59", "63", "65", "25", "27", "29", "32", "34", "36", "38", "40", "43", "21", "23", "1", "4", "6", "8", "10", "12", "14", "16", "166", "167", "168", "169", "170", "171", "172", "173", "174", "175", "176", "177", "178", "179", "107", "109", "111", "113", "115", "117", "97", "99", "101", "103", "105" ],
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IWSQ2",
+      "en" : "Inform and consult with impacted workers and their representatives (trade unions, (European) work councils) in advance to introducing the system in the organisation."
+    },
+    "attributes" : [ "external" ],
+    "id" : "167",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IWSQ3",
+      "en" : "Establish measures to ensure that the impacts of the AI system on human work are well understood."
+    },
+    "attributes" : [ "external" ],
+    "id" : "168",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#FRQ4.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FRQ4.2",
+      "en" : "Establish processes to address and rectify for potential infringement on freedom of expression and information, and/or freedom of assembly and association, in the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "169",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IWSQ4",
+      "en" : "Assess whether the AI system can create the risk of de-skilling of the workforce."
+    },
+    "attributes" : [ "external" ],
+    "id" : "170",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IWSQ5",
+      "en" : "Determine whether the system promote or require new (digital) skills."
+    },
+    "attributes" : [ "external" ],
+    "id" : "172",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#FRQ4.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FRQ4.1",
+      "en" : "Establish processes to test and monitor for potential infringement on freedom of expression and information, and/or freedom of assembly and association, during the development, deployment and use phases of the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "171",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ5.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RMQ5.1",
+      "en" : "Assess whether this process foster revision of the risk management process."
+    },
+    "attributes" : [ "external" ],
+    "id" : "175",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IWSQ1",
+      "en" : "Assess whether the AI system impacts human work and work arrangements."
+    },
+    "attributes" : [ "external" ],
+    "id" : "174",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#PrQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PrQ2",
+      "en" : "Establish mechanisms that allow flagging issues related to privacy concerning the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "177",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#PrQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PrQ1",
+      "en" : "Assess impact of the AI system on the right to privacy, the right to physical, mental and/or moral integrity and the right to data protection."
+    },
+    "attributes" : [ "external" ],
+    "id" : "178",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#EWQ2.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EWQ2.1",
+      "en" : "Define measures to reduce the environmental impact of the AI system throughout its lifecycle."
+    },
+    "attributes" : [ "external" ],
+    "id" : "107",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AcQ5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AcQ5",
+      "en" : "Establish processes to ensure that the level of accuracy of the AI system to be expected by end-users and/or subjects is properly communicated."
+    },
+    "attributes" : [ "external" ],
+    "id" : "111",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ4.1",
+      "en" : "Establish clear steps (processes) and ways of communicating on how and to whom issues related to bias, discrimination or poor performance of the AI system can be raised."
+    },
+    "attributes" : [ "external" ],
+    "id" : "109",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ4.2",
+      "en" : "Identify the subjects that could potentially be (in)directly affected by the AI system, in addition to the (end-)users and/or subjects."
+    },
+    "attributes" : [ "external" ],
+    "id" : "113",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DGQ4",
+      "en" : "Align the AI system with relevant standards (e.g. ISO, IEEE) or widely adopted protocols for (daily) data management and governance."
+    },
+    "attributes" : [ "external" ],
+    "id" : "115",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AcQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AcQ3",
+      "en" : "Establish set of activities to monitor, and document the AI system’s accuracy."
+    },
+    "attributes" : [ "external" ],
+    "id" : "117",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DGQ3",
+      "en" : "Assess whether the privacy and data protection implications of the AI system's non-personal training-data or other processed non-personal data is considered."
+    },
+    "attributes" : [ "external" ],
+    "id" : "97",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AcQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AcQ4",
+      "en" : "Assess whether the AI system's operation can invalidate the data or assumptions it was trained on, and how this might lead to adversarial effects."
+    },
+    "attributes" : [ "external" ],
+    "id" : "99",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AcQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AcQ1",
+      "en" : "Assess whether a low level of accuracy of the AI system can result in critical, adversarial or damaging consequences."
+    },
+    "attributes" : [ "external" ],
+    "id" : "101",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DGQ1",
+      "en" : "Determine whether the AI system is being trained, or was it developed, by using or processing personal data (including special categories of personal data)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "103",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AcQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AcQ2",
+      "en" : "Establish measures to ensure that the data (including training data) used to develop the AI system is up-to-date, of high quality, complete and representative of the environment the system will be deployed in."
+    },
+    "attributes" : [ "external" ],
+    "id" : "105",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUDQ4",
+      "en" : "Assess the impact of the AI system on the potential end-users and/or subjects into account."
+    },
+    "attributes" : [ "external" ],
+    "id" : "118",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUDQ3",
+      "en" : "Ensure that Universal Design principles are taken into account during every step of the planning and development process, if applicable."
+    },
+    "attributes" : [ "external" ],
+    "id" : "119",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ3.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IWSQ3.1",
+      "en" : "Ensure that workers understand how the AI system operates, which capabilities it has and which it does not have."
+    },
+    "attributes" : [ "external" ],
+    "id" : "120",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ1.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GSQ1.2",
+      "en" : "Inform end-users and subjects of existing or potential risks."
+    },
+    "attributes" : [ "external" ],
+    "id" : "121",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ1.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GSQ1.1",
+      "en" : "Establish a process to continuously measure and assess risks."
+    },
+    "attributes" : [ "external" ],
+    "id" : "123",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#FR1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FR1",
+      "en" : "Assess whether the AI system potentially negatively discriminates against people on the basis of any of the following grounds (non-exhaustively): sex, race, colour, ethnic or social origin, genetic features, language, religion or belief, political or any other opinion, membership of a national minority, property, birth, disability, age or sexual orientation."
+    },
+    "attributes" : [ "external" ],
+    "id" : "122",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUDQ2",
+      "en" : "Assess whether the AI system's user interface is usable by those with special needs or disabilities or those at risk of exclusion."
+    },
+    "attributes" : [ "external" ],
+    "id" : "124",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUDQ1",
+      "en" : "Assess whether the AI system corresponds to the variety of preferences and abilities in society."
+    },
+    "attributes" : [ "external" ],
+    "id" : "125",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ5.1",
+      "en" : "Determine whether you considered different definitions of fairness before choosing one."
+    },
+    "attributes" : [ "external" ],
+    "id" : "126",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ5.2",
+      "en" : "Consult with the impacted communities about the correct definition of fairness, i.e. representatives of elderly persons or persons with disabilities."
+    },
+    "attributes" : [ "external" ],
+    "id" : "127",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ5.3",
+      "en" : "Establish mechanisms (Ensure a quantitative analysis or metrics) to measure and test the applied definition of fairness."
+    },
+    "attributes" : [ "external" ],
+    "id" : "128",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ1.1",
+      "en" : "Assess whether the AI system generates confusion for some or all end-users or subjects on whether a decision, content, advice or outcome is the result of an algorithmic decision."
+    },
+    "attributes" : [ "external" ],
+    "id" : "129",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ1.2",
+      "en" : "Inform end-users or other subjects that a decision, content, advice or outcome is the result of an algorithmic decision."
+    },
+    "attributes" : [ "external" ],
+    "id" : "132",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ5.4",
+      "en" : "Establish mechanisms to ensure fairness in your AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "130",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#EWQ1.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EWQ1.1",
+      "en" : "Identify the negative impacts of the AI system on the environment."
+    },
+    "attributes" : [ "external" ],
+    "id" : "131",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ4.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IWSQ4.1",
+      "en" : "Establish measures to counteract de-skilling risks."
+    },
+    "attributes" : [ "external" ],
+    "id" : "133",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TrcQ1.2",
+      "en" : "Evaluate whether it is feasible to trace back which data was used by the AI system to make a certain decision(s) or recommendation(s)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "134",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TrcQ1.1",
+      "en" : "Establish measures to continuously assess the quality of the input data to the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "135",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ2.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GSQ2.1",
+      "en" : "Assess the risk of possible malicious use, misuse or inappropriate use of the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "136",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ2.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GSQ2.2",
+      "en" : "Define safety criticality levels (e.g. related to human integrity) of the possible consequences of faults or misuse of the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "137",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HOQ3",
+      "en" : "Establish detection and/or response mechanisms for undesirable adverse effects of the AI system for the end-user or subject."
+    },
+    "attributes" : [ "external" ],
+    "id" : "138",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HOQ2",
+      "en" : "Provide the humans (human-in-the-loop, human-on-the-loop, human-in-command) training on how to exercise oversight."
+    },
+    "attributes" : [ "external" ],
+    "id" : "139",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HOQ5",
+      "en" : "Take oversight and control measures to reflect the self-learning or autonomous nature of the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "140",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HOQ4",
+      "en" : "Establish a procedure to safely abort an operation when needed."
+    },
+    "attributes" : [ "external" ],
+    "id" : "141",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TrcQ1.5",
+      "en" : "Put in place adequate logging practices to record the decision(s) or recommendation(s) of the AI system are implemented."
+    },
+    "attributes" : [ "external" ],
+    "id" : "142",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TrcQ1.4",
+      "en" : "Establish measures to continuously assess the quality of the output(s) of the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "143",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TrcQ1.3",
+      "en" : "Evaluate whether it is feasible to trace back which AI model or rules led to the decision(s) or recommendation(s) of the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "145",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ComQ2.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ComQ2.1",
+      "en" : "Communicate the benefits of the AI system to users."
+    },
+    "attributes" : [ "external" ],
+    "id" : "144",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ComQ2.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ComQ2.2",
+      "en" : "Communicate the technical limitations and potential risks of the AI system to users, such as its level of accuracy and/ or error rates."
+    },
+    "attributes" : [ "external" ],
+    "id" : "146",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ComQ2.3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ComQ2.3",
+      "en" : "Provide appropriate training material and disclaimers to users on how to adequately use the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "147",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUDQ2.1",
+      "en" : "Assess whether that information about, and the AI system's user interface of, the AI system is accessible and usable also to users of assistive technologies (such as screen readers)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "148",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUDQ2.2",
+      "en" : "Consult with end-users or subjects in need for assistive technology during the planning and development phase of the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "149",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RFPRQ5.1",
+      "en" : "Assess potential negative consequences from the AI system learning novel or unusual methods to score well on its objective function"
+    },
+    "attributes" : [ "external" ],
+    "id" : "150",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#SPQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SPQ1",
+      "en" : "Include the participation of the widest range of possible stakeholders in the AI system’s design and development."
+    },
+    "attributes" : [ "external" ],
+    "id" : "151",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ2.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ2.1",
+      "en" : "Inform end-users or subjects that they are interacting with an AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "152",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AudQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AudQ1",
+      "en" : "Establish mechanisms that facilitate the AI system’s auditability (e.g. traceability of the development process, the sourcing of training data and the logging of the AI system’s processes, outcomes, positive and negative impact)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "153",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AudQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AudQ2",
+      "en" : "Assess whether the AI system can be audited by independent third parties. "
+    },
+    "attributes" : [ "external" ],
+    "id" : "154",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ5",
+      "en" : "Assess whether your definition of fairness is commonly used and implemented in any phase of the process of setting up the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "155",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ3",
+      "en" : "Assess whether the AI system affects human autonomy by generating over-reliance by end-users."
+    },
+    "attributes" : [ "external" ],
+    "id" : "156",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ4",
+      "en" : "Assess whether the AI system affects human autonomy by interfering with the end-user’s decision-making process in any other unintended and undesirable way."
+    },
+    "attributes" : [ "external" ],
+    "id" : "157",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ5",
+      "en" : "Determine whether the AI system simulates social interaction with or between end-users or subjects."
+    },
+    "attributes" : [ "external" ],
+    "id" : "158",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ6",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ6",
+      "en" : "Assess whether the AI system risk creating human attachment, stimulating addictive behaviour, or manipulating user behaviour."
+    },
+    "attributes" : [ "external" ],
+    "id" : "159",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ4",
+      "en" : "Establish a mechanism that allows for the flagging of issues related to bias, discrimination or poor performance of the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "160",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ3",
+      "en" : "Provide training (Put in place educational and awareness initiatives) to help AI designers and AI developers be more aware of the possible bias they can inject in designing and developing the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "161",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ2",
+      "en" : "Assess whether diversity and representativeness of end-users and/or subjects in the data is considered."
+    },
+    "attributes" : [ "external" ],
+    "id" : "162",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ1",
+      "en" : "Establish a strategy or a set of procedures to avoid creating or reinforcing unfair bias in the AI system, both regarding the use of input data as well as for the algorithm design."
+    },
+    "attributes" : [ "external" ],
+    "id" : "163",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ1",
+      "en" : "Determine whether the AI system is designed to interact, guide or take decisions by human end-users that affect humans or society."
+    },
+    "attributes" : [ "external" ],
+    "id" : "164",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ2",
+      "en" : "Assess whether the AI system generates confusion for some or all end-users or subjects on whether they are interacting with a human or AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "165",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ComQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ComQ1",
+      "en" : "In cases of interactive AI systems, communicate to users that they are interacting with an AI system instead of a human."
+    },
+    "attributes" : [ "external" ],
+    "id" : "59",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.7",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DGQ2.7",
+      "en" : "Assess whether the privacy and data protection implications of data collected, generated or processed over the course of the AI system's life cycle is considered."
+    },
+    "attributes" : [ "external" ],
+    "id" : "63",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.6",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DGQ2.6",
+      "en" : "(Establish processes to) implement the right to withdraw consent, the right to object and the right to be forgotten into the development of the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "65",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DGQ2.5",
+      "en" : "Establish measures to achieve Data minimisation, in particular personal data (including special categories of data)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "25",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DGQ2.4",
+      "en" : "Establish measures to achieve privacy-by-design and default (e.g. encryption, pseudonymisation, aggregation, anonymisation)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ComQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ComQ2",
+      "en" : "Inform users about the purpose, criteria and limitations of the decision(s) generated by the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "34",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#FRQ1.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FRQ1.2",
+      "en" : "Establish processes to address and rectify for potential negative discrimination (bias) in the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "36",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#FRQ1.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FRQ1.1",
+      "en" : "Establish processes to test and monitor for potential negative discrimination (bias) during the development, deployment and use phases of the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "38",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ3.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ3.1",
+      "en" : "Establish procedures to avoid end-users over-reliance on the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "40",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DGQ2.3",
+      "en" : "Establish oversight mechanisms for data processing (including limiting access to qualified personnel, mechanisms for logging data access and making modifications)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "43",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DGQ2.2",
+      "en" : "Designate a Data Protection Officer (DPO) and include them at an early state in the development, procurement or use phase of the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DGQ2.1",
+      "en" : "Establish measures for Data Protection Impact Assessment (DPIA). "
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TrcQ1",
+      "en" : "Establish measures that address the traceability of the AI system during its entire lifecycle."
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUDQ4.1",
+      "en" : "Determine whether the team involved in building the AI system engaged with the possible target end-users and/or subjects."
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUDQ4.2",
+      "en" : "Assess whether there could be groups who might be disproportionately affected by the outcomes of the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUDQ4.3",
+      "en" : "Assess the risk of the possible unfairness of the system onto the end-user's or subject's communities"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ExpQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ExpQ1",
+      "en" : "Explain the decision(s) of the AI system to the users."
+    },
+    "attributes" : [ "external" ],
+    "id" : "166",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ExpQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ExpQ2",
+      "en" : "Continuously survey the users if they understand the decision(s) of the AI system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "173",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ1.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RMQ1.1",
+      "en" : "Determine whether the involvement of third parties go beyond the development phase."
+    },
+    "attributes" : [ "external" ],
+    "id" : "176",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ4.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ4.1",
+      "en" : "Establish procedures to avoid the inadvertent affects of the AI system on human autonomy."
+    },
+    "attributes" : [ "external" ],
+    "id" : "179",
+    "superClasses" : [ "2" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "195",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "197",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "198",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "200",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "202",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "208",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "210",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "211",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "212",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "214",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "217",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "219",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "220",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "221",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "222",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "223",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "224",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "225",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "226",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "227",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "228",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "229",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "231",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "233",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "235",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "237",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "241",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "242",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "244",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "245",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "246",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "247",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "248",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "249",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "250",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "251",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "252",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "253",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "254",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "255",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "256",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "257",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "258",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "259",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "260",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "261",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "263",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "264",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "265",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "266",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "267",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "268",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "269",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "270",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "271",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "272",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "273",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "274",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "275",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "276",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "277",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "278",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "279",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "280",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "281",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "282",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "283",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "284",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "285",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "286",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "287",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "288",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "289",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "290",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "0"
+  }, {
+    "range" : "2",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "3"
+  }, {
+    "range" : "2",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "5"
+  }, {
+    "range" : "2",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "7"
+  }, {
+    "range" : "2",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "9"
+  }, {
+    "range" : "2",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "11"
+  }, {
+    "range" : "2",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "13"
+  }, {
+    "range" : "2",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "15"
+  }, {
+    "range" : "2",
+    "domain" : "21",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "20"
+  }, {
+    "range" : "2",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "22"
+  }, {
+    "range" : "2",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "24"
+  }, {
+    "range" : "2",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "26"
+  }, {
+    "range" : "2",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "28"
+  }, {
+    "range" : "2",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "31"
+  }, {
+    "range" : "2",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "33"
+  }, {
+    "range" : "2",
+    "domain" : "36",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "35"
+  }, {
+    "range" : "2",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "37"
+  }, {
+    "range" : "2",
+    "domain" : "40",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "39"
+  }, {
+    "range" : "2",
+    "domain" : "43",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "42"
+  }, {
+    "range" : "2",
+    "domain" : "59",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "58"
+  }, {
+    "range" : "2",
+    "domain" : "61",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "60"
+  }, {
+    "range" : "2",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "62"
+  }, {
+    "range" : "2",
+    "domain" : "65",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "64"
+  }, {
+    "range" : "2",
+    "domain" : "97",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "96"
+  }, {
+    "range" : "2",
+    "domain" : "99",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "98"
+  }, {
+    "range" : "2",
+    "domain" : "101",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "100"
+  }, {
+    "range" : "2",
+    "domain" : "103",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "102"
+  }, {
+    "range" : "2",
+    "domain" : "105",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "104"
+  }, {
+    "range" : "2",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "106"
+  }, {
+    "range" : "2",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "108"
+  }, {
+    "range" : "2",
+    "domain" : "111",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "110"
+  }, {
+    "range" : "2",
+    "domain" : "113",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "112"
+  }, {
+    "range" : "2",
+    "domain" : "115",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "114"
+  }, {
+    "range" : "2",
+    "domain" : "117",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "116"
+  }, {
+    "range" : "2",
+    "domain" : "176",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "180"
+  }, {
+    "range" : "2",
+    "domain" : "177",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "181"
+  }, {
+    "range" : "2",
+    "domain" : "178",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "182"
+  }, {
+    "range" : "2",
+    "domain" : "179",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "183"
+  }, {
+    "range" : "2",
+    "domain" : "169",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "184"
+  }, {
+    "range" : "2",
+    "domain" : "170",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "185"
+  }, {
+    "range" : "2",
+    "domain" : "171",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "186"
+  }, {
+    "range" : "2",
+    "domain" : "172",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "187"
+  }, {
+    "range" : "2",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "188"
+  }, {
+    "range" : "2",
+    "domain" : "174",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "189"
+  }, {
+    "range" : "2",
+    "domain" : "175",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "190"
+  }, {
+    "range" : "2",
+    "domain" : "166",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "191"
+  }, {
+    "range" : "2",
+    "domain" : "167",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "192"
+  }, {
+    "range" : "2",
+    "domain" : "168",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "193"
+  }, {
+    "range" : "2",
+    "domain" : "130",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "194"
+  }, {
+    "range" : "2",
+    "domain" : "129",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "195"
+  }, {
+    "range" : "2",
+    "domain" : "56",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "196"
+  }, {
+    "range" : "2",
+    "domain" : "127",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "197"
+  }, {
+    "range" : "2",
+    "domain" : "53",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "198"
+  }, {
+    "range" : "2",
+    "domain" : "128",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "199"
+  }, {
+    "range" : "2",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "200"
+  }, {
+    "range" : "2",
+    "domain" : "51",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "201"
+  }, {
+    "range" : "2",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "202"
+  }, {
+    "range" : "2",
+    "domain" : "54",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "203"
+  }, {
+    "range" : "2",
+    "domain" : "126",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "204"
+  }, {
+    "range" : "2",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "205"
+  }, {
+    "range" : "2",
+    "domain" : "48",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "206"
+  }, {
+    "range" : "2",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "207"
+  }, {
+    "range" : "2",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "208"
+  }, {
+    "range" : "2",
+    "domain" : "44",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "209"
+  }, {
+    "range" : "2",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "210"
+  }, {
+    "range" : "2",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "211"
+  }, {
+    "range" : "2",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "212"
+  }, {
+    "range" : "2",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "213"
+  }, {
+    "range" : "2",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "214"
+  }, {
+    "range" : "2",
+    "domain" : "149",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "215"
+  }, {
+    "range" : "2",
+    "domain" : "67",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "216"
+  }, {
+    "range" : "2",
+    "domain" : "66",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "217"
+  }, {
+    "range" : "2",
+    "domain" : "146",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "218"
+  }, {
+    "range" : "2",
+    "domain" : "145",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "219"
+  }, {
+    "range" : "2",
+    "domain" : "148",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "220"
+  }, {
+    "range" : "2",
+    "domain" : "147",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "221"
+  }, {
+    "range" : "2",
+    "domain" : "142",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "222"
+  }, {
+    "range" : "2",
+    "domain" : "141",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "223"
+  }, {
+    "range" : "2",
+    "domain" : "144",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "224"
+  }, {
+    "range" : "2",
+    "domain" : "143",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "225"
+  }, {
+    "range" : "2",
+    "domain" : "140",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "226"
+  }, {
+    "range" : "2",
+    "domain" : "139",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "227"
+  }, {
+    "range" : "2",
+    "domain" : "138",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "228"
+  }, {
+    "range" : "2",
+    "domain" : "135",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "229"
+  }, {
+    "range" : "2",
+    "domain" : "134",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "230"
+  }, {
+    "range" : "2",
+    "domain" : "137",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "231"
+  }, {
+    "range" : "2",
+    "domain" : "136",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "232"
+  }, {
+    "range" : "2",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "233"
+  }, {
+    "range" : "2",
+    "domain" : "131",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "234"
+  }, {
+    "range" : "2",
+    "domain" : "133",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "235"
+  }, {
+    "range" : "2",
+    "domain" : "132",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "236"
+  }, {
+    "range" : "2",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "237"
+  }, {
+    "range" : "2",
+    "domain" : "154",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "238"
+  }, {
+    "range" : "2",
+    "domain" : "83",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "239"
+  }, {
+    "range" : "2",
+    "domain" : "84",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "240"
+  }, {
+    "range" : "2",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "241"
+  }, {
+    "range" : "2",
+    "domain" : "153",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "242"
+  }, {
+    "range" : "2",
+    "domain" : "80",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "243"
+  }, {
+    "range" : "2",
+    "domain" : "77",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "244"
+  }, {
+    "range" : "2",
+    "domain" : "78",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "245"
+  }, {
+    "range" : "2",
+    "domain" : "79",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "246"
+  }, {
+    "range" : "2",
+    "domain" : "152",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "247"
+  }, {
+    "range" : "2",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "248"
+  }, {
+    "range" : "2",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "249"
+  }, {
+    "range" : "2",
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "250"
+  }, {
+    "range" : "2",
+    "domain" : "76",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "251"
+  }, {
+    "range" : "2",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "252"
+  }, {
+    "range" : "2",
+    "domain" : "70",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "253"
+  }, {
+    "range" : "2",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "254"
+  }, {
+    "range" : "2",
+    "domain" : "151",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "255"
+  }, {
+    "range" : "2",
+    "domain" : "150",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "256"
+  }, {
+    "range" : "2",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "257"
+  }, {
+    "range" : "2",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "258"
+  }, {
+    "range" : "2",
+    "domain" : "95",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "259"
+  }, {
+    "range" : "2",
+    "domain" : "163",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "260"
+  }, {
+    "range" : "2",
+    "domain" : "165",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "261"
+  }, {
+    "range" : "2",
+    "domain" : "164",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "262"
+  }, {
+    "range" : "2",
+    "domain" : "93",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "263"
+  }, {
+    "range" : "2",
+    "domain" : "94",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "264"
+  }, {
+    "range" : "2",
+    "domain" : "162",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "265"
+  }, {
+    "range" : "2",
+    "domain" : "120",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "266"
+  }, {
+    "range" : "2",
+    "domain" : "121",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "267"
+  }, {
+    "range" : "2",
+    "domain" : "122",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "268"
+  }, {
+    "range" : "2",
+    "domain" : "123",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "269"
+  }, {
+    "range" : "2",
+    "domain" : "124",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "270"
+  }, {
+    "range" : "2",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "271"
+  }, {
+    "range" : "2",
+    "domain" : "125",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "272"
+  }, {
+    "range" : "2",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "273"
+  }, {
+    "range" : "2",
+    "domain" : "118",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "274"
+  }, {
+    "range" : "2",
+    "domain" : "119",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "275"
+  }, {
+    "range" : "2",
+    "domain" : "160",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "276"
+  }, {
+    "range" : "2",
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "277"
+  }, {
+    "range" : "2",
+    "domain" : "161",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "278"
+  }, {
+    "range" : "2",
+    "domain" : "92",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "279"
+  }, {
+    "range" : "2",
+    "domain" : "88",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "280"
+  }, {
+    "range" : "2",
+    "domain" : "159",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "281"
+  }, {
+    "range" : "2",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "282"
+  }, {
+    "range" : "2",
+    "domain" : "89",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "283"
+  }, {
+    "range" : "2",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "284"
+  }, {
+    "range" : "2",
+    "domain" : "158",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "285"
+  }, {
+    "range" : "2",
+    "domain" : "157",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "286"
+  }, {
+    "range" : "2",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "287"
+  }, {
+    "range" : "2",
+    "domain" : "155",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "288"
+  }, {
+    "range" : "2",
+    "domain" : "86",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "289"
+  }, {
+    "range" : "2",
+    "domain" : "156",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "290"
+  } ]
+}

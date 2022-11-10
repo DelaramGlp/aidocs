@@ -1,0 +1,739 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUBQ1
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/taio#activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ1> <http://www.w3.org/2000/01/rdf-schema#label> "Establish a strategy or a set of procedures to avoid creating or reinforcing unfair bias in the AI system, both regarding the use of input data as well as for the algorithm design."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUBQ2
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ2> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether diversity and representativeness of end-users and/or subjects in the data is considered."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.1
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.1> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether specific target groups or problematic use cases are considered."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.2
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.2> <http://www.w3.org/2000/01/rdf-schema#label> "Determine whether publicly available technical tools, that are state-of-the-art are used to improve your understanding of the data, model and performance."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.3
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.3> <http://www.w3.org/2000/01/rdf-schema#label> "Establish processes to test and monitor for potential biases during the entire lifecycle of the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.4
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.4> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether diversity and representativeness of end-users and or subjects in the data is considered where relevant."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUBQ3
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ3> <http://www.w3.org/2000/01/rdf-schema#label> "Provide training (Put in place educational and awareness initiatives) to help AI designers and AI developers be more aware of the possible bias they can inject in designing and developing the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUBQ4
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ4> <http://www.w3.org/2000/01/rdf-schema#label> "Establish a mechanism that allows for the flagging of issues related to bias, discrimination or poor performance of the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.1
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.1> <http://www.w3.org/2000/01/rdf-schema#label> "Establish clear steps (processes) and ways of communicating on how and to whom issues related to bias, discrimination or poor performance of the AI system can be raised."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.2
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.2> <http://www.w3.org/2000/01/rdf-schema#label> "Identify the subjects that could potentially be (in)directly affected by the AI system, in addition to the (end-)users and/or subjects."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUBQ5
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ5> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether your definition of fairness is commonly used and implemented in any phase of the process of setting up the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.1
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.1> <http://www.w3.org/2000/01/rdf-schema#label> "Determine whether you considered different definitions of fairness before choosing one."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.2
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.2> <http://www.w3.org/2000/01/rdf-schema#label> "Consult with the impacted communities about the correct definition of fairness, i.e. representatives of elderly persons or persons with disabilities."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.3
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.3> <http://www.w3.org/2000/01/rdf-schema#label> "Establish mechanisms (Ensure a quantitative analysis or metrics) to measure and test the applied definition of fairness."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.4
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.4> <http://www.w3.org/2000/01/rdf-schema#label> "Establish mechanisms to ensure fairness in your AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUDQ1
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ1> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether the AI system corresponds to the variety of preferences and abilities in society."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUDQ2
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ2> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether the AI system's user interface is usable by those with special needs or disabilities or those at risk of exclusion."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.1
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.1> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether that information about, and the AI system's user interface of, the AI system is accessible and usable also to users of assistive technologies (such as screen readers)."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.2
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.2> <http://www.w3.org/2000/01/rdf-schema#label> "Consult with end-users or subjects in need for assistive technology during the planning and development phase of the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUDQ3
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ3> <http://www.w3.org/2000/01/rdf-schema#label> "Ensure that Universal Design principles are taken into account during every step of the planning and development process, if applicable."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUDQ4
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ4> <http://www.w3.org/2000/01/rdf-schema#label> "Assess the impact of the AI system on the potential end-users and/or subjects into account."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.1
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.1> <http://www.w3.org/2000/01/rdf-schema#label> "Determine whether the team involved in building the AI system engaged with the possible target end-users and/or subjects."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.2
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.2> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether there could be groups who might be disproportionately affected by the outcomes of the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.3
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.3> <http://www.w3.org/2000/01/rdf-schema#label> "Assess the risk of the possible unfairness of the system onto the end-user's or subject's communities"@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AcQ1
+<https://delaramglp.github.io/aidocs/altai-activity#AcQ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AcQ1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AcQ1> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether a low level of accuracy of the AI system can result in critical, adversarial or damaging consequences."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AcQ2
+<https://delaramglp.github.io/aidocs/altai-activity#AcQ2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AcQ2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AcQ2> <http://www.w3.org/2000/01/rdf-schema#label> "Establish measures to ensure that the data (including training data) used to develop the AI system is up-to-date, of high quality, complete and representative of the environment the system will be deployed in."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AcQ3
+<https://delaramglp.github.io/aidocs/altai-activity#AcQ3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AcQ3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AcQ3> <http://www.w3.org/2000/01/rdf-schema#label> "Establish set of activities to monitor, and document the AI system’s accuracy."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AcQ4
+<https://delaramglp.github.io/aidocs/altai-activity#AcQ4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AcQ4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AcQ4> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether the AI system's operation can invalidate the data or assumptions it was trained on, and how this might lead to adversarial effects."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AcQ5
+<https://delaramglp.github.io/aidocs/altai-activity#AcQ5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AcQ5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AcQ5> <http://www.w3.org/2000/01/rdf-schema#label> "Establish processes to ensure that the level of accuracy of the AI system to be expected by end-users and/or subjects is properly communicated."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AudQ1
+<https://delaramglp.github.io/aidocs/altai-activity#AudQ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AudQ1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AudQ1> <http://www.w3.org/2000/01/rdf-schema#label> "Establish mechanisms that facilitate the AI system’s auditability (e.g. traceability of the development process, the sourcing of training data and the logging of the AI system’s processes, outcomes, positive and negative impact)."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#AudQ2
+<https://delaramglp.github.io/aidocs/altai-activity#AudQ2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#AudQ2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#AudQ2> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether the AI system can be audited by independent third parties. "@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#ComQ1
+<https://delaramglp.github.io/aidocs/altai-activity#ComQ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#ComQ1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#ComQ1> <http://www.w3.org/2000/01/rdf-schema#label> "In cases of interactive AI systems, communicate to users that they are interacting with an AI system instead of a human."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#ComQ2
+<https://delaramglp.github.io/aidocs/altai-activity#ComQ2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#ComQ2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#ComQ2> <http://www.w3.org/2000/01/rdf-schema#label> "Inform users about the purpose, criteria and limitations of the decision(s) generated by the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#ComQ2.1
+<https://delaramglp.github.io/aidocs/altai-activity#ComQ2.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#ComQ2.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#ComQ2.1> <http://www.w3.org/2000/01/rdf-schema#label> "Communicate the benefits of the AI system to users."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#ComQ2.2
+<https://delaramglp.github.io/aidocs/altai-activity#ComQ2.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#ComQ2.2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#ComQ2.2> <http://www.w3.org/2000/01/rdf-schema#label> "Communicate the technical limitations and potential risks of the AI system to users, such as its level of accuracy and/ or error rates."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#ComQ2.3
+<https://delaramglp.github.io/aidocs/altai-activity#ComQ2.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#ComQ2.3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#ComQ2.3> <http://www.w3.org/2000/01/rdf-schema#label> "Provide appropriate training material and disclaimers to users on how to adequately use the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#DGQ1
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ1> <http://www.w3.org/2000/01/rdf-schema#label> "Determine whether the AI system is being trained, or was it developed, by using or processing personal data (including special categories of personal data)."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#DGQ2.1
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ2.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ2.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ2.1> <http://www.w3.org/2000/01/rdf-schema#label> "Establish measures for Data Protection Impact Assessment (DPIA). "@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#DGQ2.2
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ2.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ2.2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ2.2> <http://www.w3.org/2000/01/rdf-schema#label> "Designate a Data Protection Officer (DPO) and include them at an early state in the development, procurement or use phase of the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#DGQ2.3
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ2.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ2.3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ2.3> <http://www.w3.org/2000/01/rdf-schema#label> "Establish oversight mechanisms for data processing (including limiting access to qualified personnel, mechanisms for logging data access and making modifications)."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#DGQ2.4
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ2.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ2.4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ2.4> <http://www.w3.org/2000/01/rdf-schema#label> "Establish measures to achieve privacy-by-design and default (e.g. encryption, pseudonymisation, aggregation, anonymisation)."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#DGQ2.5
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ2.5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ2.5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ2.5> <http://www.w3.org/2000/01/rdf-schema#label> "Establish measures to achieve Data minimisation, in particular personal data (including special categories of data)."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#DGQ2.6
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ2.6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ2.6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ2.6> <http://www.w3.org/2000/01/rdf-schema#label> "(Establish processes to) implement the right to withdraw consent, the right to object and the right to be forgotten into the development of the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#DGQ2.7
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ2.7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ2.7> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ2.7> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether the privacy and data protection implications of data collected, generated or processed over the course of the AI system's life cycle is considered."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#DGQ3
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ3> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether the privacy and data protection implications of the AI system's non-personal training-data or other processed non-personal data is considered."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#DGQ4
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#DGQ4> <http://www.w3.org/2000/01/rdf-schema#label> "Align the AI system with relevant standards (e.g. ISO, IEEE) or widely adopted protocols for (daily) data management and governance."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#EWQ1
+<https://delaramglp.github.io/aidocs/altai-activity#EWQ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#EWQ1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#EWQ1> <http://www.w3.org/2000/01/rdf-schema#label> "Assess potential negative impacts of the AI system on the environment."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#EWQ1.1
+<https://delaramglp.github.io/aidocs/altai-activity#EWQ1.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#EWQ1.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#EWQ1.1> <http://www.w3.org/2000/01/rdf-schema#label> "Identify the negative impacts of the AI system on the environment."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#EWQ2
+<https://delaramglp.github.io/aidocs/altai-activity#EWQ2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#EWQ2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#EWQ2> <http://www.w3.org/2000/01/rdf-schema#label> "Establish mechanisms to evaluate the environmental impact of the AI system’s development, deployment and/or use."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#EWQ2.1
+<https://delaramglp.github.io/aidocs/altai-activity#EWQ2.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#EWQ2.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#EWQ2.1> <http://www.w3.org/2000/01/rdf-schema#label> "Define measures to reduce the environmental impact of the AI system throughout its lifecycle."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#ExpQ1
+<https://delaramglp.github.io/aidocs/altai-activity#ExpQ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#ExpQ1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#ExpQ1> <http://www.w3.org/2000/01/rdf-schema#label> "Explain the decision(s) of the AI system to the users."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#ExpQ2
+<https://delaramglp.github.io/aidocs/altai-activity#ExpQ2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#ExpQ2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#ExpQ2> <http://www.w3.org/2000/01/rdf-schema#label> "Continuously survey the users if they understand the decision(s) of the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#FR1
+<https://delaramglp.github.io/aidocs/altai-activity#FR1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#FR1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#FR1> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether the AI system potentially negatively discriminates against people on the basis of any of the following grounds (non-exhaustively): sex, race, colour, ethnic or social origin, genetic features, language, religion or belief, political or any other opinion, membership of a national minority, property, birth, disability, age or sexual orientation."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#FRQ1.1
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ1.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ1.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ1.1> <http://www.w3.org/2000/01/rdf-schema#label> "Establish processes to test and monitor for potential negative discrimination (bias) during the development, deployment and use phases of the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#FRQ1.2
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ1.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ1.2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ1.2> <http://www.w3.org/2000/01/rdf-schema#label> "Establish processes to address and rectify for potential negative discrimination (bias) in the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#FRQ2
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ2> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether the AI system respect the rights of the child."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#FRQ2.1
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ2.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ2.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ2.1> <http://www.w3.org/2000/01/rdf-schema#label> "Establish processes to address and rectify for potential harm to children by the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#FRQ2.2
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ2.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ2.2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ2.2> <http://www.w3.org/2000/01/rdf-schema#label> "Establish processes to test and monitor for potential harm to children during the development, deployment and use phases of the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#FRQ3
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ3> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether the AI system protect personal data relating to individuals in line with GDPR."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#FRQ3.1
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ3.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ3.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ3.1> <http://www.w3.org/2000/01/rdf-schema#label> "Establish processes to assess in detail the need for a data protection impact assessment, including an assessment of the necessity and proportionality of the processing operations in relation to their purpose, with respect to the development, deployment and use phases of the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#FRQ3.2
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ3.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ3.2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ3.2> <http://www.w3.org/2000/01/rdf-schema#label> "Establish measures envisaged to address the risks, including safeguards, security measures and mechanisms to ensure the protection of personal data with respect to the development, deployment and use phases of the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#FRQ4
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ4> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether the AI system respect the freedom of expression and information and/or freedom of assembly and association."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#FRQ4.1
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ4.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ4.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ4.1> <http://www.w3.org/2000/01/rdf-schema#label> "Establish processes to test and monitor for potential infringement on freedom of expression and information, and/or freedom of assembly and association, during the development, deployment and use phases of the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#FRQ4.2
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ4.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ4.2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#FRQ4.2> <http://www.w3.org/2000/01/rdf-schema#label> "Establish processes to address and rectify for potential infringement on freedom of expression and information, and/or freedom of assembly and association, in the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#GSQ1
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ1> <http://www.w3.org/2000/01/rdf-schema#label> "Define risks, risk metrics and risk levels of the AI system in each specific use case."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#GSQ1.1
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ1.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ1.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ1.1> <http://www.w3.org/2000/01/rdf-schema#label> "Establish a process to continuously measure and assess risks."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#GSQ1.2
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ1.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ1.2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ1.2> <http://www.w3.org/2000/01/rdf-schema#label> "Inform end-users and subjects of existing or potential risks."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#GSQ2
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ2> <http://www.w3.org/2000/01/rdf-schema#label> "Identify the possible threats to the AI system (design faults, technical faults, environmental threats) and the possible consequences."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#GSQ2.1
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ2.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ2.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ2.1> <http://www.w3.org/2000/01/rdf-schema#label> "Assess the risk of possible malicious use, misuse or inappropriate use of the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#GSQ2.2
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ2.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ2.2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ2.2> <http://www.w3.org/2000/01/rdf-schema#label> "Define safety criticality levels (e.g. related to human integrity) of the possible consequences of faults or misuse of the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#GSQ3
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ3> <http://www.w3.org/2000/01/rdf-schema#label> "Assess the dependency of a critical AI system’s decisions on its stable and reliable behaviour."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#GSQ3.1
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ3.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ3.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ3.1> <http://www.w3.org/2000/01/rdf-schema#label> "Align the reliability/testing requirements to the appropriate levels of stability and reliability."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#GSQ4
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ4> <http://www.w3.org/2000/01/rdf-schema#label> "Plan fault tolerance."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#GSQ5
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#GSQ5> <http://www.w3.org/2000/01/rdf-schema#label> "Develop a mechanism to evaluate when the AI system has been changed to merit a new review of its technical robustness and safety."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HAAQ1
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ1> <http://www.w3.org/2000/01/rdf-schema#label> "Determine whether the AI system is designed to interact, guide or take decisions by human end-users that affect humans or society."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.1
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.1> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether the AI system generates confusion for some or all end-users or subjects on whether a decision, content, advice or outcome is the result of an algorithmic decision."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.2
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.2> <http://www.w3.org/2000/01/rdf-schema#label> "Inform end-users or other subjects that a decision, content, advice or outcome is the result of an algorithmic decision."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HAAQ2
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ2> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether the AI system generates confusion for some or all end-users or subjects on whether they are interacting with a human or AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HAAQ2.1
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ2.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ2.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ2.1> <http://www.w3.org/2000/01/rdf-schema#label> "Inform end-users or subjects that they are interacting with an AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HAAQ3
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ3> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether the AI system affects human autonomy by generating over-reliance by end-users."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HAAQ3.1
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ3.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ3.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ3.1> <http://www.w3.org/2000/01/rdf-schema#label> "Establish procedures to avoid end-users over-reliance on the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HAAQ4
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ4> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether the AI system affects human autonomy by interfering with the end-user’s decision-making process in any other unintended and undesirable way."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HAAQ4.1
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ4.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ4.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ4.1> <http://www.w3.org/2000/01/rdf-schema#label> "Establish procedures to avoid the inadvertent affects of the AI system on human autonomy."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HAAQ5
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ5> <http://www.w3.org/2000/01/rdf-schema#label> "Determine whether the AI system simulates social interaction with or between end-users or subjects."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HAAQ6
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ6> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether the AI system risk creating human attachment, stimulating addictive behaviour, or manipulating user behaviour."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.1
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.1> <http://www.w3.org/2000/01/rdf-schema#label> "Establish measures to deal with possible negative consequences for end-users or subjects in case they develop a disproportionate attachment to the AI System."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.2
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.2> <http://www.w3.org/2000/01/rdf-schema#label> "Take measures to minimise the risk of addiction."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.3
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.3> <http://www.w3.org/2000/01/rdf-schema#label> "Take measures to mitigate the risk of manipulation."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HOQ1.1
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ1.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ1.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ1.1> <http://www.w3.org/2000/01/rdf-schema#label> "Determine whether the AI system is a self-learning or autonomous system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HOQ1.2
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ1.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ1.2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ1.2> <http://www.w3.org/2000/01/rdf-schema#label> "Determine whether the AI system is overseen by a Human-in-the-Loop."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HOQ1.3
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ1.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ1.3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ1.3> <http://www.w3.org/2000/01/rdf-schema#label> "Determine whether the AI system is overseen by a Human-on-the-Loop."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HOQ1.4
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ1.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ1.4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ1.4> <http://www.w3.org/2000/01/rdf-schema#label> "Determine whether the AI system is overseen by a Human-in-Command."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HOQ2
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ2> <http://www.w3.org/2000/01/rdf-schema#label> "Provide the humans (human-in-the-loop, human-on-the-loop, human-in-command) training on how to exercise oversight."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HOQ3
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ3> <http://www.w3.org/2000/01/rdf-schema#label> "Establish detection and/or response mechanisms for undesirable adverse effects of the AI system for the end-user or subject."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HOQ4
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ4> <http://www.w3.org/2000/01/rdf-schema#label> "Establish a procedure to safely abort an operation when needed."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#HOQ5
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#HOQ5> <http://www.w3.org/2000/01/rdf-schema#label> "Take oversight and control measures to reflect the self-learning or autonomous nature of the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#ISDQ1
+<https://delaramglp.github.io/aidocs/altai-activity#ISDQ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#ISDQ1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#ISDQ1> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether the AI system have a negative impact on society at large or democracy."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.1
+<https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.1> <http://www.w3.org/2000/01/rdf-schema#label> "Assess the societal impact of the AI system’s use beyond the (end-)user and subject, such as potentially indirectly affected stakeholders or society at large."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.2
+<https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.2> <http://www.w3.org/2000/01/rdf-schema#label> "Establish measures to minimize potential societal harm of the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.3
+<https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.3> <http://www.w3.org/2000/01/rdf-schema#label> "Establish measures that ensure that the AI system does not negatively impact democracy."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#IWSQ1
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ1> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether the AI system impacts human work and work arrangements."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#IWSQ2
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ2> <http://www.w3.org/2000/01/rdf-schema#label> "Inform and consult with impacted workers and their representatives (trade unions, (European) work councils) in advance to introducing the system in the organisation."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#IWSQ3
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ3> <http://www.w3.org/2000/01/rdf-schema#label> "Establish measures to ensure that the impacts of the AI system on human work are well understood."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#IWSQ3.1
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ3.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ3.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ3.1> <http://www.w3.org/2000/01/rdf-schema#label> "Ensure that workers understand how the AI system operates, which capabilities it has and which it does not have."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#IWSQ4
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ4> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether the AI system can create the risk of de-skilling of the workforce."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#IWSQ4.1
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ4.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ4.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ4.1> <http://www.w3.org/2000/01/rdf-schema#label> "Establish measures to counteract de-skilling risks."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#IWSQ5
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ5> <http://www.w3.org/2000/01/rdf-schema#label> "Determine whether the system promote or require new (digital) skills."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#IWSQ5.1
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ5.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ5.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#IWSQ5.1> <http://www.w3.org/2000/01/rdf-schema#label> "Provide training opportunities and materials for re- and up-skilling."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#PrQ1
+<https://delaramglp.github.io/aidocs/altai-activity#PrQ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#PrQ1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#PrQ1> <http://www.w3.org/2000/01/rdf-schema#label> "Assess impact of the AI system on the right to privacy, the right to physical, mental and/or moral integrity and the right to data protection."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#PrQ2
+<https://delaramglp.github.io/aidocs/altai-activity#PrQ2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#PrQ2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#PrQ2> <http://www.w3.org/2000/01/rdf-schema#label> "Establish mechanisms that allow flagging issues related to privacy concerning the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RASQ1
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ1> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether the AI system has adversarial, critical or damaging effects (e.g. to human or societal safety) in case of risks or threats such as design or technical faults, defects, outages, attacks, misuse, inappropriate or malicious use."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RASQ2
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ2> <http://www.w3.org/2000/01/rdf-schema#label> "Determine whether AI system is certified for cybersecurity or is compliant with specific security standards."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RASQ3
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ3> <http://www.w3.org/2000/01/rdf-schema#label> "Assess exposure of the AI system to cyber-attacks."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RASQ3.1
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ3.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ3.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ3.1> <http://www.w3.org/2000/01/rdf-schema#label> "Assess potential forms of attacks to which the AI system could be vulnerable."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RASQ3.2
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ3.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ3.2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ3.2> <http://www.w3.org/2000/01/rdf-schema#label> "Identify and assess different types of vulnerabilities and potential entry points for attacks such as: Data poisoning, model evasion, and  model inversion."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RASQ4
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ4> <http://www.w3.org/2000/01/rdf-schema#label> "Establish measures to ensure the integrity, robustness and overall security of the AI system against potential attacks over its lifecycle."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RASQ5
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ5> <http://www.w3.org/2000/01/rdf-schema#label> "(Establish processes for) red-teaming/ pentesting the system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RASQ6
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ6> <http://www.w3.org/2000/01/rdf-schema#label> "Inform end-users of the duration of security coverage and updates."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RASQ6.1
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ6.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ6.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RASQ6.1> <http://www.w3.org/2000/01/rdf-schema#label> "Determine the expected timeframe within which security updates for the AI system is provided."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether the AI system can cause critical, adversarial, or damaging consequences (e.g. pertaining to human safety) in case of low reliability and/or reproducibility."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.1
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.1> <http://www.w3.org/2000/01/rdf-schema#label> "Establish a process to monitor if the AI system is meeting the intended goals."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.2
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.2> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluate whether specific contexts or conditions need to be taken into account to ensure reproducibility."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2> <http://www.w3.org/2000/01/rdf-schema#label> "Establish processes (verification and validation methods and documentation (e.g. logging)) to evaluate and ensure different aspects of the AI system’s reliability and reproducibility."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2.1
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2.1> <http://www.w3.org/2000/01/rdf-schema#label> "Establish (Document and operationalise) processes for the testing and verification of the reliability and reproducibility of the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RFPRQ3
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ3> <http://www.w3.org/2000/01/rdf-schema#label> "Define tested failsafe fallback plans to address AI system errors of whatever origin and put governance procedures in place to trigger them."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RFPRQ4
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ4> <http://www.w3.org/2000/01/rdf-schema#label> "Establish a procedure for handling the cases where the AI system yields results with a low confidence score."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5> <http://www.w3.org/2000/01/rdf-schema#label> "Determine whether the AI system is using (online) continual learning."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5.1
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5.1> <http://www.w3.org/2000/01/rdf-schema#label> "Assess potential negative consequences from the AI system learning novel or unusual methods to score well on its objective function"@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RMQ1
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ1> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether you will make use of external guidance or third-party auditing processes to oversee ethical concerns and accountability measures."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RMQ1.1
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ1.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ1.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ1.1> <http://www.w3.org/2000/01/rdf-schema#label> "Determine whether the involvement of third parties go beyond the development phase."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RMQ2
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ2> <http://www.w3.org/2000/01/rdf-schema#label> "Provide risk training and inform [the staff] about the potential legal framework applicable to the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RMQ3
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ3> <http://www.w3.org/2000/01/rdf-schema#label> "Establish an AI ethics review board (or a similar mechanism) to assess (discuss) the overall accountability and ethics practices, including potential unclear grey areas."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RMQ4
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ4> <http://www.w3.org/2000/01/rdf-schema#label> "Establish a process to discuss and continuously monitor and assess the AI system's adherence to this Assessment List for Trustworthy AI (ALTAI)."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RMQ4.1
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ4.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ4.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ4.1> <http://www.w3.org/2000/01/rdf-schema#label> "[Establish a process to discuss and continuously monitor and assess the AI system's adherence to this Assessment List for Trustworthy AI (ALTAI) which] Include[s] identification and documentation of conflicts between the 6 aforementioned requirements or between different ethical principles and explanation of the 'trade-off' decisions made in the process."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RMQ4.2
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ4.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ4.2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ4.2> <http://www.w3.org/2000/01/rdf-schema#label> "Provide appropriate training to those involved in such a process [monitoring and assessing the system's adherence to ALTAI] which covers the legal framework applicable to the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RMQ5
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ5> <http://www.w3.org/2000/01/rdf-schema#label> "Establish a process for third parties (e.g. suppliers, end-users, subjects, distributors/vendors or workers) to report potential vulnerabilities, risks or biases in the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RMQ5.1
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ5.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ5.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ5.1> <http://www.w3.org/2000/01/rdf-schema#label> "Assess whether this process foster revision of the risk management process."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#RMQ6
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#RMQ6> <http://www.w3.org/2000/01/rdf-schema#label> "Establish redress by design mechanisms for applications that can adversely affect individuals."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#SPQ1
+<https://delaramglp.github.io/aidocs/altai-activity#SPQ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#SPQ1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#SPQ1> <http://www.w3.org/2000/01/rdf-schema#label> "Include the participation of the widest range of possible stakeholders in the AI system’s design and development."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#TrcQ1
+<https://delaramglp.github.io/aidocs/altai-activity#TrcQ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#TrcQ1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#TrcQ1> <http://www.w3.org/2000/01/rdf-schema#label> "Establish measures that address the traceability of the AI system during its entire lifecycle."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.1
+<https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.1> <http://www.w3.org/2000/01/rdf-schema#label> "Establish measures to continuously assess the quality of the input data to the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.2
+<https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.2> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluate whether it is feasible to trace back which data was used by the AI system to make a certain decision(s) or recommendation(s)."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.3
+<https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.3> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluate whether it is feasible to trace back which AI model or rules led to the decision(s) or recommendation(s) of the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.4
+<https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.4> <http://www.w3.org/2000/01/rdf-schema#label> "Establish measures to continuously assess the quality of the output(s) of the AI system."@en .
+# 
+# https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.5
+<https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.5> <http://www.w3.org/2000/01/rdf-schema#label> "Put in place adequate logging practices to record the decision(s) or recommendation(s) of the AI system are implemented."@en .
+# 
+# https://delaramglp.github.io/aidocs/taio#activity
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

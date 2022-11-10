@@ -2,556 +2,556 @@
   "@id" : "_:genid1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#AffixCEMarking",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#AffixCEMarking",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Affix CE Marking"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#AppointAuthorisedRepresentative",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#AppointAuthorisedRepresentative",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Appoint Authorised Representative"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#BuildHumanOversightMeasureIntoSystem",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#BuildHumanOversightMeasureIntoSystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Build Human Oversight Measure Into System"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#CommunicateRisk",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#CommunicateRisk",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Communicate Residual Risk to users"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ConductFirst-PartyConfomityAssessment",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ConductFirst-PartyConfomityAssessment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Conduct First-Party Confomity Assessment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ConductingConformityAssessment",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ConductingConformityAssessment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Assess Conformity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#CreateCodesOfConduct",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#CreateCodesOfConduct",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Create Codes Of Conduct"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#CreateEUDeclarationOfConformity",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#CreateEUDeclarationOfConformity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Create EU Declaration Of Conformity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#CreateInstructionForUse",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#CreateInstructionForUse",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Create Instruction For Use"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#CreateTechnicalDocumentation",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#CreateTechnicalDocumentation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Create Technical Documentation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#DemonstrateConformity",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#DemonstrateConformity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Demonstrate Conformity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentPost-MarketMonitoringSystem",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#DocumentPost-MarketMonitoringSystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Document Post-Market Monitoring System"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentQualityManagementSystem",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#DocumentQualityManagementSystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Document Quality Management System"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentRiskMangementSystem",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#DocumentRiskMangementSystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Document Risk Mangement System"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#EnsureImplementationOfLoggingCapabilities",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#EnsureImplementationOfLoggingCapabilities",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Implement Logging Capabilities"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#EnsureLogGeneratation",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#EnsureLogGeneratation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Generate Logs"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#EstablishPost-MarketMonitoringSystem",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#EstablishPost-MarketMonitoringSystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Establish Post-Market Monitoring System"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#EstablishRiskManagementSystem",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#EstablishRiskManagementSystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Establish Risk Management System"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#FollowConformityAssessmentProcedure",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#FollowConformityAssessmentProcedure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Follow Conformity Assessment Procedure"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToData",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToData",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Grant Access To Data"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToDocumentation",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToDocumentation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Grant Access To Documentation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToLogs",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToLogs",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Grant Access To Logs"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToSourceCode",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToSourceCode",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Grant Access To Source Code"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#IdentifyHumanOversightMeasure",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#IdentifyHumanOversightMeasure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Idnetify Human Oversight Measure"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#IdentifyImpactOnStakeholders",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#IdentifyImpactOnStakeholders",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Identify Impact On Stakeholders"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementDataGovernance",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ImplementDataGovernance",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Implement Data Governance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementDataManagement",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ImplementDataManagement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Implement Data Management"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementHumanOversightMeasure",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ImplementHumanOversightMeasure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Implement Human Oversight Measure"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementPost-MarketMonitoringSystem",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ImplementPost-MarketMonitoringSystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Implement Post-Market Monitoring System"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementQualityManagementSystem",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ImplementQualityManagementSystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Implement Quality Management System"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementRiskManagementSystem",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ImplementRiskManagementSystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Implement Risk Management System"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#InterpretSystemOutput",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#InterpretSystemOutput",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Interpret System Output"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#InterruptSystemOperation",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#InterruptSystemOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Interrupt System Operation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#InterveneSystemOperation",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#InterveneSystemOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Intervene System Operation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainPost-MarketMonitoringSystem",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#MaintainPost-MarketMonitoringSystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Maintain Post-Market Monitoring System"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainRiskManagementSystem",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#MaintainRiskManagementSystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Maintain Risk Management System"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainSystemLogs",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#MaintainSystemLogs",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Maintain System Logs"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#MakeADecisionAboutUsingTheSystem",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#MakeADecisionAboutUsingTheSystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Make A Decision About Using TheS ystem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#MonitorSystemOperation",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#MonitorSystemOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Monitor System Operation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#Post-marketMonitoring",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#Post-marketMonitoring",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Post-market Monitoring"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ProvideDocumentationToDemonstrateConformity",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ProvideDocumentationToDemonstrateConformity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "ProvideDocumentationToDemonstrateConformity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ProvideInformationToDemonstrateConformity",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ProvideInformationToDemonstrateConformity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "ProvideInformationToDemonstrateConformity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#RegisterSystemInEUDatabase",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#RegisterSystemInEUDatabase",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Register System In EU Database"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ReportCorrectiveActions",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ReportCorrectiveActions",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Report Corrective Actions"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ReportMalfunctioning",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ReportMalfunctioning",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Report Malfunctioning"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ReportNon-confomity",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ReportNon-confomity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Report Non-confomity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#ReportSeriousIncidents",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ReportSeriousIncidents",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Report Serious Incidents"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#RiskAnalysis",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#RiskAnalysis",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Risk Analysis"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#RiskEvaluation",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#RiskEvaluation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Risk Evaluation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#RiskIdentification",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#RiskIdentification",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Risk Identification"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#RiskTreatment",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#RiskTreatment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Risk Treatment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#TakeCorrectiveActions",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#TakeCorrectiveActions",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Take Corrective Actions"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#TestAISystem",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#TestAISystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Test AI System"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#UpdateEUDeclarationOfConformity",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#UpdateEUDeclarationOfConformity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Update EU Declaration Of Conformity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/aia-activity#UpdateTechnicalDocumentation",
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#UpdateTechnicalDocumentation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Update Technical Documentation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity"
+    "@id" : "https://delaramglp.github.io/aidocs/taio#activity"
   } ]
 }, {
-  "@id" : "https://delaramglp.github.io/ai-keydocom/taio#activity",
+  "@id" : "https://delaramglp.github.io/aidocs/taio#activity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 } ]

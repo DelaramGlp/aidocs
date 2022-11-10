@@ -8,282 +8,282 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # #################################################################
 # 
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#AffixCEMarking
-<https://delaramglp.github.io/ai-keydocom/aia-activity#AffixCEMarking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#AffixCEMarking> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/taio#activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#AffixCEMarking> <http://www.w3.org/2000/01/rdf-schema#label> "Affix CE Marking"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#AffixCEMarking
+<https://delaramglp.github.io/aidocs/aia-activity#AffixCEMarking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#AffixCEMarking> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/taio#activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#AffixCEMarking> <http://www.w3.org/2000/01/rdf-schema#label> "Affix CE Marking"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#AppointAuthorisedRepresentative
-<https://delaramglp.github.io/ai-keydocom/aia-activity#AppointAuthorisedRepresentative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#AppointAuthorisedRepresentative> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#AppointAuthorisedRepresentative> <http://www.w3.org/2000/01/rdf-schema#label> "Appoint Authorised Representative"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#AppointAuthorisedRepresentative
+<https://delaramglp.github.io/aidocs/aia-activity#AppointAuthorisedRepresentative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#AppointAuthorisedRepresentative> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#AppointAuthorisedRepresentative> <http://www.w3.org/2000/01/rdf-schema#label> "Appoint Authorised Representative"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#BuildHumanOversightMeasureIntoSystem
-<https://delaramglp.github.io/ai-keydocom/aia-activity#BuildHumanOversightMeasureIntoSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#BuildHumanOversightMeasureIntoSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#BuildHumanOversightMeasureIntoSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Build Human Oversight Measure Into System"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#BuildHumanOversightMeasureIntoSystem
+<https://delaramglp.github.io/aidocs/aia-activity#BuildHumanOversightMeasureIntoSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#BuildHumanOversightMeasureIntoSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#BuildHumanOversightMeasureIntoSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Build Human Oversight Measure Into System"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#CommunicateRisk
-<https://delaramglp.github.io/ai-keydocom/aia-activity#CommunicateRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#CommunicateRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#CommunicateRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Communicate Residual Risk to users"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#CommunicateRisk
+<https://delaramglp.github.io/aidocs/aia-activity#CommunicateRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#CommunicateRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#CommunicateRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Communicate Residual Risk to users"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#ConductFirst-PartyConfomityAssessment
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ConductFirst-PartyConfomityAssessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ConductFirst-PartyConfomityAssessment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ConductFirst-PartyConfomityAssessment> <http://www.w3.org/2000/01/rdf-schema#label> "Conduct First-Party Confomity Assessment"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#ConductFirst-PartyConfomityAssessment
+<https://delaramglp.github.io/aidocs/aia-activity#ConductFirst-PartyConfomityAssessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#ConductFirst-PartyConfomityAssessment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#ConductFirst-PartyConfomityAssessment> <http://www.w3.org/2000/01/rdf-schema#label> "Conduct First-Party Confomity Assessment"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#ConductingConformityAssessment
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ConductingConformityAssessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ConductingConformityAssessment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ConductingConformityAssessment> <http://www.w3.org/2000/01/rdf-schema#label> "Assess Conformity"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#ConductingConformityAssessment
+<https://delaramglp.github.io/aidocs/aia-activity#ConductingConformityAssessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#ConductingConformityAssessment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#ConductingConformityAssessment> <http://www.w3.org/2000/01/rdf-schema#label> "Assess Conformity"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#CreateCodesOfConduct
-<https://delaramglp.github.io/ai-keydocom/aia-activity#CreateCodesOfConduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#CreateCodesOfConduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#CreateCodesOfConduct> <http://www.w3.org/2000/01/rdf-schema#label> "Create Codes Of Conduct"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#CreateCodesOfConduct
+<https://delaramglp.github.io/aidocs/aia-activity#CreateCodesOfConduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#CreateCodesOfConduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#CreateCodesOfConduct> <http://www.w3.org/2000/01/rdf-schema#label> "Create Codes Of Conduct"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#CreateEUDeclarationOfConformity
-<https://delaramglp.github.io/ai-keydocom/aia-activity#CreateEUDeclarationOfConformity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#CreateEUDeclarationOfConformity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#CreateEUDeclarationOfConformity> <http://www.w3.org/2000/01/rdf-schema#label> "Create EU Declaration Of Conformity"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#CreateEUDeclarationOfConformity
+<https://delaramglp.github.io/aidocs/aia-activity#CreateEUDeclarationOfConformity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#CreateEUDeclarationOfConformity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#CreateEUDeclarationOfConformity> <http://www.w3.org/2000/01/rdf-schema#label> "Create EU Declaration Of Conformity"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#CreateInstructionForUse
-<https://delaramglp.github.io/ai-keydocom/aia-activity#CreateInstructionForUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#CreateInstructionForUse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#CreateInstructionForUse> <http://www.w3.org/2000/01/rdf-schema#label> "Create Instruction For Use"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#CreateInstructionForUse
+<https://delaramglp.github.io/aidocs/aia-activity#CreateInstructionForUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#CreateInstructionForUse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#CreateInstructionForUse> <http://www.w3.org/2000/01/rdf-schema#label> "Create Instruction For Use"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#CreateTechnicalDocumentation
-<https://delaramglp.github.io/ai-keydocom/aia-activity#CreateTechnicalDocumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#CreateTechnicalDocumentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#CreateTechnicalDocumentation> <http://www.w3.org/2000/01/rdf-schema#label> "Create Technical Documentation"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#CreateTechnicalDocumentation
+<https://delaramglp.github.io/aidocs/aia-activity#CreateTechnicalDocumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#CreateTechnicalDocumentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#CreateTechnicalDocumentation> <http://www.w3.org/2000/01/rdf-schema#label> "Create Technical Documentation"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#DemonstrateConformity
-<https://delaramglp.github.io/ai-keydocom/aia-activity#DemonstrateConformity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#DemonstrateConformity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#DemonstrateConformity> <http://www.w3.org/2000/01/rdf-schema#label> "Demonstrate Conformity"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#DemonstrateConformity
+<https://delaramglp.github.io/aidocs/aia-activity#DemonstrateConformity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#DemonstrateConformity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#DemonstrateConformity> <http://www.w3.org/2000/01/rdf-schema#label> "Demonstrate Conformity"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentPost-MarketMonitoringSystem
-<https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentPost-MarketMonitoringSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentPost-MarketMonitoringSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentPost-MarketMonitoringSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Document Post-Market Monitoring System"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#DocumentPost-MarketMonitoringSystem
+<https://delaramglp.github.io/aidocs/aia-activity#DocumentPost-MarketMonitoringSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#DocumentPost-MarketMonitoringSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#DocumentPost-MarketMonitoringSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Document Post-Market Monitoring System"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentQualityManagementSystem
-<https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentQualityManagementSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentQualityManagementSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentQualityManagementSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Document Quality Management System"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#DocumentQualityManagementSystem
+<https://delaramglp.github.io/aidocs/aia-activity#DocumentQualityManagementSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#DocumentQualityManagementSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#DocumentQualityManagementSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Document Quality Management System"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentRiskMangementSystem
-<https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentRiskMangementSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentRiskMangementSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#DocumentRiskMangementSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Document Risk Mangement System"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#DocumentRiskMangementSystem
+<https://delaramglp.github.io/aidocs/aia-activity#DocumentRiskMangementSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#DocumentRiskMangementSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#DocumentRiskMangementSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Document Risk Mangement System"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#EnsureImplementationOfLoggingCapabilities
-<https://delaramglp.github.io/ai-keydocom/aia-activity#EnsureImplementationOfLoggingCapabilities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#EnsureImplementationOfLoggingCapabilities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#EnsureImplementationOfLoggingCapabilities> <http://www.w3.org/2000/01/rdf-schema#label> "Implement Logging Capabilities"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#EnsureImplementationOfLoggingCapabilities
+<https://delaramglp.github.io/aidocs/aia-activity#EnsureImplementationOfLoggingCapabilities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#EnsureImplementationOfLoggingCapabilities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#EnsureImplementationOfLoggingCapabilities> <http://www.w3.org/2000/01/rdf-schema#label> "Implement Logging Capabilities"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#EnsureLogGeneratation
-<https://delaramglp.github.io/ai-keydocom/aia-activity#EnsureLogGeneratation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#EnsureLogGeneratation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#EnsureLogGeneratation> <http://www.w3.org/2000/01/rdf-schema#label> "Generate Logs"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#EnsureLogGeneratation
+<https://delaramglp.github.io/aidocs/aia-activity#EnsureLogGeneratation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#EnsureLogGeneratation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#EnsureLogGeneratation> <http://www.w3.org/2000/01/rdf-schema#label> "Generate Logs"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#EstablishPost-MarketMonitoringSystem
-<https://delaramglp.github.io/ai-keydocom/aia-activity#EstablishPost-MarketMonitoringSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#EstablishPost-MarketMonitoringSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#EstablishPost-MarketMonitoringSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Establish Post-Market Monitoring System"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#EstablishPost-MarketMonitoringSystem
+<https://delaramglp.github.io/aidocs/aia-activity#EstablishPost-MarketMonitoringSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#EstablishPost-MarketMonitoringSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#EstablishPost-MarketMonitoringSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Establish Post-Market Monitoring System"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#EstablishRiskManagementSystem
-<https://delaramglp.github.io/ai-keydocom/aia-activity#EstablishRiskManagementSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#EstablishRiskManagementSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#EstablishRiskManagementSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Establish Risk Management System"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#EstablishRiskManagementSystem
+<https://delaramglp.github.io/aidocs/aia-activity#EstablishRiskManagementSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#EstablishRiskManagementSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#EstablishRiskManagementSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Establish Risk Management System"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#FollowConformityAssessmentProcedure
-<https://delaramglp.github.io/ai-keydocom/aia-activity#FollowConformityAssessmentProcedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#FollowConformityAssessmentProcedure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#FollowConformityAssessmentProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "Follow Conformity Assessment Procedure"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#FollowConformityAssessmentProcedure
+<https://delaramglp.github.io/aidocs/aia-activity#FollowConformityAssessmentProcedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#FollowConformityAssessmentProcedure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#FollowConformityAssessmentProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "Follow Conformity Assessment Procedure"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToData
-<https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToData> <http://www.w3.org/2000/01/rdf-schema#label> "Grant Access To Data"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToData
+<https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToData> <http://www.w3.org/2000/01/rdf-schema#label> "Grant Access To Data"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToDocumentation
-<https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToDocumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToDocumentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToDocumentation> <http://www.w3.org/2000/01/rdf-schema#label> "Grant Access To Documentation"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToDocumentation
+<https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToDocumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToDocumentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToDocumentation> <http://www.w3.org/2000/01/rdf-schema#label> "Grant Access To Documentation"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToLogs
-<https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToLogs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToLogs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToLogs> <http://www.w3.org/2000/01/rdf-schema#label> "Grant Access To Logs"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToLogs
+<https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToLogs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToLogs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToLogs> <http://www.w3.org/2000/01/rdf-schema#label> "Grant Access To Logs"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToSourceCode
-<https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToSourceCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToSourceCode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#GrantAccessToSourceCode> <http://www.w3.org/2000/01/rdf-schema#label> "Grant Access To Source Code"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToSourceCode
+<https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToSourceCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToSourceCode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToSourceCode> <http://www.w3.org/2000/01/rdf-schema#label> "Grant Access To Source Code"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#IdentifyHumanOversightMeasure
-<https://delaramglp.github.io/ai-keydocom/aia-activity#IdentifyHumanOversightMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#IdentifyHumanOversightMeasure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#IdentifyHumanOversightMeasure> <http://www.w3.org/2000/01/rdf-schema#label> "Idnetify Human Oversight Measure"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#IdentifyHumanOversightMeasure
+<https://delaramglp.github.io/aidocs/aia-activity#IdentifyHumanOversightMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#IdentifyHumanOversightMeasure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#IdentifyHumanOversightMeasure> <http://www.w3.org/2000/01/rdf-schema#label> "Idnetify Human Oversight Measure"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#IdentifyImpactOnStakeholders
-<https://delaramglp.github.io/ai-keydocom/aia-activity#IdentifyImpactOnStakeholders> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#IdentifyImpactOnStakeholders> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#IdentifyImpactOnStakeholders> <http://www.w3.org/2000/01/rdf-schema#label> "Identify Impact On Stakeholders"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#IdentifyImpactOnStakeholders
+<https://delaramglp.github.io/aidocs/aia-activity#IdentifyImpactOnStakeholders> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#IdentifyImpactOnStakeholders> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#IdentifyImpactOnStakeholders> <http://www.w3.org/2000/01/rdf-schema#label> "Identify Impact On Stakeholders"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementDataGovernance
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementDataGovernance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementDataGovernance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementDataGovernance> <http://www.w3.org/2000/01/rdf-schema#label> "Implement Data Governance"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#ImplementDataGovernance
+<https://delaramglp.github.io/aidocs/aia-activity#ImplementDataGovernance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#ImplementDataGovernance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#ImplementDataGovernance> <http://www.w3.org/2000/01/rdf-schema#label> "Implement Data Governance"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementDataManagement
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementDataManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementDataManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementDataManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Implement Data Management"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#ImplementDataManagement
+<https://delaramglp.github.io/aidocs/aia-activity#ImplementDataManagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#ImplementDataManagement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#ImplementDataManagement> <http://www.w3.org/2000/01/rdf-schema#label> "Implement Data Management"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementHumanOversightMeasure
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementHumanOversightMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementHumanOversightMeasure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementHumanOversightMeasure> <http://www.w3.org/2000/01/rdf-schema#label> "Implement Human Oversight Measure"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#ImplementHumanOversightMeasure
+<https://delaramglp.github.io/aidocs/aia-activity#ImplementHumanOversightMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#ImplementHumanOversightMeasure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#ImplementHumanOversightMeasure> <http://www.w3.org/2000/01/rdf-schema#label> "Implement Human Oversight Measure"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementPost-MarketMonitoringSystem
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementPost-MarketMonitoringSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementPost-MarketMonitoringSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementPost-MarketMonitoringSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Implement Post-Market Monitoring System"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#ImplementPost-MarketMonitoringSystem
+<https://delaramglp.github.io/aidocs/aia-activity#ImplementPost-MarketMonitoringSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#ImplementPost-MarketMonitoringSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#ImplementPost-MarketMonitoringSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Implement Post-Market Monitoring System"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementQualityManagementSystem
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementQualityManagementSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementQualityManagementSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementQualityManagementSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Implement Quality Management System"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#ImplementQualityManagementSystem
+<https://delaramglp.github.io/aidocs/aia-activity#ImplementQualityManagementSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#ImplementQualityManagementSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#ImplementQualityManagementSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Implement Quality Management System"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementRiskManagementSystem
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementRiskManagementSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementRiskManagementSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ImplementRiskManagementSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Implement Risk Management System"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#ImplementRiskManagementSystem
+<https://delaramglp.github.io/aidocs/aia-activity#ImplementRiskManagementSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#ImplementRiskManagementSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#ImplementRiskManagementSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Implement Risk Management System"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#InterpretSystemOutput
-<https://delaramglp.github.io/ai-keydocom/aia-activity#InterpretSystemOutput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#InterpretSystemOutput> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#InterpretSystemOutput> <http://www.w3.org/2000/01/rdf-schema#label> "Interpret System Output"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#InterpretSystemOutput
+<https://delaramglp.github.io/aidocs/aia-activity#InterpretSystemOutput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#InterpretSystemOutput> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#InterpretSystemOutput> <http://www.w3.org/2000/01/rdf-schema#label> "Interpret System Output"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#InterruptSystemOperation
-<https://delaramglp.github.io/ai-keydocom/aia-activity#InterruptSystemOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#InterruptSystemOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#InterruptSystemOperation> <http://www.w3.org/2000/01/rdf-schema#label> "Interrupt System Operation"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#InterruptSystemOperation
+<https://delaramglp.github.io/aidocs/aia-activity#InterruptSystemOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#InterruptSystemOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#InterruptSystemOperation> <http://www.w3.org/2000/01/rdf-schema#label> "Interrupt System Operation"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#InterveneSystemOperation
-<https://delaramglp.github.io/ai-keydocom/aia-activity#InterveneSystemOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#InterveneSystemOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#InterveneSystemOperation> <http://www.w3.org/2000/01/rdf-schema#label> "Intervene System Operation"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#InterveneSystemOperation
+<https://delaramglp.github.io/aidocs/aia-activity#InterveneSystemOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#InterveneSystemOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#InterveneSystemOperation> <http://www.w3.org/2000/01/rdf-schema#label> "Intervene System Operation"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainPost-MarketMonitoringSystem
-<https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainPost-MarketMonitoringSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainPost-MarketMonitoringSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainPost-MarketMonitoringSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Maintain Post-Market Monitoring System"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#MaintainPost-MarketMonitoringSystem
+<https://delaramglp.github.io/aidocs/aia-activity#MaintainPost-MarketMonitoringSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#MaintainPost-MarketMonitoringSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#MaintainPost-MarketMonitoringSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Maintain Post-Market Monitoring System"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainRiskManagementSystem
-<https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainRiskManagementSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainRiskManagementSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainRiskManagementSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Maintain Risk Management System"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#MaintainRiskManagementSystem
+<https://delaramglp.github.io/aidocs/aia-activity#MaintainRiskManagementSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#MaintainRiskManagementSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#MaintainRiskManagementSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Maintain Risk Management System"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainSystemLogs
-<https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainSystemLogs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainSystemLogs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#MaintainSystemLogs> <http://www.w3.org/2000/01/rdf-schema#label> "Maintain System Logs"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#MaintainSystemLogs
+<https://delaramglp.github.io/aidocs/aia-activity#MaintainSystemLogs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#MaintainSystemLogs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#MaintainSystemLogs> <http://www.w3.org/2000/01/rdf-schema#label> "Maintain System Logs"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#MakeADecisionAboutUsingTheSystem
-<https://delaramglp.github.io/ai-keydocom/aia-activity#MakeADecisionAboutUsingTheSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#MakeADecisionAboutUsingTheSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#MakeADecisionAboutUsingTheSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Make A Decision About Using TheS ystem"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#MakeADecisionAboutUsingTheSystem
+<https://delaramglp.github.io/aidocs/aia-activity#MakeADecisionAboutUsingTheSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#MakeADecisionAboutUsingTheSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#MakeADecisionAboutUsingTheSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Make A Decision About Using TheS ystem"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#MonitorSystemOperation
-<https://delaramglp.github.io/ai-keydocom/aia-activity#MonitorSystemOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#MonitorSystemOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#MonitorSystemOperation> <http://www.w3.org/2000/01/rdf-schema#label> "Monitor System Operation"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#MonitorSystemOperation
+<https://delaramglp.github.io/aidocs/aia-activity#MonitorSystemOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#MonitorSystemOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#MonitorSystemOperation> <http://www.w3.org/2000/01/rdf-schema#label> "Monitor System Operation"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#Post-marketMonitoring
-<https://delaramglp.github.io/ai-keydocom/aia-activity#Post-marketMonitoring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#Post-marketMonitoring> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#Post-marketMonitoring> <http://www.w3.org/2000/01/rdf-schema#label> "Post-market Monitoring"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#Post-marketMonitoring
+<https://delaramglp.github.io/aidocs/aia-activity#Post-marketMonitoring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#Post-marketMonitoring> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#Post-marketMonitoring> <http://www.w3.org/2000/01/rdf-schema#label> "Post-market Monitoring"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#ProvideDocumentationToDemonstrateConformity
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ProvideDocumentationToDemonstrateConformity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ProvideDocumentationToDemonstrateConformity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ProvideDocumentationToDemonstrateConformity> <http://www.w3.org/2000/01/rdf-schema#label> "ProvideDocumentationToDemonstrateConformity"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#ProvideDocumentationToDemonstrateConformity
+<https://delaramglp.github.io/aidocs/aia-activity#ProvideDocumentationToDemonstrateConformity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#ProvideDocumentationToDemonstrateConformity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#ProvideDocumentationToDemonstrateConformity> <http://www.w3.org/2000/01/rdf-schema#label> "ProvideDocumentationToDemonstrateConformity"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#ProvideInformationToDemonstrateConformity
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ProvideInformationToDemonstrateConformity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ProvideInformationToDemonstrateConformity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ProvideInformationToDemonstrateConformity> <http://www.w3.org/2000/01/rdf-schema#label> "ProvideInformationToDemonstrateConformity"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#ProvideInformationToDemonstrateConformity
+<https://delaramglp.github.io/aidocs/aia-activity#ProvideInformationToDemonstrateConformity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#ProvideInformationToDemonstrateConformity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#ProvideInformationToDemonstrateConformity> <http://www.w3.org/2000/01/rdf-schema#label> "ProvideInformationToDemonstrateConformity"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#RegisterSystemInEUDatabase
-<https://delaramglp.github.io/ai-keydocom/aia-activity#RegisterSystemInEUDatabase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#RegisterSystemInEUDatabase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#RegisterSystemInEUDatabase> <http://www.w3.org/2000/01/rdf-schema#label> "Register System In EU Database"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#RegisterSystemInEUDatabase
+<https://delaramglp.github.io/aidocs/aia-activity#RegisterSystemInEUDatabase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#RegisterSystemInEUDatabase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#RegisterSystemInEUDatabase> <http://www.w3.org/2000/01/rdf-schema#label> "Register System In EU Database"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#ReportCorrectiveActions
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ReportCorrectiveActions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ReportCorrectiveActions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ReportCorrectiveActions> <http://www.w3.org/2000/01/rdf-schema#label> "Report Corrective Actions"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#ReportCorrectiveActions
+<https://delaramglp.github.io/aidocs/aia-activity#ReportCorrectiveActions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#ReportCorrectiveActions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#ReportCorrectiveActions> <http://www.w3.org/2000/01/rdf-schema#label> "Report Corrective Actions"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#ReportMalfunctioning
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ReportMalfunctioning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ReportMalfunctioning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ReportMalfunctioning> <http://www.w3.org/2000/01/rdf-schema#label> "Report Malfunctioning"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#ReportMalfunctioning
+<https://delaramglp.github.io/aidocs/aia-activity#ReportMalfunctioning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#ReportMalfunctioning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#ReportMalfunctioning> <http://www.w3.org/2000/01/rdf-schema#label> "Report Malfunctioning"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#ReportNon-confomity
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ReportNon-confomity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ReportNon-confomity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ReportNon-confomity> <http://www.w3.org/2000/01/rdf-schema#label> "Report Non-confomity"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#ReportNon-confomity
+<https://delaramglp.github.io/aidocs/aia-activity#ReportNon-confomity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#ReportNon-confomity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#ReportNon-confomity> <http://www.w3.org/2000/01/rdf-schema#label> "Report Non-confomity"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#ReportSeriousIncidents
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ReportSeriousIncidents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ReportSeriousIncidents> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#ReportSeriousIncidents> <http://www.w3.org/2000/01/rdf-schema#label> "Report Serious Incidents"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#ReportSeriousIncidents
+<https://delaramglp.github.io/aidocs/aia-activity#ReportSeriousIncidents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#ReportSeriousIncidents> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#ReportSeriousIncidents> <http://www.w3.org/2000/01/rdf-schema#label> "Report Serious Incidents"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#RiskAnalysis
-<https://delaramglp.github.io/ai-keydocom/aia-activity#RiskAnalysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#RiskAnalysis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#RiskAnalysis> <http://www.w3.org/2000/01/rdf-schema#label> "Risk Analysis"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#RiskAnalysis
+<https://delaramglp.github.io/aidocs/aia-activity#RiskAnalysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#RiskAnalysis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#RiskAnalysis> <http://www.w3.org/2000/01/rdf-schema#label> "Risk Analysis"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#RiskEvaluation
-<https://delaramglp.github.io/ai-keydocom/aia-activity#RiskEvaluation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#RiskEvaluation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#RiskEvaluation> <http://www.w3.org/2000/01/rdf-schema#label> "Risk Evaluation"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#RiskEvaluation
+<https://delaramglp.github.io/aidocs/aia-activity#RiskEvaluation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#RiskEvaluation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#RiskEvaluation> <http://www.w3.org/2000/01/rdf-schema#label> "Risk Evaluation"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#RiskIdentification
-<https://delaramglp.github.io/ai-keydocom/aia-activity#RiskIdentification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#RiskIdentification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#RiskIdentification> <http://www.w3.org/2000/01/rdf-schema#label> "Risk Identification"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#RiskIdentification
+<https://delaramglp.github.io/aidocs/aia-activity#RiskIdentification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#RiskIdentification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#RiskIdentification> <http://www.w3.org/2000/01/rdf-schema#label> "Risk Identification"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#RiskTreatment
-<https://delaramglp.github.io/ai-keydocom/aia-activity#RiskTreatment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#RiskTreatment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#RiskTreatment> <http://www.w3.org/2000/01/rdf-schema#label> "Risk Treatment"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#RiskTreatment
+<https://delaramglp.github.io/aidocs/aia-activity#RiskTreatment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#RiskTreatment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#RiskTreatment> <http://www.w3.org/2000/01/rdf-schema#label> "Risk Treatment"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#TakeCorrectiveActions
-<https://delaramglp.github.io/ai-keydocom/aia-activity#TakeCorrectiveActions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#TakeCorrectiveActions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#TakeCorrectiveActions> <http://www.w3.org/2000/01/rdf-schema#label> "Take Corrective Actions"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#TakeCorrectiveActions
+<https://delaramglp.github.io/aidocs/aia-activity#TakeCorrectiveActions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#TakeCorrectiveActions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#TakeCorrectiveActions> <http://www.w3.org/2000/01/rdf-schema#label> "Take Corrective Actions"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#TestAISystem
-<https://delaramglp.github.io/ai-keydocom/aia-activity#TestAISystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#TestAISystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#TestAISystem> <http://www.w3.org/2000/01/rdf-schema#label> "Test AI System"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#TestAISystem
+<https://delaramglp.github.io/aidocs/aia-activity#TestAISystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#TestAISystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#TestAISystem> <http://www.w3.org/2000/01/rdf-schema#label> "Test AI System"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#UpdateEUDeclarationOfConformity
-<https://delaramglp.github.io/ai-keydocom/aia-activity#UpdateEUDeclarationOfConformity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#UpdateEUDeclarationOfConformity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#UpdateEUDeclarationOfConformity> <http://www.w3.org/2000/01/rdf-schema#label> "Update EU Declaration Of Conformity"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#UpdateEUDeclarationOfConformity
+<https://delaramglp.github.io/aidocs/aia-activity#UpdateEUDeclarationOfConformity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#UpdateEUDeclarationOfConformity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#UpdateEUDeclarationOfConformity> <http://www.w3.org/2000/01/rdf-schema#label> "Update EU Declaration Of Conformity"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/aia-activity#UpdateTechnicalDocumentation
-<https://delaramglp.github.io/ai-keydocom/aia-activity#UpdateTechnicalDocumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#UpdateTechnicalDocumentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/ai-keydocom/taio#activity> .
-<https://delaramglp.github.io/ai-keydocom/aia-activity#UpdateTechnicalDocumentation> <http://www.w3.org/2000/01/rdf-schema#label> "Update Technical Documentation"@en .
+# https://delaramglp.github.io/aidocs/aia-activity#UpdateTechnicalDocumentation
+<https://delaramglp.github.io/aidocs/aia-activity#UpdateTechnicalDocumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://delaramglp.github.io/aidocs/aia-activity#UpdateTechnicalDocumentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://delaramglp.github.io/aidocs/taio#activity> .
+<https://delaramglp.github.io/aidocs/aia-activity#UpdateTechnicalDocumentation> <http://www.w3.org/2000/01/rdf-schema#label> "Update Technical Documentation"@en .
 # 
-# https://delaramglp.github.io/ai-keydocom/taio#activity
+# https://delaramglp.github.io/aidocs/taio#activity
 # 
 # Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

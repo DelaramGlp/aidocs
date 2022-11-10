@@ -1,0 +1,166 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://delaramglp.github.io/aidocs/aims-activity#Aro
+<https://delaramglp.github.io/aidocs/aims-activity#Aro> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://delaramglp.github.io/aidocs/taio#activity> ;
+                                                        rdfs:label "Address risks and opportunities"@en ;
+                                                        rdfs:seeAlso "ISO MSS harmonised structure clause 6.1"@en .
+
+
+###  https://delaramglp.github.io/aidocs/aims-activity#Arra
+<https://delaramglp.github.io/aidocs/aims-activity#Arra> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://delaramglp.github.io/aidocs/taio#activity> ;
+                                                         rdfs:label "Assign roles, responsibilities and authorities"@en ;
+                                                         rdfs:seeAlso "ISO MSS harmonised structure clause 5.3"@en .
+
+
+###  https://delaramglp.github.io/aidocs/aims-activity#Ci
+<https://delaramglp.github.io/aidocs/aims-activity#Ci> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://delaramglp.github.io/aidocs/taio#activity> ;
+                                                       rdfs:label "Continually improve management system"@en ;
+                                                       rdfs:seeAlso "ISO MSS harmonised structure clause 10.1"@en .
+
+
+###  https://delaramglp.github.io/aidocs/aims-activity#Cucd
+<https://delaramglp.github.io/aidocs/aims-activity#Cucd> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://delaramglp.github.io/aidocs/taio#activity> ;
+                                                         rdfs:label "Create, update, and control documented information"@en ;
+                                                         rdfs:seeAlso "ISO MSS harmonised structure clause 7.5"@en .
+
+
+###  https://delaramglp.github.io/aidocs/aims-activity#Dar
+<https://delaramglp.github.io/aidocs/aims-activity#Dar> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://delaramglp.github.io/aidocs/taio#activity> ;
+                                                        rdfs:label "Determine and allocate resources for the management system"@en ;
+                                                        rdfs:seeAlso "ISO MSS harmonised structure clause 7.1"@en .
+
+
+###  https://delaramglp.github.io/aidocs/aims-activity#Dc
+<https://delaramglp.github.io/aidocs/aims-activity#Dc> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://delaramglp.github.io/aidocs/taio#activity> ;
+                                                       rdfs:label "Determine internal and external communication on management system"@en ;
+                                                       rdfs:seeAlso "ISO MSS harmonised structure clause 7.4"@en .
+
+
+###  https://delaramglp.github.io/aidocs/aims-activity#Dec
+<https://delaramglp.github.io/aidocs/aims-activity#Dec> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://delaramglp.github.io/aidocs/taio#activity> ;
+                                                        rdfs:label "Determine and ensure competence of people affecting managed system performance"@en ;
+                                                        rdfs:seeAlso "ISO MSS harmonised structure clause 7.2"@en .
+
+
+###  https://delaramglp.github.io/aidocs/aims-activity#Dlc
+<https://delaramglp.github.io/aidocs/aims-activity#Dlc> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://delaramglp.github.io/aidocs/taio#activity> ;
+                                                        rdfs:label "Demonstrate leadership and commitment to the management system"@en ;
+                                                        rdfs:seeAlso "ISO MSS harmonised structure clause 5.1"@en .
+
+
+###  https://delaramglp.github.io/aidocs/aims-activity#Dnca
+<https://delaramglp.github.io/aidocs/aims-activity#Dnca> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://delaramglp.github.io/aidocs/taio#activity> ;
+                                                         rdfs:label "Detect non conformance and take corrective action"@en ;
+                                                         rdfs:seeAlso "ISO MSS harmonised structure clause 10.2"@en .
+
+
+###  https://delaramglp.github.io/aidocs/aims-activity#Ds
+<https://delaramglp.github.io/aidocs/aims-activity#Ds> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://delaramglp.github.io/aidocs/taio#activity> ;
+                                                       rdfs:label "Determine of scope management system"@en ;
+                                                       rdfs:seeAlso "ISO MSS harmonised structure clause 4.3"@en .
+
+
+###  https://delaramglp.github.io/aidocs/aims-activity#Eimi
+<https://delaramglp.github.io/aidocs/aims-activity#Eimi> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://delaramglp.github.io/aidocs/taio#activity> ;
+                                                         rdfs:label "Establish, implement, maintain and continually improve management system and its processes"@en ;
+                                                         rdfs:seeAlso "ISO MSS harmonised structure clause 4.4"@en .
+
+
+###  https://delaramglp.github.io/aidocs/aims-activity#Ep
+<https://delaramglp.github.io/aidocs/aims-activity#Ep> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://delaramglp.github.io/aidocs/taio#activity> ;
+                                                       rdfs:label "Establish management system policy"@en ;
+                                                       rdfs:seeAlso "ISO MSS harmonised structure clause 5.2"@en .
+
+
+###  https://delaramglp.github.io/aidocs/aims-activity#Epao
+<https://delaramglp.github.io/aidocs/aims-activity#Epao> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://delaramglp.github.io/aidocs/taio#activity> ;
+                                                         rdfs:label "Establish and plan to achieve managed system objectives"@en ;
+                                                         rdfs:seeAlso "ISO MSS harmonised structure clause 6.2"@en .
+
+
+###  https://delaramglp.github.io/aidocs/aims-activity#Ia
+<https://delaramglp.github.io/aidocs/aims-activity#Ia> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://delaramglp.github.io/aidocs/taio#activity> ;
+                                                       rdfs:label "Plan, establish, implement and maintain internal audit programme"@en ;
+                                                       rdfs:seeAlso "ISO MSS harmonised structure clause 9.2"@en .
+
+
+###  https://delaramglp.github.io/aidocs/aims-activity#Mmae
+<https://delaramglp.github.io/aidocs/aims-activity#Mmae> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://delaramglp.github.io/aidocs/taio#activity> ;
+                                                         rdfs:label "Monitor, measure, analyse and evaluate managed system"@en ;
+                                                         rdfs:seeAlso "ISO MSS harmonised structure clause 9.1"@en .
+
+
+###  https://delaramglp.github.io/aidocs/aims-activity#Pa
+<https://delaramglp.github.io/aidocs/aims-activity#Pa> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://delaramglp.github.io/aidocs/taio#activity> ;
+                                                       rdfs:label "Promote awareness"@en ;
+                                                       rdfs:seeAlso "ISO MSS harmonised structure clause 7.3"@en .
+
+
+###  https://delaramglp.github.io/aidocs/aims-activity#Pc
+<https://delaramglp.github.io/aidocs/aims-activity#Pc> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://delaramglp.github.io/aidocs/taio#activity> ;
+                                                       rdfs:label "Plan management system changes"@en ;
+                                                       rdfs:seeAlso "ISO MSS harmonised structure clause 6.3"@en .
+
+
+###  https://delaramglp.github.io/aidocs/aims-activity#Pcp
+<https://delaramglp.github.io/aidocs/aims-activity#Pcp> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://delaramglp.github.io/aidocs/taio#activity> ;
+                                                        rdfs:label "Plan, implement and control processes at an operational level"@en ;
+                                                        rdfs:seeAlso "ISO MSS harmonised structure clause 8.1"@en .
+
+
+###  https://delaramglp.github.io/aidocs/aims-activity#Umr
+<https://delaramglp.github.io/aidocs/aims-activity#Umr> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://delaramglp.github.io/aidocs/taio#activity> ;
+                                                        rdfs:label "Undertake management review"@en ;
+                                                        rdfs:seeAlso "ISO MSS harmonised structure clause 9.3"@en .
+
+
+###  https://delaramglp.github.io/aidocs/aims-activity#Uoc
+<https://delaramglp.github.io/aidocs/aims-activity#Uoc> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://delaramglp.github.io/aidocs/taio#activity> ;
+                                                        rdfs:label "Understanding organisation and its context"@en ;
+                                                        rdfs:seeAlso "ISO MSS harmonised structure clause 4.1"@en .
+
+
+###  https://delaramglp.github.io/aidocs/aims-activity#Usne
+<https://delaramglp.github.io/aidocs/aims-activity#Usne> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://delaramglp.github.io/aidocs/taio#activity> ;
+                                                         rdfs:label "Understanding stakeholders needs and expectations"@en ;
+                                                         rdfs:seeAlso "ISO MSS harmonised structure clause 4.2"@en .
+
+
+###  https://delaramglp.github.io/aidocs/taio#activity
+<https://delaramglp.github.io/aidocs/taio#activity> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

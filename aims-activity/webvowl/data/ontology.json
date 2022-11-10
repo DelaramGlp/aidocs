@@ -1,0 +1,656 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en" ],
+    "baseIris" : [ "https://delaramglp.github.io/aidocs/aims-activity", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "https://delaramglp.github.io/aidocs/taio" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Epao",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "ISO MSS harmonised structure clause 6.2",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Epao",
+      "en" : "Establish and plan to achieve managed system objectives"
+    },
+    "attributes" : [ "external" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Dc",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "ISO MSS harmonised structure clause 7.4",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Dc",
+      "en" : "Determine internal and external communication on management system"
+    },
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Dec",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "ISO MSS harmonised structure clause 7.2",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Dec",
+      "en" : "Determine and ensure competence of people affecting managed system performance"
+    },
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Dnca",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "ISO MSS harmonised structure clause 10.2",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Dnca",
+      "en" : "Detect non conformance and take corrective action"
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Uoc",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "ISO MSS harmonised structure clause 4.1",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Uoc",
+      "en" : "Understanding organisation and its context"
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Ds",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "ISO MSS harmonised structure clause 4.3",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Ds",
+      "en" : "Determine of scope management system"
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/taio#activity",
+    "baseIri" : "https://delaramglp.github.io/aidocs/taio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "activity"
+    },
+    "subClasses" : [ "21", "0", "5", "7", "9", "2", "12", "3", "16", "14", "23", "18", "24", "25", "19", "26", "27", "28", "29", "30", "31" ],
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Dar",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "ISO MSS harmonised structure clause 7.1",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Dar",
+      "en" : "Determine and allocate resources for the management system"
+    },
+    "attributes" : [ "external" ],
+    "id" : "30",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Ia",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "ISO MSS harmonised structure clause 9.2",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Ia",
+      "en" : "Plan, establish, implement and maintain internal audit programme"
+    },
+    "attributes" : [ "external" ],
+    "id" : "31",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Umr",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "ISO MSS harmonised structure clause 9.3",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Umr",
+      "en" : "Undertake management review"
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Dlc",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "ISO MSS harmonised structure clause 5.1",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Dlc",
+      "en" : "Demonstrate leadership and commitment to the management system"
+    },
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Aro",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "ISO MSS harmonised structure clause 6.1",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Aro",
+      "en" : "Address risks and opportunities"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Pcp",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "ISO MSS harmonised structure clause 8.1",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Pcp",
+      "en" : "Plan, implement and control processes at an operational level"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Eimi",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "ISO MSS harmonised structure clause 4.4",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Eimi",
+      "en" : "Establish, implement, maintain and continually improve management system and its processes"
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Ci",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "ISO MSS harmonised structure clause 10.1",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Ci",
+      "en" : "Continually improve management system"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Mmae",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "ISO MSS harmonised structure clause 9.1",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Mmae",
+      "en" : "Monitor, measure, analyse and evaluate managed system"
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Ep",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "ISO MSS harmonised structure clause 5.2",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Ep",
+      "en" : "Establish management system policy"
+    },
+    "attributes" : [ "external" ],
+    "id" : "24",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Usne",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "ISO MSS harmonised structure clause 4.2",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Usne",
+      "en" : "Understanding stakeholders needs and expectations"
+    },
+    "attributes" : [ "external" ],
+    "id" : "25",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Pa",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "ISO MSS harmonised structure clause 7.3",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Pa",
+      "en" : "Promote awareness"
+    },
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Arra",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "ISO MSS harmonised structure clause 5.3",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Arra",
+      "en" : "Assign roles, responsibilities and authorities"
+    },
+    "attributes" : [ "external" ],
+    "id" : "26",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Cucd",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "ISO MSS harmonised structure clause 7.5",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Cucd",
+      "en" : "Create, update, and control documented information"
+    },
+    "attributes" : [ "external" ],
+    "id" : "28",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Pc",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "ISO MSS harmonised structure clause 6.3",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Pc",
+      "en" : "Plan management system changes"
+    },
+    "attributes" : [ "external" ],
+    "id" : "29",
+    "superClasses" : [ "1" ]
+  } ],
+  "property" : [ {
+    "id" : "4",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "1",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "4"
+  }, {
+    "range" : "1",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "6"
+  }, {
+    "range" : "1",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "8"
+  }, {
+    "range" : "1",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "10"
+  }, {
+    "range" : "1",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "11"
+  }, {
+    "range" : "1",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "13"
+  }, {
+    "range" : "1",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "range" : "1",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "range" : "1",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "1",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "1",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "range" : "1",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
+  }, {
+    "range" : "1",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "1",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "range" : "1",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "range" : "1",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "range" : "1",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "1",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "1",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "1",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  } ]
+}

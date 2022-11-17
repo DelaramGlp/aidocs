@@ -9,28 +9,28 @@
 
      <rdf:Description rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Uoc">
        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#activity"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#Activity"/>
        <rdfs:label xml:lang="en">Understanding organisation and its context</rdfs:label>
        <rdfs:seeAlso xml:lang="en">ISO MSS harmonised structure clause 4.1</rdfs:seeAlso>
       </rdf:Description>
 
      <rdf:Description rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Usne">
        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#activity"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#Activity"/>
        <rdfs:label xml:lang="en">Understanding stakeholders needs and expectations</rdfs:label>
        <rdfs:seeAlso xml:lang="en">ISO MSS harmonised structure clause 4.2</rdfs:seeAlso>
       </rdf:Description>
 
      <rdf:Description rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Ds">
        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#activity"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#Activity"/>
        <rdfs:label xml:lang="en">Determine of scope management system</rdfs:label>
        <rdfs:seeAlso xml:lang="en">ISO MSS harmonised structure clause 4.3</rdfs:seeAlso>
       </rdf:Description>
 
      <rdf:Description rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Eimi">
        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#activity"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#Activity"/>
        <rdfs:label xml:lang="en">Establish, implement, maintain and continually improve management system and its processes</rdfs:label>
        <rdfs:seeAlso xml:lang="en">ISO MSS harmonised structure clause 4.4</rdfs:seeAlso>
       </rdf:Description>
@@ -38,7 +38,7 @@
 
     <rdf:Description rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Dlc">
       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-      <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#activity"/>
+      <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#Activity"/>
       <rdfs:label xml:lang="en">Demonstrate leadership and commitment to the management system</rdfs:label>
       <rdfs:seeAlso xml:lang="en">ISO MSS harmonised structure clause 5.1</rdfs:seeAlso>
      </rdf:Description>
@@ -46,42 +46,42 @@
 
      <rdf:Description rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Ep">
       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-      <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#activity"/>
+      <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#Activity"/>
       <rdfs:label xml:lang="en">Establish management system policy</rdfs:label>
       <rdfs:seeAlso xml:lang="en">ISO MSS harmonised structure clause 5.2</rdfs:seeAlso>
      </rdf:Description>
 
      <rdf:Description rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Arra">
        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#activity"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#Activity"/>
        <rdfs:label xml:lang="en">Assign roles, responsibilities and authorities</rdfs:label>
        <rdfs:seeAlso xml:lang="en">ISO MSS harmonised structure clause 5.3</rdfs:seeAlso>
      </rdf:Description>
 
      <rdf:Description rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Aro">
        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#activity"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#Activity"/>
        <rdfs:label xml:lang="en">Address risks and opportunities</rdfs:label>
        <rdfs:seeAlso xml:lang="en">ISO MSS harmonised structure clause 6.1</rdfs:seeAlso>
      </rdf:Description>
 
      <rdf:Description rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Epao">
        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#activity"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#Activity"/>
        <rdfs:label xml:lang="en">Establish and plan to achieve managed system objectives</rdfs:label>
        <rdfs:seeAlso xml:lang="en">ISO MSS harmonised structure clause 6.2</rdfs:seeAlso>
      </rdf:Description>
 
      <rdf:Description rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Pc">
        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-      <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#activity"/>
+      <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#Activity"/>
       <rdfs:label xml:lang="en">Plan management system changes</rdfs:label>
       <rdfs:seeAlso xml:lang="en">ISO MSS harmonised structure clause 6.3</rdfs:seeAlso>
      </rdf:Description>
 
      <rdf:Description rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Dar">
        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#activity"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#Activity"/>
        <rdfs:label xml:lang="en">Determine and allocate resources for the management system</rdfs:label>
        <rdfs:seeAlso xml:lang="en">ISO MSS harmonised structure clause 7.1</rdfs:seeAlso>
      </rdf:Description>
@@ -89,70 +89,70 @@
 
      <rdf:Description rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Dec">
        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#activity"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#Activity"/>
        <rdfs:label xml:lang="en">Determine and ensure competence of people affecting managed system performance</rdfs:label>
        <rdfs:seeAlso xml:lang="en">ISO MSS harmonised structure clause 7.2</rdfs:seeAlso>
      </rdf:Description>
 
      <rdf:Description rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Pa">
        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#activity"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#Activity"/>
        <rdfs:label xml:lang="en">Promote awareness</rdfs:label>
        <rdfs:seeAlso xml:lang="en">ISO MSS harmonised structure clause 7.3</rdfs:seeAlso>
      </rdf:Description>
 
      <rdf:Description rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Dc">
        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#activity"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#Activity"/>
        <rdfs:label xml:lang="en">Determine internal and external communication on management system</rdfs:label>
        <rdfs:seeAlso xml:lang="en">ISO MSS harmonised structure clause 7.4</rdfs:seeAlso>
       </rdf:Description>
 
       <rdf:Description rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Cucd">
         <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-        <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#activity"/>
+        <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#Activity"/>
         <rdfs:label xml:lang="en">Create, update, and control documented information</rdfs:label>
         <rdfs:seeAlso xml:lang="en">ISO MSS harmonised structure clause 7.5</rdfs:seeAlso>
      </rdf:Description>"
 
      <rdf:Description rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Pcp">
        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#activity"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#Activity"/>
        <rdfs:label xml:lang="en">Plan, implement and control processes at an operational level</rdfs:label>
        <rdfs:seeAlso xml:lang="en">ISO MSS harmonised structure clause 8.1</rdfs:seeAlso>
      </rdf:Description>
 
      <rdf:Description rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Mmae">
        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#activity"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#Activity"/>
        <rdfs:label xml:lang="en">Monitor, measure, analyse and evaluate managed system</rdfs:label>
        <rdfs:seeAlso xml:lang="en">ISO MSS harmonised structure clause 9.1</rdfs:seeAlso>
      </rdf:Description>
 
     <rdf:Description rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Ia">
       <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-      <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#activity"/>
+      <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#Activity"/>
       <rdfs:label xml:lang="en">Plan, establish, implement and maintain internal audit programme</rdfs:label>
       <rdfs:seeAlso xml:lang="en">ISO MSS harmonised structure clause 9.2</rdfs:seeAlso>
      </rdf:Description>
 
      <rdf:Description rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Umr">
        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#activity"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#Activity"/>
        <rdfs:label xml:lang="en">Undertake management review</rdfs:label>
        <rdfs:seeAlso xml:lang="en">ISO MSS harmonised structure clause 9.3</rdfs:seeAlso>
      </rdf:Description>
 
      <rdf:Description rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Ci">
        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#activity"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#Activity"/>
        <rdfs:label xml:lang="en">Continually improve management system</rdfs:label>
        <rdfs:seeAlso xml:lang="en">ISO MSS harmonised structure clause 10.1</rdfs:seeAlso>
      </rdf:Description>
 
      <rdf:Description rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Dnca">
        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#activity"/>
+       <rdfs:subClassOf rdf:resource="https://delaramglp.github.io/aidocs/taio#Activity"/>
        <rdfs:label xml:lang="en">Detect non conformance and take corrective action</rdfs:label>
        <rdfs:seeAlso xml:lang="en">ISO MSS harmonised structure clause 10.2</rdfs:seeAlso>
      </rdf:Description>

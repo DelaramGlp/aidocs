@@ -1,0 +1,2081 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#Acq5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AcQ5" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#Haaq6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HAAQ6" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#IWSQ4.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#IWSQ4.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#abq2.4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.4" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#acq1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AcQ1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#acq2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AcQ2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#acq3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AcQ3" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#acq4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AcQ4" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#affix_CE_marking",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#AffixCEMarking" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#appoint_authorised_representative",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#AppointAuthorisedRepresentative" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#arra"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aims-activity#Aro" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#arp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#arra",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aims-activity#Arra" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUBQ1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUBQ2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq2.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq2.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq2.3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.3" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#arp"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUBQ3" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dec"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUBQ4" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq4.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq4.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUBQ5" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq5.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq5.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq5.3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.3" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq5.4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.4" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#audq1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUDQ1", "https://delaramglp.github.io/aidocs/altai-activity#AudQ1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#audq2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUDQ2", "https://delaramglp.github.io/aidocs/altai-activity#AudQ2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#audq2.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#audq2.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#audq3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUDQ3" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#audq4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUDQ4" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#audq4.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#audq4.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#audq4.3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.3" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#build_human_oversight_measure_into_system",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#BuildHumanOversightMeasureIntoSystem" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#communicate_risk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#CommunicateRisk" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pa"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#comq1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#ComQ1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#comq2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#ComQ2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#comq2.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#ComQ2.1/" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#comq2.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#ComQ2.2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#comq2.3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#ComQ2.3" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#conduct_first_party_confomity_assessment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#ConductFirst-PartyConfomityAssessment" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#ia"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#conformity_assessment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#ConformityAssessment" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#ia"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#umr"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#create_EU_declaration_of_conformity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#CreateEUDeclarationOfConformity" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/aims-activity#cucd"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#create_instruction_for_use",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#CreateInstructionForUse" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#create_technical_documentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#CreateTechnicalDocumentation" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#cucd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aims-activity#Cucd" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aims-activity#Dc" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dec",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aims-activity#Dec" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#demonstrate_conformity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#DemonstrateConformity" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dgq1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#DGQ1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#uoc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dgq2.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dgq2.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#arra"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dgq2.3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.3" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dgq2.4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.4" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dgq2.5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.5" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dgq2.6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.6" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dgq2.7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.7" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dgq3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#DGQ3" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dgq4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#DGQ4" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#uoc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dnca",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aims-activity#Dnca" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#document_post-market_monitoring_system",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#DocumentPost-MarketMonitoringSystem" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#ia"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#document_quality_management_system",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#DocumentQualityManagementSystem" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#cucd"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#document_risk_mangement_system",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#DocumentRiskMangementSystem" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#eimi"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#eimi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aims-activity#Eimi" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aims-activity#Epao" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#establish_post-market_monitoring_system",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#EstablishPost-MarketMonitoringSystem" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#ia"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#establish_risk_management_system",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#EstablishRiskManagementSystem" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#eimi"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#ewq1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#EWQ1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#ewq1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#EWQ1.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#ewq2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#EWQ2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#ewq2.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#EWQ2.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#expq1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#ExpQ1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#expq2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#ExpQ2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#fR2.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#FR2.2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#fr1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#Fr1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#fr1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#Fr1.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#fr1.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#Fr1.2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#fr2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#Fr2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#fr2.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#Fr2.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#fr3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#Fr3" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#fr3.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#Fr3.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#fr3.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#Fr3.2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#fr4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#Fr4" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#fr4.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#Fr4.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#fr4.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#Fr4.2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#grant_access_to_data",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToData" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#grant_access_to_logs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToLogs" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#grant_access_to_source_code",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToSourceCode" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#gsq1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#GSQ1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#gsq1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#GSQ1.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#gsq1.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#GSQ1.2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#gsq2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#GSQ2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#gsq2.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#GSQ2.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#gsq2.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#GSQ2.2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#gsq3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#gsq3" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#gsq3.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#gsq3.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#gsq4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#GSQ4" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#gsq5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#GSQ5" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HAAQ1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#uoc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq1.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HAAQ2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq2.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HAAQ2.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HAAQ3" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq3.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HAAQ3.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HAAQ4" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq4.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HAAQ4.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HAAQ5" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#uoc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq6.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq6.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq6.3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.3" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#hoq1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HOQ1.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#uoc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#hoq1.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HOQ1.2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#uoc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#hoq1.3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HOQ1.3" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#uoc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#hoq1.4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HOQ1.4" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#uoc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#hoq2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HOQ2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dec"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#hoq3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HOQ3" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#hoq4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HOQ4" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#hoq5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#HOQ5" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#ia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aims-activity#Ia" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#identify_human_oversight_measure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#IdentifyHumanOversightMeasure" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#identify_impact_on_stakeholders",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#IdentifyImpactOnStakeholders" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#implement_data_Management",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#ImplementDataManagement" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#implement_data_governance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#ImplementDataGovernance" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#implement_human_oversight_measure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#ImplementHumanOversightMeasure" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#implement_logging_capabilities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#ImplementLoggingCapabilities" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#implement_post-market_monitoring_system",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#ImplementPost-MarketMonitoringSystem" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#ia"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#implement_quality_management_system",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#ImplementQualityManagementSystem" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#eimi"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#implement_risk_management_system",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#ImplementRiskManagementSystem" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#eimi"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#interpret_system_output",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#InterpretSystemOutput" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#interrupt_system_operation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#InterruptSystemOperation" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#intervene_system_operation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#InterveneSystemOperation" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#isdq1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#ISDQ1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#isdq1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#isdq1.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#isdq1.3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.3" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#iwsq1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#IWSQ1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#iwsq2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#IWSQ2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#iwsq3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#IWSQ3" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#iwsq3.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#IWSQ3.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dec"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#iwsq4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#IWSQ4" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#iwsq5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#IWSQ5" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dec"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#iwsq5.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#IWSQ5.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dec"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#maintain_post-market_monitoring_system",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#MaintainPost-MarketMonitoringSystem" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/aims-activity#ia"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/aims-activity#mmae"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#maintain_risk_management_system",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#MaintainRiskManagementSystem" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#eimi"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#maintain_system_logs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#MaintainSystemLogs" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#make_a_decision_about_using_the_system",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#MakeADecisionAboutUsingTheSystem" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aims-activity#Mmae" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#monitor_system_operation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#MonitorSystemOperation" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aims-activity#Pa" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aims-activity#Pcp" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#provide_documentation_to_demonstrate_conformity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#ProvideDocumentationToDemonstrateConformity" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#cucd"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/aims-activity#dc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#provide_information_to_demonstrate_conformity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#ProvideInformationToDemonstrateConformity" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/aims-activity#dc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#prq1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#PrQ1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#prq2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#PrQ2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rasq1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RASQ1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rasq2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RASQ2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#uoc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rasq3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RASQ3" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rasq3.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RASQ3.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rasq3.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RASQ3.2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rasq4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RASQ4" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rasq5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RASQ5" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rasq6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RASQ6" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rasq6.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RASQ6.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#register_system_in_EU_database",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#RegisterSystemInEUDatabase" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#report_corrective_actions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#ReportCorrectiveActions" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#cucd"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#report_malfunctioning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#ReportMalfunctioning" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/aims-activity#cucd"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#report_non-confomity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#ReportNon-confomity" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#cucd"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#report_serious_incidents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#ReportSeriousIncidents" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/aims-activity#cucd"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rfprq1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rfprq1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rfprq1.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rfprq2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rfprq2.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rfprq3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ3" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rfprq4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ4" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rfprq5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#uoc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rfprq5.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#risk_analysis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#RiskAnalysis" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#risk_evaluation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#RiskEvaluation" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#risk_identification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#RiskIdentification" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#risk_treatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#RiskTreatment" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rmq1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RMQ1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rmq1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RMQ1.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rmq2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RMQ2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dec"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pa"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rmq3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RMQ3" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#arra"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rmq4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RMQ4" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#uoc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rmq4.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RMQ4.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#uoc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rmq4.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RMQ4.2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dec"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pa"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rmq5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RMQ5" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rmq5.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RMQ5.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#rmq6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#RMQ6" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#spq1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#SPQ1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dc"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#take_corrective_actions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#TakeCorrectiveActions" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#dnca"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#test_AI_system",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#TestAISystem" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#aro"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#trcq1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#trcq1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.1" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#trcq1.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.2" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#trcq1.3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.3" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#trcq1.4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.4" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#trcq1.5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.5" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#epao"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae"
+  }, {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#umr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aims-activity#Umr" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#uoc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aims-activity#Uoc" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#update_EU_declaration_of_conformity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#UpdateEUDeclarationOfConformity" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/aims-activity#cucd"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#update_technical_documentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://delaramglp.github.io/aidocs/aia-activity#UpdateTechnicalDocumentation" ],
+  "https://delaramglp.github.io/aidocs/taio#isPartOf" : [ {
+    "@id" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp"
+  } ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#AffixCEMarking",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#AppointAuthorisedRepresentative",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#BuildHumanOversightMeasureIntoSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#CommunicateRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ConductFirst-PartyConfomityAssessment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ConformityAssessment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#CreateEUDeclarationOfConformity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#CreateInstructionForUse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#CreateTechnicalDocumentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#DemonstrateConformity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#DocumentPost-MarketMonitoringSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#DocumentQualityManagementSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#DocumentRiskMangementSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#EstablishPost-MarketMonitoringSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#EstablishRiskManagementSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToLogs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToSourceCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#IdentifyHumanOversightMeasure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#IdentifyImpactOnStakeholders",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ImplementDataGovernance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ImplementDataManagement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ImplementHumanOversightMeasure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ImplementLoggingCapabilities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ImplementPost-MarketMonitoringSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ImplementQualityManagementSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ImplementRiskManagementSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#InterpretSystemOutput",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#InterruptSystemOperation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#InterveneSystemOperation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#MaintainPost-MarketMonitoringSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#MaintainRiskManagementSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#MaintainSystemLogs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#MakeADecisionAboutUsingTheSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#MonitorSystemOperation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ProvideDocumentationToDemonstrateConformity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ProvideInformationToDemonstrateConformity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#RegisterSystemInEUDatabase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ReportCorrectiveActions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ReportMalfunctioning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ReportNon-confomity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#ReportSeriousIncidents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#RiskAnalysis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#RiskEvaluation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#RiskIdentification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#RiskTreatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#TakeCorrectiveActions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#TestAISystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#UpdateEUDeclarationOfConformity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aia-activity#UpdateTechnicalDocumentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aims-activity#Aro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aims-activity#Arra",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aims-activity#Cucd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aims-activity#Dc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aims-activity#Dec",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aims-activity#Dnca",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aims-activity#Eimi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aims-activity#Epao",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aims-activity#Ia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aims-activity#Mmae",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aims-activity#Pa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aims-activity#Pcp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aims-activity#Umr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aims-activity#Uoc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aims-activity#cucd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aims-activity#dc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aims-activity#ia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/aims-activity#mmae",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AcQ1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AcQ2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AcQ3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AcQ4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AcQ5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AudQ1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#AudQ2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#ComQ1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#ComQ2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#ComQ2.1/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#ComQ2.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#ComQ2.3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#EWQ1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#EWQ1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#EWQ2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#EWQ2.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#ExpQ1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#ExpQ2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#FR2.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#Fr1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#Fr1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#Fr1.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#Fr2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#Fr2.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#Fr3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#Fr3.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#Fr3.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#Fr4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#Fr4.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#Fr4.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ1.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ2.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ2.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ2.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ3.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ4.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ1.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ1.3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ1.4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#ISDQ1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ3.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ4.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ5.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#PrQ1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#PrQ2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ3.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ3.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ6.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ4.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ4.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ5.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#SPQ1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#gsq3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/altai-activity#gsq3.1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://delaramglp.github.io/aidocs/taio#isPartOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+} ]

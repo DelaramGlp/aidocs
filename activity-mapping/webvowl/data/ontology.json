@@ -1,0 +1,4006 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "baseIris" : [ "https://delaramglp.github.io/aidocs/aims-activity", "https://delaramglp.github.io/aidocs/altai-activity", "https://delaramglp.github.io/aidocs/aia-activity", "http://www.w3.org/2000/01/rdf-schema", "https://delaramglp.github.io/aidocs/taio" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "owl:Class"
+  }, {
+    "id" : "114",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "127",
+    "type" : "owl:Class"
+  }, {
+    "id" : "128",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "owl:Class"
+  }, {
+    "id" : "131",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "133",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "136",
+    "type" : "owl:Class"
+  }, {
+    "id" : "137",
+    "type" : "owl:Class"
+  }, {
+    "id" : "138",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "141",
+    "type" : "owl:Class"
+  }, {
+    "id" : "142",
+    "type" : "owl:Class"
+  }, {
+    "id" : "143",
+    "type" : "owl:Class"
+  }, {
+    "id" : "144",
+    "type" : "owl:Class"
+  }, {
+    "id" : "145",
+    "type" : "owl:Class"
+  }, {
+    "id" : "146",
+    "type" : "owl:Class"
+  }, {
+    "id" : "147",
+    "type" : "owl:Class"
+  }, {
+    "id" : "148",
+    "type" : "owl:Class"
+  }, {
+    "id" : "149",
+    "type" : "owl:Class"
+  }, {
+    "id" : "150",
+    "type" : "owl:Class"
+  }, {
+    "id" : "151",
+    "type" : "owl:Class"
+  }, {
+    "id" : "152",
+    "type" : "owl:Class"
+  }, {
+    "id" : "153",
+    "type" : "owl:Class"
+  }, {
+    "id" : "154",
+    "type" : "owl:Class"
+  }, {
+    "id" : "155",
+    "type" : "owl:Class"
+  }, {
+    "id" : "156",
+    "type" : "owl:Class"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
+  }, {
+    "id" : "158",
+    "type" : "owl:Class"
+  }, {
+    "id" : "159",
+    "type" : "owl:Class"
+  }, {
+    "id" : "160",
+    "type" : "owl:Class"
+  }, {
+    "id" : "161",
+    "type" : "owl:Class"
+  }, {
+    "id" : "162",
+    "type" : "owl:Class"
+  }, {
+    "id" : "163",
+    "type" : "owl:Class"
+  }, {
+    "id" : "164",
+    "type" : "owl:Class"
+  }, {
+    "id" : "165",
+    "type" : "owl:Class"
+  }, {
+    "id" : "166",
+    "type" : "owl:Class"
+  }, {
+    "id" : "167",
+    "type" : "owl:Class"
+  }, {
+    "id" : "168",
+    "type" : "owl:Class"
+  }, {
+    "id" : "169",
+    "type" : "owl:Class"
+  }, {
+    "id" : "170",
+    "type" : "owl:Class"
+  }, {
+    "id" : "171",
+    "type" : "owl:Class"
+  }, {
+    "id" : "172",
+    "type" : "owl:Class"
+  }, {
+    "id" : "173",
+    "type" : "owl:Class"
+  }, {
+    "id" : "174",
+    "type" : "owl:Class"
+  }, {
+    "id" : "175",
+    "type" : "owl:Class"
+  }, {
+    "id" : "176",
+    "type" : "owl:Class"
+  }, {
+    "id" : "177",
+    "type" : "owl:Class"
+  }, {
+    "id" : "178",
+    "type" : "owl:Class"
+  }, {
+    "id" : "179",
+    "type" : "owl:Class"
+  }, {
+    "id" : "180",
+    "type" : "owl:Class"
+  }, {
+    "id" : "181",
+    "type" : "owl:Class"
+  }, {
+    "id" : "182",
+    "type" : "owl:Class"
+  }, {
+    "id" : "183",
+    "type" : "owl:Class"
+  }, {
+    "id" : "184",
+    "type" : "owl:Class"
+  }, {
+    "id" : "185",
+    "type" : "owl:Class"
+  }, {
+    "id" : "186",
+    "type" : "owl:Class"
+  }, {
+    "id" : "187",
+    "type" : "owl:Class"
+  }, {
+    "id" : "188",
+    "type" : "owl:Class"
+  }, {
+    "id" : "189",
+    "type" : "owl:Class"
+  }, {
+    "id" : "190",
+    "type" : "owl:Class"
+  }, {
+    "id" : "191",
+    "type" : "owl:Class"
+  }, {
+    "id" : "192",
+    "type" : "owl:Class"
+  }, {
+    "id" : "193",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "194",
+    "type" : "owl:Class"
+  }, {
+    "id" : "195",
+    "type" : "owl:Class"
+  }, {
+    "id" : "196",
+    "type" : "owl:Class"
+  }, {
+    "id" : "197",
+    "type" : "owl:Class"
+  }, {
+    "id" : "198",
+    "type" : "owl:Class"
+  }, {
+    "id" : "199",
+    "type" : "owl:Class"
+  }, {
+    "id" : "200",
+    "type" : "owl:Class"
+  }, {
+    "id" : "201",
+    "type" : "owl:Class"
+  }, {
+    "id" : "202",
+    "type" : "owl:Class"
+  }, {
+    "id" : "203",
+    "type" : "owl:Class"
+  }, {
+    "id" : "204",
+    "type" : "owl:Class"
+  }, {
+    "id" : "205",
+    "type" : "owl:Class"
+  }, {
+    "id" : "206",
+    "type" : "owl:Class"
+  }, {
+    "id" : "207",
+    "type" : "owl:Class"
+  }, {
+    "id" : "208",
+    "type" : "owl:Class"
+  }, {
+    "id" : "209",
+    "type" : "owl:Class"
+  }, {
+    "id" : "210",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#ReportMalfunctioning",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ReportMalfunctioning"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#report_malfunctioning",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "report_malfunctioning"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Dec",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dec"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#dec",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "dec"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RFPRQ5"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rfprq5",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rfprq5"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ3.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RASQ3.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rasq3.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rasq3.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ3.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RASQ3.2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rasq3.2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rasq3.2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#BuildHumanOversightMeasureIntoSystem",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BuildHumanOversightMeasureIntoSystem"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#build_human_oversight_measure_into_system",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "build_human_oversight_measure_into_system"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#IdentifyImpactOnStakeholders",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IdentifyImpactOnStakeholders"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#identify_impact_on_stakeholders",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "identify_impact_on_stakeholders"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "6"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ1.4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HOQ1.4"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#hoq1.4",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "hoq1.4"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ1.3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HOQ1.3"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#hoq1.3",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "hoq1.3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ1.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HOQ1.2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#hoq1.2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "hoq1.2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ISDQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ISDQ1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#isdq1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "isdq1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "10"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ1.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HOQ1.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#hoq1.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "hoq1.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "11"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#ProvideDocumentationToDemonstrateConformity",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ProvideDocumentationToDemonstrateConformity"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#provide_documentation_to_demonstrate_conformity",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "provide_documentation_to_demonstrate_conformity"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "12"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#RiskIdentification",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RiskIdentification"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#risk_identification",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "risk_identification"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RFPRQ1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rfprq1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rfprq1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "14"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RFPRQ2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rfprq2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rfprq2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "15"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RFPRQ3"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rfprq3",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rfprq3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "16"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#ImplementRiskManagementSystem",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ImplementRiskManagementSystem"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#implement_risk_management_system",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "implement_risk_management_system"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GSQ1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#gsq1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "gsq1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "18"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#MakeADecisionAboutUsingTheSystem",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MakeADecisionAboutUsingTheSystem"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#make_a_decision_about_using_the_system",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "make_a_decision_about_using_the_system"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "19"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GSQ2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#gsq2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "gsq2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RFPRQ4"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rfprq4",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rfprq4"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "21"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GSQ4"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#gsq4",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "gsq4"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "22"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GSQ5"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#gsq5",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "gsq5"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "23"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Epao",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Epao"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#epao",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "epao"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "24"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#ConductFirst-PartyConfomityAssessment",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConductFirst-PartyConfomityAssessment"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#conduct_first_party_confomity_assessment",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "conduct_first_party_confomity_assessment"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "25"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#ConformityAssessment",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConformityAssessment"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#conformity_assessment",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "conformity_assessment"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RFPRQ1.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rfprq1.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rfprq1.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "27"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#ImplementLoggingCapabilities",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ImplementLoggingCapabilities"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#implement_logging_capabilities",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "implement_logging_capabilities"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "28"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RFPRQ1.2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rfprq1.2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rfprq1.2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "29"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#TakeCorrectiveActions",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TakeCorrectiveActions"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#take_corrective_actions",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "take_corrective_actions"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "30"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ISDQ1.2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#isdq1.2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "isdq1.2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "31"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ISDQ1.3"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#isdq1.3",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "isdq1.3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "32"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ISDQ1.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#isdq1.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "isdq1.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "33"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#ReportNon-confomity",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ReportNon-confomity"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#report_non-confomity",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "report_non-confomity"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "34"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ2.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq2.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "aubq2.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "35"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ2.2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq2.2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "aubq2.2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "36"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ6.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq6.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "haaq6.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "37"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ2.3"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq2.3",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "aubq2.3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "38"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ2.4"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#abq2.4",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "abq2.4"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "39"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ6.2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq6.2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "haaq6.2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "40"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#EWQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EWQ1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#ewq1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "ewq1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "41"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#EWQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EWQ2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#ewq2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "ewq2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "42"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Cucd",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cucd"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#cucd",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "cucd"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "43"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ6.3"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq6.3",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "haaq6.3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "44"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#gsq3.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "gsq3.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#gsq3.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "gsq3.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "45"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RMQ5"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rmq5",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rmq5"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "46"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RMQ4"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rmq4",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rmq4"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "47"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ5.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IWSQ5.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#iwsq5.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "iwsq5.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "48"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ6",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RMQ6"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rmq6",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rmq6"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "49"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToLogs",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GrantAccessToLogs"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#grant_access_to_logs",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "grant_access_to_logs"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "50"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RMQ1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rmq1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rmq1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "51"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RMQ3"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rmq3",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rmq3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "52"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#InterveneSystemOperation",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InterveneSystemOperation"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#intervene_system_operation",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "intervene_system_operation"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "53"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RMQ2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rmq2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rmq2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "54"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#ImplementDataManagement",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ImplementDataManagement"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#implement_data_Management",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "implement_data_Management"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "55"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RASQ2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rasq2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rasq2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "56"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToData",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GrantAccessToData"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#grant_access_to_data",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "grant_access_to_data"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "57"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RASQ1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rasq1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rasq1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "58"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RASQ4"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rasq4",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rasq4"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "59"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RASQ3"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rasq3",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rasq3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "60"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Dnca",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dnca"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#dnca",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "dnca"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "61"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ6",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RASQ6"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rasq6",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rasq6"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "62"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RASQ5"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rasq5",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rasq5"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "63"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#DocumentPost-MarketMonitoringSystem",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DocumentPost-MarketMonitoringSystem"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#document_post-market_monitoring_system",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "document_post-market_monitoring_system"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "66"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#CreateEUDeclarationOfConformity",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CreateEUDeclarationOfConformity"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#create_EU_declaration_of_conformity",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "create_EU_declaration_of_conformity"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "67"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RFPRQ2.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rfprq2.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rfprq2.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "68"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ4.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RMQ4.2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rmq4.2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rmq4.2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "69"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ4.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RMQ4.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rmq4.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rmq4.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "70"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#RiskEvaluation",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RiskEvaluation"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#risk_evaluation",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "risk_evaluation"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "71"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#MaintainPost-MarketMonitoringSystem",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaintainPost-MarketMonitoringSystem"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#maintain_post-market_monitoring_system",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "maintain_post-market_monitoring_system"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "72"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#ImplementHumanOversightMeasure",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ImplementHumanOversightMeasure"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#implement_human_oversight_measure",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "implement_human_oversight_measure"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "73"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RASQ6.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RASQ6.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rasq6.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rasq6.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "74"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#InterpretSystemOutput",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InterpretSystemOutput"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#interpret_system_output",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "interpret_system_output"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "75"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#InterruptSystemOperation",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InterruptSystemOperation"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#interrupt_system_operation",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "interrupt_system_operation"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "76"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#gsq3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "gsq3"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#gsq3",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "gsq3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "77"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Ia",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ia"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#ia",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "ia"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "78"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IWSQ2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#iwsq2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "iwsq2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "79"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IWSQ3"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#iwsq3",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "iwsq3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "80"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IWSQ4"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#iwsq4",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "iwsq4"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "81"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IWSQ5"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#iwsq5",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "iwsq5"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "82"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IWSQ1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#iwsq1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "iwsq1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "83"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ5.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RMQ5.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rmq5.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rmq5.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "84"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#MonitorSystemOperation",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MonitorSystemOperation"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#monitor_system_operation",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "monitor_system_operation"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "85"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#DocumentQualityManagementSystem",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DocumentQualityManagementSystem"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#document_quality_management_system",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "document_quality_management_system"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "86"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#ReportCorrectiveActions",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ReportCorrectiveActions"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#report_corrective_actions",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "report_corrective_actions"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "87"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#PrQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PrQ2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#prq2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "prq2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "88"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#PrQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PrQ1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#prq1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "prq1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "89"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#EWQ2.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EWQ2.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#ewq2.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "ewq2.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "90"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AcQ5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AcQ5"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#Acq5",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "Acq5"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "91"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ4.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq4.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "aubq4.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "92"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ4.2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq4.2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "aubq4.2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "93"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DGQ4"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#dgq4",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "dgq4"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "94"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DGQ3"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#dgq3",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "dgq3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "95"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AcQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AcQ3"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#acq3",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "acq3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "96"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AcQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AcQ4"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#acq4",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "acq4"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "97"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DGQ1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#dgq1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "dgq1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "98"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AcQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AcQ1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#acq1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "acq1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "99"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AcQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AcQ2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#acq2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "acq2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "100"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToSourceCode",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GrantAccessToSourceCode"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#grant_access_to_source_code",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "grant_access_to_source_code"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "101"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUDQ4"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#audq4",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "audq4"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "102"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ3.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IWSQ3.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#iwsq3.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "iwsq3.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "103"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUDQ3"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#audq3",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "audq3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "104"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ1.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GSQ1.2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#gsq1.2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "gsq1.2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "105"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ1.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GSQ1.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#gsq1.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "gsq1.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "106"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUDQ2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#audq2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "audq2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "107"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUDQ1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#audq1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "audq1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "108"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Uoc",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Uoc"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#uoc",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "uoc"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "109"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Umr",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Umr"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#umr",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "umr"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "110"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#Fr2.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fr2.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#fr2.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "fr2.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "111"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Pcp",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pcp"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#pcp",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "pcp"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "112"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#MaintainSystemLogs",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaintainSystemLogs"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#maintain_system_logs",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "maintain_system_logs"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "113"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#CommunicateRisk",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CommunicateRisk"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#communicate_risk",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "communicate_risk"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "114"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ5.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq5.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "aubq5.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "115"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ5.2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq5.2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "aubq5.2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "116"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ1.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq1.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "haaq1.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "117"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ5.3"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq5.3",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "aubq5.3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "118"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ1.2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq1.2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "haaq1.2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "119"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ5.4"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq5.4",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "aubq5.4"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "120"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#EWQ1.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EWQ1.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#ewq1.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "ewq1.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "121"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#ImplementDataGovernance",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ImplementDataGovernance"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#implement_data_governance",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "implement_data_governance"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "122"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#IWSQ4.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IWSQ4.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#IWSQ4.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "IWSQ4.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "123"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#ReportSeriousIncidents",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ReportSeriousIncidents"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#report_serious_incidents",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "report_serious_incidents"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "124"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TrcQ1.2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#trcq1.2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "trcq1.2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "125"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TrcQ1.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#trcq1.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "trcq1.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "126"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Dc",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dc"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#dc",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "dc"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "127"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ2.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GSQ2.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#gsq2.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "gsq2.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "128"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#GSQ2.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GSQ2.2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#gsq2.2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "gsq2.2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "129"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#MaintainRiskManagementSystem",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaintainRiskManagementSystem"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#maintain_risk_management_system",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "maintain_risk_management_system"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "130"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#AffixCEMarking",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AffixCEMarking"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#affix_CE_marking",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "affix_CE_marking"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "131"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HOQ3"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#hoq3",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "hoq3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "132"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HOQ2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#hoq2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "hoq2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "133"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HOQ5"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#hoq5",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "hoq5"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "134"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HOQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HOQ4"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#hoq4",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "hoq4"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "135"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TrcQ1.5"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#trcq1.5",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "trcq1.5"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "136"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TrcQ1.4"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#trcq1.4",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "trcq1.4"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "137"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TrcQ1.3"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#trcq1.3",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "trcq1.3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "138"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ComQ2.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ComQ2.2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#comq2.2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "comq2.2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "139"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ComQ2.3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ComQ2.3"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#comq2.3",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "comq2.3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "140"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#ImplementQualityManagementSystem",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ImplementQualityManagementSystem"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#implement_quality_management_system",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "implement_quality_management_system"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "141"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUDQ2.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#audq2.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "audq2.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "142"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUDQ2.2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#audq2.2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "audq2.2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "143"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#TestAISystem",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TestAISystem"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#test_AI_system",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "test_AI_system"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "144"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#Fr1.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fr1.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#fr1.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "fr1.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "145"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#Fr1.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fr1.2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#fr1.2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "fr1.2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "146"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RFPRQ5.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rfprq5.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rfprq5.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "147"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#SPQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SPQ1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#spq1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "spq1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "148"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Eimi",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Eimi"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#eimi",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "eimi"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "149"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#RiskAnalysis",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RiskAnalysis"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#risk_analysis",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "risk_analysis"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "150"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#EstablishRiskManagementSystem",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EstablishRiskManagementSystem"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#establish_risk_management_system",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "establish_risk_management_system"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "151"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#EstablishPost-MarketMonitoringSystem",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EstablishPost-MarketMonitoringSystem"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#establish_post-market_monitoring_system",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "establish_post-market_monitoring_system"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "152"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ2.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ2.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq2.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "haaq2.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "153"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ComQ2.1/",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ComQ2.1/"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#comq2.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "comq2.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "154"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AudQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AudQ1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#audq1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "audq1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "155"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AudQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AudQ2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#audq2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "audq2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "156"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ5"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq5",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "aubq5"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "157"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ3"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq3",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "haaq3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "158"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ4"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq4",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "haaq4"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "159"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ5"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq5",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "haaq5"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "160"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ6",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ6"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#Haaq6",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "Haaq6"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "161"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ4"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq4",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "aubq4"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "162"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ3"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq3",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "aubq3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "163"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "aubq2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "164"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUBQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUBQ1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#aubq1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "aubq1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "165"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "haaq1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "166"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "haaq2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "167"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ComQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ComQ1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#comq1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "comq1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "168"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Aro",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Aro"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#aro",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "aro"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "169"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#AppointAuthorisedRepresentative",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AppointAuthorisedRepresentative"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#appoint_authorised_representative",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "appoint_authorised_representative"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "170"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.7",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DGQ2.7"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#dgq2.7",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "dgq2.7"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "171"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.6",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DGQ2.6"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#dgq2.6",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "dgq2.6"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "172"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#UpdateTechnicalDocumentation",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UpdateTechnicalDocumentation"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#update_technical_documentation",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "update_technical_documentation"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "173"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.5",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DGQ2.5"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#dgq2.5",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "dgq2.5"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "174"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DGQ2.4"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#dgq2.4",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "dgq2.4"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "175"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ComQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ComQ2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#comq2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "comq2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "176"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#UpdateEUDeclarationOfConformity",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UpdateEUDeclarationOfConformity"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#update_EU_declaration_of_conformity",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "update_EU_declaration_of_conformity"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "177"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#FR2.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FR2.2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#fR2.2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "fR2.2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "178"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#RegisterSystemInEUDatabase",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RegisterSystemInEUDatabase"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#register_system_in_EU_database",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "register_system_in_EU_database"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "179"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ3.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ3.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq3.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "haaq3.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "180"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#CreateInstructionForUse",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CreateInstructionForUse"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#create_instruction_for_use",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "create_instruction_for_use"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "181"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DGQ2.3"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#dgq2.3",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "dgq2.3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "182"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Arra",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Arra"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#arra",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "arra"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "183"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DGQ2.2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#dgq2.2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "dgq2.2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "184"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#RiskTreatment",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RiskTreatment"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#risk_treatment",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "risk_treatment"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "185"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#DGQ2.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DGQ2.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#dgq2.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "dgq2.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "186"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#Fr4.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fr4.2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#fr4.2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "fr4.2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "187"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#TrcQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TrcQ1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#trcq1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "trcq1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "188"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#DemonstrateConformity",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DemonstrateConformity"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#demonstrate_conformity",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "demonstrate_conformity"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "189"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#Fr4.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fr4.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#fr4.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "fr4.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "190"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#DocumentRiskMangementSystem",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DocumentRiskMangementSystem"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#document_risk_mangement_system",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "document_risk_mangement_system"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "191"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#IdentifyHumanOversightMeasure",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IdentifyHumanOversightMeasure"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#identify_human_oversight_measure",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "identify_human_oversight_measure"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "192"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#ProvideInformationToDemonstrateConformity",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ProvideInformationToDemonstrateConformity"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#provide_information_to_demonstrate_conformity",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "provide_information_to_demonstrate_conformity"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "193"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "65",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUDQ4.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#audq4.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "audq4.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "194"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUDQ4.2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#audq4.2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "audq4.2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "195"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AUDQ4.3"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#audq4.3",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "audq4.3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "196"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ExpQ1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ExpQ1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#expq1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "expq1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "197"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#ExpQ2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ExpQ2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#expq2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "expq2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "198"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#Fr1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fr1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#fr1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "fr1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "199"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#RMQ1.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RMQ1.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#rmq1.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "rmq1.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "200"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#Fr2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fr2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#fr2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "fr2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "201"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#Fr3",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fr3"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#fr3",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "fr3"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "202"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#Fr4",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fr4"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#fr4",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "fr4"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "203"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Mmae",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mmae"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#mmae",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "mmae"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "204"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#HAAQ4.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HAAQ4.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#haaq4.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "haaq4.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "205"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aims-activity#Pa",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aims-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pa"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#pa",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "pa"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "206"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#ImplementPost-MarketMonitoringSystem",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ImplementPost-MarketMonitoringSystem"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#implement_post-market_monitoring_system",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "implement_post-market_monitoring_system"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "207"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/aia-activity#CreateTechnicalDocumentation",
+    "baseIri" : "https://delaramglp.github.io/aidocs/aia-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CreateTechnicalDocumentation"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#create_technical_documentation",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "create_technical_documentation"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "208"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#Fr3.1",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fr3.1"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#fr3.1",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "fr3.1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "209"
+  }, {
+    "iri" : "https://delaramglp.github.io/aidocs/altai-activity#Fr3.2",
+    "baseIri" : "https://delaramglp.github.io/aidocs/altai-activity",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fr3.2"
+    },
+    "individuals" : [ {
+      "iri" : "https://delaramglp.github.io/aidocs/activity-mapping#fr3.2",
+      "baseIri" : "https://delaramglp.github.io/aidocs/activity-mapping",
+      "labels" : {
+        "IRI-based" : "fr3.2"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "210"
+  } ],
+  "property" : [ {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://delaramglp.github.io/aidocs/taio#isPartOf",
+    "baseIri" : "https://delaramglp.github.io/aidocs/taio",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "isPartOf"
+    },
+    "domain" : "65",
+    "attributes" : [ "object", "external" ],
+    "id" : "64"
+  } ]
+}

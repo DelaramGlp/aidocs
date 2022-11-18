@@ -1,0 +1,3732 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:taio="https://delaramglp.github.io/aidocs/taio#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/taio#isPartOf -->
+
+
+    <ObjectProperty rdf:about="https://delaramglp.github.io/aidocs/taio#isPartOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#AffixCEMarking -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#AffixCEMarking"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#AppointAuthorisedRepresentative -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#AppointAuthorisedRepresentative"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#BuildHumanOversightMeasureIntoSystem -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#BuildHumanOversightMeasureIntoSystem"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#CommunicateRisk -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#CommunicateRisk"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#ConductFirst-PartyConfomityAssessment -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#ConductFirst-PartyConfomityAssessment"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#ConformityAssessment -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#ConformityAssessment"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#CreateEUDeclarationOfConformity -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#CreateEUDeclarationOfConformity"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#CreateInstructionForUse -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#CreateInstructionForUse"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#CreateTechnicalDocumentation -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#CreateTechnicalDocumentation"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#DemonstrateConformity -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#DemonstrateConformity"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#DocumentPost-MarketMonitoringSystem -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#DocumentPost-MarketMonitoringSystem"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#DocumentQualityManagementSystem -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#DocumentQualityManagementSystem"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#DocumentRiskMangementSystem -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#DocumentRiskMangementSystem"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#EstablishPost-MarketMonitoringSystem -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#EstablishPost-MarketMonitoringSystem"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#EstablishRiskManagementSystem -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#EstablishRiskManagementSystem"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToData -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToData"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToLogs -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToLogs"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToSourceCode -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToSourceCode"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#IdentifyHumanOversightMeasure -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#IdentifyHumanOversightMeasure"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#IdentifyImpactOnStakeholders -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#IdentifyImpactOnStakeholders"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#ImplementDataGovernance -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#ImplementDataGovernance"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#ImplementDataManagement -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#ImplementDataManagement"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#ImplementHumanOversightMeasure -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#ImplementHumanOversightMeasure"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#ImplementLoggingCapabilities -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#ImplementLoggingCapabilities"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#ImplementPost-MarketMonitoringSystem -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#ImplementPost-MarketMonitoringSystem"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#ImplementQualityManagementSystem -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#ImplementQualityManagementSystem"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#ImplementRiskManagementSystem -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#ImplementRiskManagementSystem"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#InterpretSystemOutput -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#InterpretSystemOutput"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#InterruptSystemOperation -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#InterruptSystemOperation"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#InterveneSystemOperation -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#InterveneSystemOperation"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#MaintainPost-MarketMonitoringSystem -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#MaintainPost-MarketMonitoringSystem"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#MaintainRiskManagementSystem -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#MaintainRiskManagementSystem"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#MaintainSystemLogs -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#MaintainSystemLogs"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#MakeADecisionAboutUsingTheSystem -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#MakeADecisionAboutUsingTheSystem"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#MonitorSystemOperation -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#MonitorSystemOperation"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#ProvideDocumentationToDemonstrateConformity -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#ProvideDocumentationToDemonstrateConformity"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#ProvideInformationToDemonstrateConformity -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#ProvideInformationToDemonstrateConformity"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#RegisterSystemInEUDatabase -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#RegisterSystemInEUDatabase"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#ReportCorrectiveActions -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#ReportCorrectiveActions"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#ReportMalfunctioning -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#ReportMalfunctioning"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#ReportNon-confomity -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#ReportNon-confomity"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#ReportSeriousIncidents -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#ReportSeriousIncidents"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#RiskAnalysis -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#RiskAnalysis"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#RiskEvaluation -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#RiskEvaluation"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#RiskIdentification -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#RiskIdentification"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#RiskTreatment -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#RiskTreatment"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#TakeCorrectiveActions -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#TakeCorrectiveActions"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#TestAISystem -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#TestAISystem"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#UpdateEUDeclarationOfConformity -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#UpdateEUDeclarationOfConformity"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aia-activity#UpdateTechnicalDocumentation -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aia-activity#UpdateTechnicalDocumentation"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aims-activity#Aro -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Aro"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aims-activity#Arra -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Arra"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aims-activity#Cucd -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Cucd"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aims-activity#Dc -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Dc"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aims-activity#Dec -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Dec"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aims-activity#Dnca -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Dnca"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aims-activity#Eimi -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Eimi"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aims-activity#Epao -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Epao"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aims-activity#Ia -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Ia"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aims-activity#Mmae -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Mmae"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aims-activity#Pa -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Pa"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aims-activity#Pcp -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Pcp"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aims-activity#Umr -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Umr"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aims-activity#Uoc -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/aims-activity#Uoc"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUBQ1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUBQ1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUBQ2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUBQ2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.3 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.3"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.4 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.4"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUBQ3 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUBQ3"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUBQ4 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUBQ4"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUBQ5 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUBQ5"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.3 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.3"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.4 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.4"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUDQ1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUDQ1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUDQ2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUDQ2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUDQ3 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUDQ3"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUDQ4 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUDQ4"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.3 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.3"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AcQ1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AcQ1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AcQ2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AcQ2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AcQ3 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AcQ3"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AcQ4 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AcQ4"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AcQ5 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AcQ5"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AudQ1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AudQ1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#AudQ2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#AudQ2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#ComQ1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#ComQ1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#ComQ2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#ComQ2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#ComQ2.2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#ComQ2.2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#ComQ2.3 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#ComQ2.3"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#DGQ1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#DGQ1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#DGQ2.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#DGQ2.2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#DGQ2.3 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.3"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#DGQ2.4 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.4"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#DGQ2.5 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.5"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#DGQ2.6 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.6"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#DGQ2.7 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.7"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#DGQ3 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#DGQ3"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#DGQ4 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#DGQ4"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#EWQ1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#EWQ1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#EWQ1.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#EWQ1.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#EWQ2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#EWQ2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#EWQ2.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#EWQ2.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#ExpQ1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#ExpQ1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#ExpQ2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#ExpQ2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#FR2.2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#FR2.2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#Fr1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#Fr1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#Fr1.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#Fr1.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#Fr1.2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#Fr1.2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#Fr2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#Fr2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#Fr2.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#Fr2.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#Fr3 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#Fr3"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#Fr3.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#Fr3.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#Fr3.2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#Fr3.2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#Fr4 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#Fr4"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#Fr4.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#Fr4.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#Fr4.2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#Fr4.2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#GSQ1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#GSQ1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#GSQ1.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#GSQ1.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#GSQ1.2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#GSQ1.2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#GSQ2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#GSQ2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#GSQ2.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#GSQ2.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#GSQ2.2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#GSQ2.2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#GSQ4 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#GSQ4"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#GSQ5 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#GSQ5"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HAAQ1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HAAQ1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HAAQ2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HAAQ2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HAAQ2.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HAAQ2.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HAAQ3 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HAAQ3"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HAAQ3.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HAAQ3.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HAAQ4 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HAAQ4"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HAAQ4.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HAAQ4.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HAAQ5 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HAAQ5"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HAAQ6 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HAAQ6"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.3 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.3"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HOQ1.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HOQ1.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HOQ1.2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HOQ1.2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HOQ1.3 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HOQ1.3"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HOQ1.4 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HOQ1.4"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HOQ2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HOQ2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HOQ3 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HOQ3"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HOQ4 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HOQ4"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#HOQ5 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#HOQ5"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#ISDQ1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#ISDQ1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.3 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.3"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#IWSQ1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#IWSQ1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#IWSQ2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#IWSQ2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#IWSQ3 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#IWSQ3"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#IWSQ3.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#IWSQ3.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#IWSQ4 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#IWSQ4"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#IWSQ4.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#IWSQ4.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#IWSQ5 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#IWSQ5"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#IWSQ5.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#IWSQ5.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#PrQ1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#PrQ1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#PrQ2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#PrQ2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RASQ1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RASQ1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RASQ2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RASQ2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RASQ3 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RASQ3"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RASQ3.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RASQ3.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RASQ3.2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RASQ3.2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RASQ4 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RASQ4"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RASQ5 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RASQ5"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RASQ6 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RASQ6"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RASQ6.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RASQ6.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RFPRQ3 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ3"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RFPRQ4 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ4"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RMQ1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RMQ1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RMQ1.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RMQ1.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RMQ2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RMQ2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RMQ3 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RMQ3"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RMQ4 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RMQ4"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RMQ4.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RMQ4.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RMQ4.2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RMQ4.2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RMQ5 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RMQ5"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RMQ5.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RMQ5.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#RMQ6 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#RMQ6"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#SPQ1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#SPQ1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#TrcQ1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.2 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.2"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.3 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.3"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.4 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.4"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.5 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.5"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#gsq3 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#gsq3"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#gsq3.1 -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#gsq3.1"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/altai-activity#ComQ2.1/ -->
+
+
+    <Class rdf:about="https://delaramglp.github.io/aidocs/altai-activity#ComQ2.1/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#Acq5 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#Acq5">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AcQ5"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#Haaq6 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#Haaq6">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HAAQ6"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#IWSQ4.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#IWSQ4.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#IWSQ4.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#abq2.4 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#abq2.4">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.4"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#acq1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#acq1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AcQ1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#acq2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#acq2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AcQ2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#acq3 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#acq3">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AcQ3"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#acq4 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#acq4">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AcQ4"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#affix_CE_marking -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#affix_CE_marking">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#AffixCEMarking"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#appoint_authorised_representative -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#appoint_authorised_representative">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#AppointAuthorisedRepresentative"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#arra"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#aro -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#aro">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#Aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#arp -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#arp"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#arra -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#arra">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#Arra"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#aubq1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#aubq1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUBQ1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#aubq2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#aubq2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUBQ2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#aubq2.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#aubq2.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#aubq2.2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#aubq2.2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#aubq2.3 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#aubq2.3">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUBQ2.3"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#arp"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#aubq3 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#aubq3">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUBQ3"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dec"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#aubq4 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#aubq4">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUBQ4"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#aubq4.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#aubq4.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#aubq4.2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#aubq4.2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUBQ4.2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#aubq5 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#aubq5">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUBQ5"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#aubq5.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#aubq5.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#aubq5.2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#aubq5.2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#aubq5.3 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#aubq5.3">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.3"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#aubq5.4 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#aubq5.4">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUBQ5.4"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#audq1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#audq1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUDQ1"/>
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AudQ1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#audq2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#audq2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUDQ2"/>
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AudQ2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#audq2.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#audq2.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#audq2.2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#audq2.2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUDQ2.2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#audq3 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#audq3">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUDQ3"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#audq4 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#audq4">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUDQ4"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#audq4.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#audq4.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#audq4.2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#audq4.2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#audq4.3 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#audq4.3">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#AUDQ4.3"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#build_human_oversight_measure_into_system -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#build_human_oversight_measure_into_system">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#BuildHumanOversightMeasureIntoSystem"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#communicate_risk -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#communicate_risk">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#CommunicateRisk"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pa"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#comq1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#comq1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#ComQ1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#comq2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#comq2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#ComQ2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#comq2.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#comq2.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#ComQ2.1/"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#comq2.2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#comq2.2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#ComQ2.2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#comq2.3 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#comq2.3">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#ComQ2.3"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#conduct_first_party_confomity_assessment -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#conduct_first_party_confomity_assessment">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#ConductFirst-PartyConfomityAssessment"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#ia"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#conformity_assessment -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#conformity_assessment">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#ConformityAssessment"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#ia"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#umr"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#create_EU_declaration_of_conformity -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#create_EU_declaration_of_conformity">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#CreateEUDeclarationOfConformity"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#cucd"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#create_instruction_for_use -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#create_instruction_for_use">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#CreateInstructionForUse"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#create_technical_documentation -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#create_technical_documentation">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#CreateTechnicalDocumentation"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#cucd -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#cucd">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#Cucd"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#dc -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#dc">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#Dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#dec -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#dec">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#Dec"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#demonstrate_conformity -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#demonstrate_conformity">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#DemonstrateConformity"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#dgq1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#dgq1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#DGQ1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#uoc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#dgq2.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#dgq2.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#dgq2.2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#dgq2.2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#arra"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#dgq2.3 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#dgq2.3">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.3"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#dgq2.4 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#dgq2.4">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.4"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#dgq2.5 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#dgq2.5">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.5"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#dgq2.6 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#dgq2.6">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.6"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#dgq2.7 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#dgq2.7">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#DGQ2.7"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#dgq3 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#dgq3">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#DGQ3"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#dgq4 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#dgq4">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#DGQ4"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#uoc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#dnca -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#dnca">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#Dnca"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#document_post-market_monitoring_system -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#document_post-market_monitoring_system">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#DocumentPost-MarketMonitoringSystem"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#ia"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#document_quality_management_system -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#document_quality_management_system">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#DocumentQualityManagementSystem"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#cucd"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#document_risk_mangement_system -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#document_risk_mangement_system">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#DocumentRiskMangementSystem"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#eimi"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#eimi -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#eimi">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#Eimi"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#epao -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#epao">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#Epao"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#establish_post-market_monitoring_system -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#establish_post-market_monitoring_system">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#EstablishPost-MarketMonitoringSystem"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#ia"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#establish_risk_management_system -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#establish_risk_management_system">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#EstablishRiskManagementSystem"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#eimi"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#ewq1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#ewq1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#EWQ1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#ewq1.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#ewq1.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#EWQ1.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#ewq2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#ewq2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#EWQ2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#ewq2.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#ewq2.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#EWQ2.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#expq1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#expq1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#ExpQ1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#expq2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#expq2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#ExpQ2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#fR2.2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#fR2.2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#FR2.2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#fr1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#fr1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#Fr1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#fr1.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#fr1.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#Fr1.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#fr1.2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#fr1.2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#Fr1.2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#fr2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#fr2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#Fr2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#fr2.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#fr2.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#Fr2.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#fr3 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#fr3">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#Fr3"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#fr3.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#fr3.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#Fr3.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#fr3.2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#fr3.2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#Fr3.2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#fr4 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#fr4">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#Fr4"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#fr4.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#fr4.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#Fr4.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#fr4.2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#fr4.2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#Fr4.2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#grant_access_to_data -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#grant_access_to_data">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToData"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#grant_access_to_logs -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#grant_access_to_logs">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToLogs"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#grant_access_to_source_code -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#grant_access_to_source_code">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#GrantAccessToSourceCode"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#gsq1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#gsq1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#GSQ1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#gsq1.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#gsq1.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#GSQ1.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#gsq1.2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#gsq1.2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#GSQ1.2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#gsq2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#gsq2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#GSQ2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#gsq2.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#gsq2.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#GSQ2.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#gsq2.2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#gsq2.2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#GSQ2.2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#gsq3 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#gsq3">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#gsq3"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#gsq3.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#gsq3.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#gsq3.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#gsq4 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#gsq4">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#GSQ4"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#gsq5 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#gsq5">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#GSQ5"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#haaq1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#haaq1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HAAQ1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#uoc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#haaq1.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#haaq1.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#haaq1.2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#haaq1.2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HAAQ1.2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#haaq2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#haaq2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HAAQ2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#haaq2.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#haaq2.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HAAQ2.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#haaq3 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#haaq3">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HAAQ3"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#haaq3.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#haaq3.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HAAQ3.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#haaq4 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#haaq4">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HAAQ4"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#haaq4.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#haaq4.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HAAQ4.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#haaq5 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#haaq5">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HAAQ5"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#uoc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#haaq6.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#haaq6.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#haaq6.2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#haaq6.2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#haaq6.3 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#haaq6.3">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HAAQ6.3"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#hoq1.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#hoq1.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HOQ1.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#uoc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#hoq1.2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#hoq1.2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HOQ1.2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#uoc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#hoq1.3 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#hoq1.3">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HOQ1.3"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#uoc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#hoq1.4 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#hoq1.4">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HOQ1.4"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#uoc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#hoq2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#hoq2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HOQ2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dec"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#hoq3 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#hoq3">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HOQ3"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#hoq4 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#hoq4">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HOQ4"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#hoq5 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#hoq5">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#HOQ5"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#ia -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#ia">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#Ia"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#identify_human_oversight_measure -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#identify_human_oversight_measure">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#IdentifyHumanOversightMeasure"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#identify_impact_on_stakeholders -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#identify_impact_on_stakeholders">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#IdentifyImpactOnStakeholders"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#implement_data_Management -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#implement_data_Management">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#ImplementDataManagement"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#implement_data_governance -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#implement_data_governance">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#ImplementDataGovernance"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#implement_human_oversight_measure -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#implement_human_oversight_measure">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#ImplementHumanOversightMeasure"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#implement_logging_capabilities -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#implement_logging_capabilities">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#ImplementLoggingCapabilities"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#implement_post-market_monitoring_system -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#implement_post-market_monitoring_system">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#ImplementPost-MarketMonitoringSystem"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#ia"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#implement_quality_management_system -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#implement_quality_management_system">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#ImplementQualityManagementSystem"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#eimi"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#implement_risk_management_system -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#implement_risk_management_system">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#ImplementRiskManagementSystem"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#eimi"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#interpret_system_output -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#interpret_system_output">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#InterpretSystemOutput"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#interrupt_system_operation -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#interrupt_system_operation">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#InterruptSystemOperation"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#intervene_system_operation -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#intervene_system_operation">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#InterveneSystemOperation"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#isdq1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#isdq1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#ISDQ1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#isdq1.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#isdq1.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#isdq1.2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#isdq1.2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#isdq1.3 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#isdq1.3">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#ISDQ1.3"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#iwsq1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#iwsq1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#IWSQ1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#iwsq2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#iwsq2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#IWSQ2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#iwsq3 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#iwsq3">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#IWSQ3"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#iwsq3.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#iwsq3.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#IWSQ3.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dec"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#iwsq4 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#iwsq4">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#IWSQ4"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#iwsq5 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#iwsq5">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#IWSQ5"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dec"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#iwsq5.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#iwsq5.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#IWSQ5.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dec"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#maintain_post-market_monitoring_system -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#maintain_post-market_monitoring_system">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#MaintainPost-MarketMonitoringSystem"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#ia"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#mmae"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#maintain_risk_management_system -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#maintain_risk_management_system">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#MaintainRiskManagementSystem"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#eimi"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#maintain_system_logs -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#maintain_system_logs">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#MaintainSystemLogs"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#make_a_decision_about_using_the_system -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#make_a_decision_about_using_the_system">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#MakeADecisionAboutUsingTheSystem"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#mmae -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#mmae">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#Mmae"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#monitor_system_operation -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#monitor_system_operation">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#MonitorSystemOperation"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#pa -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#pa">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#Pa"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#pcp -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#pcp">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#Pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#provide_documentation_to_demonstrate_conformity -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#provide_documentation_to_demonstrate_conformity">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#ProvideDocumentationToDemonstrateConformity"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#cucd"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#provide_information_to_demonstrate_conformity -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#provide_information_to_demonstrate_conformity">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#ProvideInformationToDemonstrateConformity"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#prq1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#prq1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#PrQ1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#prq2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#prq2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#PrQ2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rasq1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rasq1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RASQ1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rasq2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rasq2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RASQ2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#uoc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rasq3 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rasq3">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RASQ3"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rasq3.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rasq3.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RASQ3.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rasq3.2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rasq3.2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RASQ3.2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rasq4 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rasq4">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RASQ4"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rasq5 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rasq5">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RASQ5"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rasq6 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rasq6">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RASQ6"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rasq6.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rasq6.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RASQ6.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#register_system_in_EU_database -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#register_system_in_EU_database">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#RegisterSystemInEUDatabase"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#report_corrective_actions -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#report_corrective_actions">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#ReportCorrectiveActions"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#cucd"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#report_malfunctioning -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#report_malfunctioning">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#ReportMalfunctioning"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#cucd"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#report_non-confomity -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#report_non-confomity">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#ReportNon-confomity"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#cucd"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#report_serious_incidents -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#report_serious_incidents">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#ReportSeriousIncidents"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#cucd"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rfprq1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rfprq1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rfprq1.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rfprq1.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rfprq1.2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rfprq1.2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ1.2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rfprq2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rfprq2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rfprq2.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rfprq2.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ2.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rfprq3 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rfprq3">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ3"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rfprq4 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rfprq4">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ4"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rfprq5 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rfprq5">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#uoc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rfprq5.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rfprq5.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RFPRQ5.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#risk_analysis -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#risk_analysis">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#RiskAnalysis"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#risk_evaluation -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#risk_evaluation">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#RiskEvaluation"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#risk_identification -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#risk_identification">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#RiskIdentification"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#risk_treatment -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#risk_treatment">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#RiskTreatment"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rmq1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rmq1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RMQ1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rmq1.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rmq1.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RMQ1.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rmq2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rmq2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RMQ2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dec"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pa"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rmq3 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rmq3">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RMQ3"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#arra"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rmq4 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rmq4">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RMQ4"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#uoc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rmq4.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rmq4.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RMQ4.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#uoc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rmq4.2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rmq4.2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RMQ4.2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dec"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pa"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rmq5 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rmq5">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RMQ5"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rmq5.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rmq5.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RMQ5.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#rmq6 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#rmq6">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#RMQ6"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#spq1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#spq1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#SPQ1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#take_corrective_actions -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#take_corrective_actions">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#TakeCorrectiveActions"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#dnca"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#test_AI_system -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#test_AI_system">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#TestAISystem"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#aro"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#trcq1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#trcq1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#trcq1.1 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#trcq1.1">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.1"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#trcq1.2 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#trcq1.2">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.2"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#trcq1.3 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#trcq1.3">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.3"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#trcq1.4 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#trcq1.4">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.4"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#trcq1.5 -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#trcq1.5">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/altai-activity#TrcQ1.5"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#epao"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#mmae"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#umr -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#umr">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#Umr"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#uoc -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#uoc">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#Uoc"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#update_EU_declaration_of_conformity -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#update_EU_declaration_of_conformity">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#UpdateEUDeclarationOfConformity"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/aims-activity#cucd"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/activity-mapping#update_technical_documentation -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/activity-mapping#update_technical_documentation">
+        <rdf:type rdf:resource="https://delaramglp.github.io/aidocs/aia-activity#UpdateTechnicalDocumentation"/>
+        <taio:isPartOf rdf:resource="https://delaramglp.github.io/aidocs/activity-mapping#pcp"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aims-activity#cucd -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/aims-activity#cucd"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aims-activity#dc -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/aims-activity#dc"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aims-activity#ia -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/aims-activity#ia"/>
+    
+
+
+    <!-- https://delaramglp.github.io/aidocs/aims-activity#mmae -->
+
+
+    <NamedIndividual rdf:about="https://delaramglp.github.io/aidocs/aims-activity#mmae"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+
